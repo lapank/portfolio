@@ -13,16 +13,20 @@ const element = (
   </div>
   );
 
-function Card(props){
-  return(
-      <div className="Card">
-      <img className="art" src={props.imgUrl}/>
-      {props.title}
-      {props.desc}
-      {props.sub}
-      </div>
-    );
+class Card extends React.Component{
+  render(){
+    return(
+       <div className="Card">
+          <img className="art" src={this.props.imgUrl}/>
+          <h2>{this.props.title}</h2>
+          <p>{this.props.desc}</p>
+          <h3>{this.props.sub}</h3>
+        </div>
+    )
+  }
 }
+
+
 
 const card = {
   imgUrl: 'http://kaylinlapan.com/media/abattoir-side.png',
@@ -32,7 +36,7 @@ const card = {
   };
 
 ReactDOM.render(
-  <Card 
+  <Card
   imgUrl={card.imgUrl}
   title={card.title}
   desc={card.desc}
