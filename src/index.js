@@ -26,21 +26,22 @@ class Card extends React.Component{
   }
 }
 
+function Homepage(){
+  return(
+    <div>
+      <Card imgUrl= 'http://kaylinlapan.com/media/abattoir-side.png' title='Fine Art' desc= 'Lorem Ipsum' sub= 'Photoshop'/>
+      <Card imgUrl= 'http://kaylinlapan.com/media/abattoir-side.png' title='Digital Media' desc= 'Lorem Ipsum' sub= 'Photoshop'/>
+      <Card imgUrl= 'http://kaylinlapan.com/media/abattoir-side.png' title='Product Owner' desc= 'Lorem Ipsum' sub= 'Photoshop'/>
+      <Card imgUrl= 'http://kaylinlapan.com/media/abattoir-side.png' title='Project Manager' desc= 'Lorem Ipsum' sub= 'Photoshop'/>
+      <Card imgUrl= 'http://kaylinlapan.com/media/abattoir-side.png' title='Web Development' desc= 'Lorem Ipsum' sub= 'Photoshop'/>
+    </div>
+  )
+}
 
 
-const card = {
-  imgUrl: 'http://kaylinlapan.com/media/abattoir-side.png',
-  title:'Fine Art',
-  desc: 'Lorem Ipsum',
-  sub: 'Photoshop'
-  };
+
 
 ReactDOM.render(
-  <Card
-  imgUrl={card.imgUrl}
-  title={card.title}
-  desc={card.desc}
-  sub={card.sub}/>,
-
+  <Homepage/>,
   document.getElementById('root')
 );
