@@ -3,17 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 
-const element = (
-  <div>
-  <h2>Fine Art</h2>
-  <h2>Digital Art and Media</h2>
-  <h2>Product Owner</h2>
-  <h2>Project Manager</h2>
-  <h2>Web Development</h2>
-  </div>
-  );
-
-class Card extends React.Component{
+/*class Card extends React.Component{
   render(){
     return(
        <div className="Card">
@@ -24,9 +14,10 @@ class Card extends React.Component{
         </div>
     )
   }
-}
+}*/
 
-function Homepage(){
+
+/*function App(){
   return(
     <div>
       <Card imgUrl= 'http://kaylinlapan.com/media/abattoir-side.png' title='Fine Art' desc= 'Lorem Ipsum' sub= 'Photoshop'/>
@@ -36,12 +27,46 @@ function Homepage(){
       <Card imgUrl= 'http://kaylinlapan.com/media/abattoir-side.png' title='Web Development' desc= 'Lorem Ipsum' sub= 'Photoshop'/>
     </div>
   )
+}*/
+ 
+function CardContent(props) {
+  // Correct! There is no need to specify the key here:
+  return (
+    <div>
+        <img className="art" src={props.imgUrl}/>
+        <h2>{props.title}</h2>
+        <p>{props.desc}</p>
+        <h3>{props.sub}</h3>
+    </div>
+  );
 }
 
+function CardList(props) {
+  const cards = props.cards;
+  const listItems = cards.map((card) =>
+    // Correct! Key should be specified inside the array.
+    <CardContent key={card.title.toString()}
+              imgUrl = {card.imgUrl}
+              title = {card.title}
+              desc = {card.desc}
+              sub = {card.sub} />
+  );
+  return (
+    <div>
+      {listItems}
+    </div>
+  );
+}
 
-
+const cards = [
+  {imgUrl: 'http://kaylinlapan.com/media/abattoir-side.png', title:'Fine Art', desc:'Lorem Ipsum', sub: 'Photoshop'},      
+  {imgUrl: 'http://kaylinlapan.com/media/abattoir-side.png', title:'Digital Media', desc: 'Lorem Ipsum', sub: 'Photoshop'},      
+  {imgUrl: 'http://kaylinlapan.com/media/abattoir-side.png', title:'Product Owner', desc: 'Lorem Ipsum', sub: 'Photoshop'},
+  {imgUrl: 'http://kaylinlapan.com/media/abattoir-side.png', title:'Project Manager', desc: 'Lorem Ipsum', sub: 'Photoshop'},
+  {imgUrl: 'http://kaylinlapan.com/media/abattoir-side.png', title:'Web Development', desc: 'Lorem Ipsum', sub: 'Photoshop'} 
+  ];
 
 ReactDOM.render(
-  <Homepage/>,
+  <CardList cards={cards} />,
   document.getElementById('root')
 );
