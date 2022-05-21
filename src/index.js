@@ -1,35 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import App from './App';
 
-
-/*class Card extends React.Component{
-  render(){
-    return(
-       <div className="Card">
-          <img className="art" src={this.props.imgUrl}/>
-          <h2>{this.props.title}</h2>
-          <p>{this.props.desc}</p>
-          <h3>{this.props.sub}</h3>
-        </div>
-    )
-  }
-}*/
-
-
-/*function App(){
-  return(
-    <div>
-      <Card imgUrl= 'http://kaylinlapan.com/media/abattoir-side.png' title='Fine Art' desc= 'Lorem Ipsum' sub= 'Photoshop'/>
-      <Card imgUrl= 'http://kaylinlapan.com/media/abattoir-side.png' title='Digital Media' desc= 'Lorem Ipsum' sub= 'Photoshop'/>
-      <Card imgUrl= 'http://kaylinlapan.com/media/abattoir-side.png' title='Product Owner' desc= 'Lorem Ipsum' sub= 'Photoshop'/>
-      <Card imgUrl= 'http://kaylinlapan.com/media/abattoir-side.png' title='Project Manager' desc= 'Lorem Ipsum' sub= 'Photoshop'/>
-      <Card imgUrl= 'http://kaylinlapan.com/media/abattoir-side.png' title='Web Development' desc= 'Lorem Ipsum' sub= 'Photoshop'/>
-    </div>
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
   )
-}*/
+
  
-function CardContent(props) {
+/*function CardContent(props) {
   // Correct! There is no need to specify the key here:
   return (
     <div>
@@ -69,4 +51,4 @@ const cards = [
 ReactDOM.render(
   <CardList cards={cards} />,
   document.getElementById('root')
-);
+);*/
