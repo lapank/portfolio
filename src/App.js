@@ -2,6 +2,10 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar.js';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Home from './pages/Home';
+import Development from './pages/Development';
+import Art from './pages/Art';
+import Management from './pages/Management';
 
 function App(){
 	return(
@@ -9,7 +13,10 @@ function App(){
 			<Router>
 				<Navbar />
 				<Routes>
-					<Route path='/' />
+					<Route path='/' exact element={<Home />}/>
+					<Route path='/web-development' element={<Development />}/>
+					<Route path='/art-digital-media' element={<Art />}/>
+					<Route path='/product-owner-project-management' element={<Management />}/>
 				</Routes>
 			</Router>
 			</div>
