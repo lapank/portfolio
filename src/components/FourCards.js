@@ -30,7 +30,7 @@ function FourCards(props) {
       text = {item.text} />
   );
   return (
-    <div className="container">
+    <div className="container pt-5">
     <h2>Web Development</h2>
     <div className='row pt-2'>
       {listItems}
@@ -39,17 +39,5 @@ function FourCards(props) {
   );
 }
 
-function Card(props){
-  return (
-    <div className="col-md-3 card">
-        <img src={props.image} className="card-img-top" alt={props.altText}/>
-        <div className="card-body">
-          <h5 className="card-title">{props.title}</h5>
-          <p className="card-text">{props.text}</p>
-          <a href="{props.text}" className="btn btn-primary">Go somewhere</a>
-        </div>
-    </div>
-  );
-}
 
 export default FourCards;
