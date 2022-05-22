@@ -5,7 +5,7 @@ export const imageGridIntroData = [
 		link: '#',
 		image1: 'https://picsum.photos/225/125',
 		altText1: 'Insert alt text.',
-		image2: 'https://picsum.photos/450/125',
+		image2: 'https://picsum.photos/480/125',
 		altText2: 'Insert alt text.',
 		image3: 'https://picsum.photos/225/250',
 		altText3: 'Insert alt text.',

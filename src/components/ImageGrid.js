@@ -11,31 +11,31 @@ function ImageGridContent(props) {
       <div className="col-md-8">
         <div className="row">
           <div className="col-4">
-            <img src={props.image1} className="img-flex" alt={props.altText1}/>
+            <img src={props.image1} className="img-fluid" alt={props.altText1}/>
           </div>
           <div className="col-8">
-            <img src={props.image2} className="img-flex" alt={props.altText2}/>
+            <img src={props.image2} className="img-fluid" alt={props.altText2}/>
           </div>
         </div>
         <div className="row">
           <div className="col-4">
-            <img src={props.image3} className="img-flex" alt={props.altText3}/>
+            <img src={props.image3} className="img-fluid" alt={props.altText3}/>
           </div>
           <div className="col-8">
-            <div className="row">
-              <div className="col-6">
-                <img src={props.image4} className="img-flex" alt={props.altText4}/>
+            <div className="row g-0">
+              <div className="col-6 ">
+                <img src={props.image4} className="img-fluid" alt={props.altText4}/>
               </div>
-              <div className="col-6">
-                <img src={props.image5} className="img-flex" alt={props.altText5}/>
+              <div className="col-6 ">
+                <img src={props.image5} className="img-fluid" alt={props.altText5}/>
               </div>
             </div>
-            <div className="row">
+            <div className="row g-0">
               <div className="col-6">
-                <img src={props.image6} className="img-flex" alt={props.altText6}/>
+                <img src={props.image6} className="img-fluid" alt={props.altText6}/>
               </div>
               <div className="col-6">
-                <img src={props.image7} className="img-flex" alt={props.altText7}/>
+                <img src={props.image7} className="img-fluid" alt={props.altText7}/>
               </div>
             </div>
           </div>
