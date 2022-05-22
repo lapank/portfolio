@@ -9,17 +9,15 @@ function TwoColBoxContent(props) {
   return (
   	<div className='row gy-5'>
   		<div className="col-6">
-  			<div className="p-3 border bg-light">
-	    		<img className="img-fluid" src={props.image} alt={props.altText} />
+  			<div className="p-3">
+	    		<img src={props.image} alt={props.altText} />
 	    	</div>
 	    </div>
-	    <div className="col">
-	    	<div className="p-3 border bg-light">
-				<Link to={props.link}>
-					<h4>{props.eyebrow}</h4>
-					<h3>{props.h3}</h3>
-					<p>{props.text}</p>
-				</Link>
+	    <div className="col card">
+	    	<div className="p-3 card-body">
+				<h4 className="card-subtitle">{props.eyebrow}</h4>
+				<h3 className="card-title">{props.h3}</h3>
+				<p className="card-text">{props.text}</p>
 			</div>
 		</div>
 	</div>	
@@ -39,7 +37,7 @@ function TwoColBox(props) {
       text = {item.text} />
 	);
   return (
-    <div className="container px-9">
+    <div className="container pt-5">
       {listItems}
     </div>
   );

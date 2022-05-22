@@ -4,9 +4,9 @@ export const introData = [
 	{
 		image: 'https://picsum.photos/575/375',
 		altText: 'Insert alt text.',
-		eyebrow: 'eyebrow',
-		h3: 'h3',
-		text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Congue mauris rhoncus aenean vel elit scelerisque. Varius duis at consectetur lorem donec massa sapien.',
+		eyebrow: 'Skills',
+		h3: 'Passionate about Technology, Art, and People',
+		text: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
 		link: '#'
 	},
 
