@@ -1,9 +1,11 @@
 import React from 'react';
+import TwoColBox from '../components/TwoColBox.js';
+import {introData} from '../components/TwoColBoxData';
 
 function Home(){
 	return(
 		<div className='home'>
-			<h1>Home</h1>
+			<TwoColBox item={introData}/>
 		</div>
 	);
 }
