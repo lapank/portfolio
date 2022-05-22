@@ -1,4 +1,6 @@
-
+import React from 'react';
+import './ImageGrid.scss';
+import {background} from "./ImageGridData";
 
 function ImageGridContent(props) {
   // Correct! There is no need to specify the key here:
@@ -9,34 +11,20 @@ function ImageGridContent(props) {
        <p>{props.text}</p>
       </div>
       <div className="col-md-8">
-        <div className="row">
-          <div className="col-4">
-            <img src={props.image1} className="img-fluid" alt={props.altText1}/>
-          </div>
-          <div className="col-8">
-            <img src={props.image2} className="img-fluid" alt={props.altText2}/>
-          </div>
+        <div className="row imageGrid">
+          <div style={{backgroundImage: `url("${props.image1}")`}} className="col-4 border" ></div>
+          <div style={{backgroundImage: `url("${props.image2}")`}} className="col-8 border" ></div>
         </div>
-        <div className="row">
-          <div className="col-4">
-            <img src={props.image3} className="img-fluid" alt={props.altText3}/>
-          </div>
-          <div className="col-8">
-            <div className="row g-0">
-              <div className="col-6 ">
-                <img src={props.image4} className="img-fluid" alt={props.altText4}/>
-              </div>
-              <div className="col-6 ">
-                <img src={props.image5} className="img-fluid" alt={props.altText5}/>
-              </div>
+        <div className="row doubleGrid">
+          <div style={{backgroundImage: `url("${props.image3}")`}} className="col-4 border" ></div>
+          <div className="col-8 ">
+            <div className="row imageGrid">
+              <div style={{backgroundImage: `url("${props.image4}")`}} className="col-6 border" ></div>
+              <div style={{backgroundImage: `url("${props.image5}")`}} className="col-6 border" ></div>
             </div>
-            <div className="row g-0">
-              <div className="col-6">
-                <img src={props.image6} className="img-fluid" alt={props.altText6}/>
-              </div>
-              <div className="col-6">
-                <img src={props.image7} className="img-fluid" alt={props.altText7}/>
-              </div>
+            <div className="row imageGrid">
+              <div style={{backgroundImage: `url("${props.image6}")`}} className="col-6 border" ></div>
+              <div style={{backgroundImage: `url("${props.image7}")`}} className="col-6 border" ></div>
             </div>
           </div>
         </div>
@@ -69,8 +57,10 @@ function ImageGrid(props) {
       altText7 = {item.altText7} />
   );
   return (
+    <div className="bg-secondary text-light">
     <div className="container pt-5">
       {listItems}
+    </div>
     </div>
   );
 }

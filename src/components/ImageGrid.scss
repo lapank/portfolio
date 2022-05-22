@@ -1,0 +1,10 @@
+
+$galleryBoxHeight: 10rem;
+
+.imageGrid{
+	height: $galleryBoxHeight;
+}
+
+.doubleGrid{
+	height: 2 * $galleryBoxHeight;
+}
