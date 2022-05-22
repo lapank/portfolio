@@ -1,19 +1,16 @@
-//import React from 'react'
 import './TwoColBox.scss';
-//import {TwoColBoxData} from './TwoColBoxData';
-import {Link} from 'react-router-dom';
 
 
 function TwoColBoxContent(props) {
   // Correct! There is no need to specify the key here:
   return (
-  	<div className='row gy-5'>
-  		<div className="col-6">
+  	<div className='row'>
+  		<div className="col-md-6">
   			<div className="p-3">
-	    		<img src={props.image} alt={props.altText} />
+	    		<img className="img-fluid" src={props.image} alt={props.altText} />
 	    	</div>
 	    </div>
-	    <div className="col card">
+	    <div className="col-md-6 card">
 	    	<div className="p-3 card-body">
 				<h4 className="card-subtitle">{props.eyebrow}</h4>
 				<h3 className="card-title">{props.h3}</h3>
@@ -37,10 +34,10 @@ function TwoColBox(props) {
       text = {item.text} />
 	);
   return (
-    <div className="container pt-5">
+    <div className="container pt-2">
       {listItems}
     </div>
   );
 }
 
-export default TwoColBox
+export default TwoColBox;
