@@ -5,6 +5,7 @@ import FourCards from '../components/FourCards.js';
 import {fourCardsIntroData} from '../components/FourCardsData';
 import ImageGrid from '../components/ImageGrid.js';
 import {imageGridIntroData} from '../components/ImageGridData.js';
+import FiveCardCluster from '../components/FiveCardCluster.js';
 
 function Home(){
 	return(
@@ -12,6 +13,7 @@ function Home(){
 			<TwoColBox item={introData}/>
 			<FourCards item={fourCardsIntroData} />
 			<ImageGrid item={imageGridIntroData}/>
+			<FiveCardCluster />
 		</div>
 	);
 }

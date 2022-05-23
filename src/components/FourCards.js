@@ -1,4 +1,5 @@
 import './FourCards.scss';
+import {Link} from 'react-router-dom';
 
 function FourCardsContent(props) {
   // Correct! There is no need to specify the key here:
@@ -10,7 +11,7 @@ function FourCardsContent(props) {
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>
           <p className="card-text">{props.text}</p>
-          <a href="{props.text}" className="btn btn-primary">Go somewhere</a>
+          <Link to="{props.text}" className="btn btn-primary">Go somewhere</Link>
           </div>
         </div>
     </div>
@@ -30,7 +31,7 @@ function FourCards(props) {
       text = {item.text} />
   );
   return (
-    <div className="container pt-5">
+    <div className="container pt-5 pb-5">
     <h2>Web Development</h2>
     <div className='row pt-2'>
       {listItems}

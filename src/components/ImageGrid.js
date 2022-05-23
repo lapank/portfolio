@@ -1,14 +1,15 @@
 import React from 'react';
 import './ImageGrid.scss';
-import {background} from "./ImageGridData";
+import {Link} from 'react-router-dom';
 
 function ImageGridContent(props) {
   // Correct! There is no need to specify the key here:
   return (
-    <div className='row pt-2'>
+    <div className='row'>
       <div className="col-md-4">
        <h2>{props.title}</h2>
        <p>{props.text}</p>
+       <Link to={props.link} className="btn btn-primary">Go somewhere</Link>
       </div>
       <div className="col-md-8">
         <div className="row imageGrid">
@@ -58,7 +59,7 @@ function ImageGrid(props) {
   );
   return (
     <div className="bg-secondary text-light">
-    <div className="container pt-5">
+    <div className="container pt-5 pb-5">
       {listItems}
     </div>
     </div>
