@@ -9,7 +9,7 @@ function Card(props){
 
 	return(
 		
-	      <div className="p-3 card">
+	      <div className="p-3">
 	        <img src={props.image} className="card-img-top" alt={props.altText}/>
 	        <div className="card-body">
 	          <h5 className="card-title">{props.title}</h5>
@@ -24,7 +24,7 @@ function Card(props){
 function DoubleCard(props){
 
 	return(
-	      <div className="col-6 card">
+	      <div className="col-6">
 	        <img src={props.image} className="card-img-top" alt={props.altText}/>
 	        <div className="card-body">
 	          <h5 className="card-title">{props.title}</h5>
@@ -84,7 +84,7 @@ function RightClusterContent(props){
 	      text = {item.text} />
 	      );
 	return(
-		<div className="col-12">
+		<div className="col-12 mt-3 mb-3">
 			{listItems}
 		</div>
 	)
@@ -103,7 +103,7 @@ function FiveCardCluster(){
 		      		<LeftFullWidthContent item={leftFullWidthCardContent}/>
 		      	</div>
 	      	</div>
-	      	<div className="col-md-4 bg-secondary">
+	      	<div className="col-md-4 bg-light">
 	      		<RightClusterContent item={rightCardClusterContent}/>
 	      	</div>
 	    </div>
