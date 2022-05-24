@@ -1,9 +1,20 @@
 import React from 'react';
+import {artData} from '../components/TwoColBoxData';
+import {artData1} from '../components/TwoColBoxData';
+import {artData2} from '../components/TwoColBoxData';
+import {artData3} from '../components/TwoColBoxData';
+import TwoColBox from '../components/TwoColBox';
 
 function Art(){
 	return(
 		<div className='art'>
-			<h1>Art</h1>
+			<h1>Fine Art and Digital Media</h1>
+			<TwoColBox item={artData}/>
+			<h2>Digital Media</h2>
+			<TwoColBox item={artData1}/>
+			<TwoColBox item={artData2}/>
+			<TwoColBox item={artData3}/>
+
 		</div>
 	);
 }
