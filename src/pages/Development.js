@@ -9,6 +9,7 @@ function Development(){
 		<div className='development'>
 			<h1>Development</h1>
 			<TwoColBox item={devData}/>
+			<Slider item={sliderData}/>
 		</div>
 	);
 }
