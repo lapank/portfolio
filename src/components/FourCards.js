@@ -5,7 +5,7 @@ function FourCardsContent(props) {
   // Correct! There is no need to specify the key here:
   return (
     
-      <div className="col-md-3">
+      <div className="col-lg-3 col-6">
       <div className="p-3 border bg-light">
         <img src={props.image} className="card-img-top" alt={props.altText}/>
         <div className="card-body">

@@ -1,12 +1,13 @@
-//import React from 'react';
+import portrait from './images/kaylin-portrait.jpg';
+
 
 export const introData = [
 	{
-		image: 'https://picsum.photos/575/375',
+		image: portrait,
 		altText: 'Insert alt text.',
-		eyebrow: 'Skills',
-		h3: 'Passionate about Technology, Art, and People',
-		text: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
+		eyebrow: 'About',
+		h3: 'React, Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility, Git',
+		text: 'Always passionate about art and technology, Kaylin began her career pursuing conservation at the Metropolitan Museum of Art, which lead to a job at the Smithsonian Institution in Washington DC.  While at the Smithsonian, Kaylin explored web design and development, which inspired her to pursue and complete a degree in computer science.  She now spends her time painting, programming, and project managing.',
 		link: '#'
 	},
 

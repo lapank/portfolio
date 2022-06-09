@@ -1,21 +1,30 @@
+import abattoir from './images/abattoir-side.png';
+import adriana from './images/adriana.png';
+import genavieve from './images/genavieve.png';
+import glass from './images/glass.png';
+import josephine from './images/josephine.png';
+import susanna from './images/susanna.png';
+import fight from './images/fight.png';
+import museum from './images/final_hazy.jpg';
+
 export const imageGridIntroData = [
 	{
 		title: 'Art and Digital Media',
-		text: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
+		text: 'Using Adobe Creative Suite as well as traditional mediums like pen and ink, oil painting, graphite, and watercolor, Kaylin creates digital and fine art.',
 		link: '#',
-		image1: 'https://picsum.photos/325/325',
+		image1: abattoir,
 		altText1: 'Insert alt text.',
-		image2: 'https://picsum.photos/680/625',
+		image2: adriana,
 		altText2: 'Insert alt text.',
-		image3: 'https://picsum.photos/500/400',
+		image3: genavieve,
 		altText3: 'Insert alt text.',
-		image4: 'https://picsum.photos/225/125',
+		image4: glass,
 		altText4: 'Insert alt text.',
-		image5: 'https://picsum.photos/525/405',
+		image5: josephine,
 		altText5: 'Insert alt text.',
-		image6: 'https://picsum.photos/400/325',
+		image6: susanna,
 		altText6: 'Insert alt text.',
-		image7: 'https://picsum.photos/425/325',
+		image7: museum,
 		altText7: 'Insert alt text.',
 	},
 

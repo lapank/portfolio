@@ -1,9 +1,13 @@
+import tower from './images/tower-defense.png';
+import wireframe from './images/wireframe.png';
+import cssAnimation from './images/illustration-momma.jpg';
+
 export const fourCardsIntroData = [
 	{
-		image: 'https://picsum.photos/225/125',
+		image: tower,
 		altText: 'Insert alt text.',
 		title: 'Tower Defense Game',
-		text: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
+		text: 'Web browser game built with the HTML5 Canvas API.',
 		link: '#'
 	},
 	{
@@ -14,17 +18,17 @@ export const fourCardsIntroData = [
 		link: '#'
 	},
 	{
-		image: 'https://picsum.photos/225/125',
+		image: wireframe,
 		altText: 'Insert alt text.',
 		title: 'Wireframes and Mock-ups, Automated testing',
-		text: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
+		text: 'Web and software design and development materials made with Adobe XD, Photoshop, Figma, and Python.',
 		link: '#'
 	},
 	{
-		image: 'https://picsum.photos/225/125',
+		image: cssAnimation,
 		altText: 'Insert alt text.',
 		title: 'Css Animations/Flutter Project',
-		text: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
+		text: 'Built mobile application with Flutter SDK, and Css animations with Css3.',
 		link: '#'
 	},
 

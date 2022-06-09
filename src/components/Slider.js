@@ -60,7 +60,7 @@ function Slider(props){
       text6 = {item.text6}  />
   );
   return (
-    <div className="container pt-2">
+    <div className="container pt-5 pb-5">
       {listItems}
     </div>
   );
