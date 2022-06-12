@@ -12,6 +12,7 @@ function Card(props){
 	      <div className="p-3">
 	        <img src={props.image} className="card-img-top" alt={props.altText}/>
 	        <div className="card-body">
+	        	<div>{props.eyebrow}</div>
 	          <h5 className="card-title">{props.title}</h5>
 	          <p className="card-text">{props.text}</p>
 	          <Link to="{props.text}" className="btn btn-primary">Go somewhere</Link>
@@ -27,6 +28,7 @@ function DoubleCard(props){
 	      <div className="col-6">
 	        <img src={props.image} className="card-img-top" alt={props.altText}/>
 	        <div className="card-body">
+	        <div>{props.eyebrow}</div>
 	          <h5 className="card-title">{props.title}</h5>
 	          <p className="card-text">{props.text}</p>
 	          <Link to="{props.text}" className="btn btn-primary">Go somewhere</Link>
@@ -41,6 +43,7 @@ function LeftDoubleContent(props){
 	 const listItems = item.map((item) =>
 	    // Correct! Key should be specified inside the array.
 	    <DoubleCard key={item.title}
+	    	eyebrow = {item.eyebrow}
 	      image = {item.image}
 	      altText = {item.altText}
 	      link = {item.link}
@@ -59,6 +62,7 @@ function LeftFullWidthContent(props){
 	  const listItems = item.map((item) =>
 	    // Correct! Key should be specified inside the array.
 	    <Card key={item.title}
+	    	eyebrow = {item.eyebrow}
 	      image = {item.image}
 	      altText = {item.altText}
 	      link = {item.link}
@@ -77,6 +81,7 @@ function RightClusterContent(props){
 	  const listItems = item.map((item) =>
 	    // Correct! Key should be specified inside the array.
 	    <Card key={item.title}
+	    	eyebrow = {item.eyebrow}
 	      image = {item.image}
 	      altText = {item.altText}
 	      link = {item.link}
