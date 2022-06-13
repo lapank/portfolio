@@ -11,7 +11,8 @@ export const imageGridIntroData = [
 	{
 		title: 'Art and Digital Media',
 		text: 'Using Adobe Creative Suite as well as traditional mediums like pen and ink, oil painting, graphite, and watercolor, Kaylin creates digital and fine art.',
-		link: '#',
+		link: '/art-digital-media',
+		button: 'View art and media',
 		image1: abattoir,
 		altText1: 'Insert alt text.',
 		image2: adriana,

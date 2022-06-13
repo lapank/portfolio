@@ -9,7 +9,7 @@ function ImageGridContent(props) {
       <div className="col-md-4">
        <h2>{props.title}</h2>
        <p>{props.text}</p>
-       <Link to={props.link} className="btn btn-primary">Go somewhere</Link>
+       <Link to={props.link} className="btn btn-primary">{props.button}</Link>
       </div>
       <div className="col-md-8">
         <div className="row imageGrid">
@@ -40,6 +40,7 @@ function ImageGrid(props) {
     // Correct! Key should be specified inside the array.
     <ImageGridContent key={item.title}
       link = {item.link}
+      button = {item.button}
       title = {item.title}
       text = {item.text}
       image1 = {item.image1}

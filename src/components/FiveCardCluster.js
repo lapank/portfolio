@@ -15,7 +15,7 @@ function Card(props){
 	        	<div>{props.eyebrow}</div>
 	          <h5 className="card-title">{props.title}</h5>
 	          <p className="card-text">{props.text}</p>
-	          <Link to="{props.text}" className="btn btn-primary">Go somewhere</Link>
+	          <Link to={props.link} className="btn btn-primary">{props.button}</Link>
 	        </div>
 	        
 	    </div>
@@ -31,7 +31,7 @@ function DoubleCard(props){
 	        <div>{props.eyebrow}</div>
 	          <h5 className="card-title">{props.title}</h5>
 	          <p className="card-text">{props.text}</p>
-	          <Link to="{props.text}" className="btn btn-primary">Go somewhere</Link>
+	          <Link to={props.link} className="btn btn-primary">{props.button}</Link>
 	        </div>
 	    </div>
 	)
@@ -47,6 +47,7 @@ function LeftDoubleContent(props){
 	      image = {item.image}
 	      altText = {item.altText}
 	      link = {item.link}
+	      button = {item.button}
 	      title = {item.title}
 	      text = {item.text} />
 	      );
@@ -66,6 +67,7 @@ function LeftFullWidthContent(props){
 	      image = {item.image}
 	      altText = {item.altText}
 	      link = {item.link}
+	      button = {item.button}
 	      title = {item.title}
 	      text = {item.text} />
 	      );
@@ -85,6 +87,7 @@ function RightClusterContent(props){
 	      image = {item.image}
 	      altText = {item.altText}
 	      link = {item.link}
+	      button = {item.button}
 	      title = {item.title}
 	      text = {item.text} />
 	      );
