@@ -10,6 +10,12 @@ function Development(){
 			<h1>Development</h1>
 			<TwoColBox item={devData}/>
 			<Slider item={sliderData}/>
+			<div className="container embed-responsive embed-responsive-16by9">
+			<iframe className="embed-responsive-item" src="https://www.youtube.com/embed/cWDJoK8zw58" />
+			</div>
+			<div className="container mt-5 embed-responsive embed-responsive-16by9">
+			<iframe className="embed-responsive-item" src="https://www.youtube.com/embed/cWDJoK8zw58" />
+			</div>
 		</div>
 	);
 }
