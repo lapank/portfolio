@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.scss';
 import Navbar from './components/Navbar.js';
+import Nav from './components/Nav.js';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import Development from './pages/Development';
@@ -11,7 +12,8 @@ function App(){
 	return(
 			<div className='App'>
 			<Router>
-				<Navbar />
+				
+				<Nav />
 				<Routes>
 					<Route path='/' exact element={<Home />}/>
 					<Route path='/web-development' element={<Development />}/>
