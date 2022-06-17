@@ -59,7 +59,7 @@ function ImageGrid(props) {
       altText7 = {item.altText7} />
   );
   return (
-    <div className="bg-secondary text-light">
+    <div className="dark-bg text-light">
     <div className="container pt-5 pb-5">
       {listItems}
     </div>

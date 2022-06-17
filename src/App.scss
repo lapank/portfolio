@@ -1,17 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Catamaran&family=Josefin+Sans:wght@100&family=Source+Sans+Pro:wght@300&family=Yanone+Kaffeesatz:wght@200&display=swap');
 
 *{
 	box-sizing: border-box;
 	margin:  0;
 	padding:  0;
-	font-family:  'Lato', sans-serif;
+	font-family: 'Catamaran', sans-serif;
 
 }
 
-/*.home, .development, .art, .management {
-	display:  flex;
-	height: 90vh;
-	align-items:  center;
-	justify-content: center;
-	font-size:  3rem;
-}*/
+body{
+background:
+linear-gradient(336deg, rgba(1,65,139,.9), rgba(1,65,139,0) 70.71%),
+linear-gradient(127deg, rgba(2,93,198,.9), rgba(223,185,138,0) 70.71%),
+linear-gradient(217deg, rgba(150,170,81,.9), rgba(223,201,100,0) 70.71%)
+
+;
+            
+	/*background-image: linear-gradient(circle, #025dc6, #01418b);
+	background-image: radial-gradient(circle, #e3cb50, #e38150);*/
+}
+
+.card{
+box-shadow: 0px 0px 10px 5px #274b75;
+	/*box-shadow: 5px 10px 8px #d15d22;*/
+}
+
+nav{
+	background-color:#01418b;
+	box-shadow: 0px 0px 10px 5px #274b75;
+}
+
+nav a, nav .navbar-nav a{
+	color: #CEE3FD;
+}
+
+.btn-primary{
+	background-color:#e3cb50!important;
+	color:#000;
+}
