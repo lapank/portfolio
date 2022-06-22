@@ -6,15 +6,13 @@ function TwoColBoxContent(props) {
   return (
   	<div className='row'>
   		<div className="col-md-6">
-  			<div className="p-3">
 	    		<img className="img-fluid" src={props.image} alt={props.altText} />
-	    	</div>
 	    </div>
-	    <div className="col-md-6 card">
-	    	<div className="p-3 card-body">
-				<h4 className="card-subtitle">{props.eyebrow}</h4>
-				<h3 className="card-title">{props.h3}</h3>
-				<p className="card-text">{props.text}</p>
+	    <div className="col-md-6">
+	    	<div className="p-3">
+				<h4 className="yellow small">{props.eyebrow}</h4>
+				<h3 className="yellow times large">{props.h3}</h3>
+				<p className="white">{props.text}</p>
 			</div>
 		</div>
 	</div>	

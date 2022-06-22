@@ -6,13 +6,16 @@ import {fourCardsIntroData} from '../components/FourCardsData';
 import ImageGrid from '../components/ImageGrid.js';
 import {imageGridIntroData} from '../components/ImageGridData.js';
 import FiveCardCluster from '../components/FiveCardCluster.js';
+import {threeColData} from '../components/ThreeColData.js';
+import ThreeCol from '../components/ThreeCol.js';
 
 function Home(){
 	return(
 		<div className='home'>
-			<TwoColBox item={introData}/>
-			<FourCards item={fourCardsIntroData} />
+			<ThreeCol item={threeColData}/>
 			<ImageGrid item={imageGridIntroData}/>
+			<FourCards item={fourCardsIntroData} />
+			
 			<FiveCardCluster />
 		</div>
 	);
