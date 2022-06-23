@@ -7,11 +7,13 @@ import TwoColBox from '../components/TwoColBox';
 import {galleryData} from '../components/GalleryData';
 import Gallery from '../components/Gallery.js';
 
+
 function Art(){
 	return(
 		<div className='art'>
 			<h1>Fine Art and Digital Media</h1>
 			<TwoColBox item={artData}/>
+			
 			<Gallery item={galleryData}/>
 			<h2>Digital Media</h2>
 			<TwoColBox item={artData1}/>

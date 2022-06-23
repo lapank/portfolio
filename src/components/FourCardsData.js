@@ -22,7 +22,7 @@ export const fourCardsIntroData = [
 	{
 		image: wireframe,
 		altText: 'Insert alt text.',
-		title: 'Wireframes and Mock-ups, Automated testing',
+		title: 'Wireframes and Mock-ups, Automated testing, API',
 		text: 'Web and software design and development materials made with Adobe XD, Photoshop, Figma, and Python.',
 		link: '/web-development',
 		button: 'View wireframes',

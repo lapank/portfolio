@@ -1,9 +1,6 @@
 import './Slider.scss';
 import React, { useState } from 'react';
 
-
-
-
 function SliderContent(props){
   const [thumbnail, setThumbnail] = useState(props.image1);
   const [text, setText] = useState(props.text1);
@@ -17,7 +14,7 @@ function SliderContent(props){
         </div>
         <div className="col-md-8">
           <div className="row">
-              <img src={thumbnail} alt="test"/>
+              <div style={{backgroundImage: `url("${thumbnail}")`, backgroundRepeat: 'no-repeat', backgroundSize: 'contain',backgroundPosition: 'center', height:700, width:1000}}></div>
           </div>
           <div class="container">
           <div className="row">
