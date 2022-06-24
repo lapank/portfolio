@@ -1,4 +1,8 @@
 import portrait from './images/kaylin-portrait.jpg';
+import abattoir from './images/abattoir-side.png';
+import instagram from './images/motor-voter-instagram-comments.gif';
+import graph from './images/mode-of-turnout.gif';
+import ignite from './images/ignite-tomorrow-gif-500px.gif';
 
 
 export const introData = [
@@ -39,7 +43,7 @@ export const artData = [
 
 export const artData1 = [
 	{
-		image: 'https://picsum.photos/575/375',
+		image: instagram,
 		altText: 'Insert alt text.',
 		eyebrow: 'Skills',
 		h3: 'Passionate about Technology, Art, and People',
@@ -51,7 +55,7 @@ export const artData1 = [
 
 export const artData2 = [
 	{
-		image: 'https://picsum.photos/575/375',
+		image: graph,
 		altText: 'Insert alt text.',
 		eyebrow: 'Skills',
 		h3: 'Passionate about Technology, Art, and People',
@@ -63,7 +67,7 @@ export const artData2 = [
 
 export const artData3 = [
 	{
-		image: 'https://picsum.photos/575/375',
+		image: ignite,
 		altText: 'Insert alt text.',
 		eyebrow: 'Skills',
 		h3: 'Passionate about Technology, Art, and People',
