@@ -13,7 +13,7 @@ function GalleryContent(props){
       <div className="row">
         <div className="col-md-8 bg-light">
           <div className="row">
-              <div style={{backgroundImage: `url("${thumbnail}")`, backgroundRepeat: 'no-repeat', backgroundSize: 'contain',backgroundPosition: 'center', height:700, width:1000}}></div>
+              <div style={{backgroundImage: `url("${thumbnail}")`, backgroundRepeat: 'no-repeat', backgroundSize: "contain",backgroundPosition: 'center', height:600, width:800}}></div>
           </div>
           
           <div className="row">

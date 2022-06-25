@@ -5,12 +5,14 @@ import FourCards from '../components/FourCards.js';
 import {fourCardsManageData} from '../components/FourCardsData';
 import {sliderData} from '../components/SliderData';
 import Slider from '../components/Slider.js';
+import {videoGalleryData} from '../components/VideoGalleryData';
+import VideoGallery from '../components/VideoGallery.js';
 
 function Management(){
 	return(
 		<div className='management'>
 			<h1>Management</h1>
-			<Slider item={sliderData}/>
+			<VideoGallery item={videoGalleryData}/>
 			<TwoColBox item={manageData}/>
 			<FourCards item={fourCardsManageData} />
 		</div>

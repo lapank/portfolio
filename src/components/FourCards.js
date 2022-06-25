@@ -32,11 +32,13 @@ function FourCards(props) {
       button = {item.button}/>
   );
   return (
-    <div className="container pt-5 pb-5">
+    <div className="w-100">
+    <div className='p-5'>
     <h2>Web Development</h2>
     <div className='row pt-2'>
       {listItems}
       </div>
+    </div>
     </div>
   );
 }

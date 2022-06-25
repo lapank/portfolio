@@ -6,29 +6,30 @@ function ImageGridContent(props) {
   // Correct! There is no need to specify the key here:
   return (
     <div className='row'>
-      <div className="col-md-4">
-       <h2>{props.title}</h2>
-       <p>{props.text}</p>
-       <Link to={props.link} className="btn btn-primary">{props.button}</Link>
-      </div>
-      <div className="col-md-8">
+      
+      <div className="col-md-6">
         <div className="row imageGrid">
-          <div style={{backgroundImage: `url("${props.image1}")`}} className="col-4 border" ></div>
-          <div style={{backgroundImage: `url("${props.image2}")`}} className="col-8 border" ></div>
+          <div style={{backgroundImage: `url("${props.image2}")`, backgroundRepeat: 'no-repeat', backgroundSize: 300, backgroundPosition: 'center'}} className="col-4 border" ></div>
+          <div style={{backgroundImage: `url("${props.image4}")`, backgroundRepeat: 'no-repeat', backgroundSize: 600, backgroundPosition: 'center'}} className="col-8 border" ></div>
         </div>
         <div className="row doubleGrid">
-          <div style={{backgroundImage: `url("${props.image3}")`}} className="col-4 border" ></div>
+          <div style={{backgroundImage: `url("${props.image3}")`, backgroundRepeat: 'no-repeat', backgroundSize: 300, backgroundPosition: 'center'}} className="col-4 border" ></div>
           <div className="col-8 ">
             <div className="row imageGrid">
-              <div style={{backgroundImage: `url("${props.image4}")`}} className="col-6 border" ></div>
-              <div style={{backgroundImage: `url("${props.image5}")`}} className="col-6 border" ></div>
+              <div style={{backgroundImage: `url("${props.image1}")`, backgroundRepeat: 'no-repeat', backgroundSize: 400, backgroundPosition: 'center'}} className="col-6 border" ></div>
+              <div style={{backgroundImage: `url("${props.image5}")`, backgroundRepeat: 'no-repeat', backgroundSize: 300, backgroundPosition: 'center'}} className="col-6 border" ></div>
             </div>
             <div className="row imageGrid">
-              <div style={{backgroundImage: `url("${props.image6}")`}} className="col-6 border" ></div>
-              <div style={{backgroundImage: `url("${props.image7}")`}} className="col-6 border" ></div>
+              <div style={{backgroundImage: `url("${props.image6}")`, backgroundRepeat: 'no-repeat', backgroundSize: 300, backgroundPosition: 'center top'}} className="col-6 border" ></div>
+              <div style={{backgroundImage: `url("${props.image7}")`, backgroundRepeat: 'no-repeat', backgroundSize: 300, backgroundPosition: 'center'}} className="col-6 border" ></div>
             </div>
           </div>
         </div>
+      </div>
+      <div className="col-md-6">
+       <h2>{props.title}</h2>
+       <p>{props.text}</p>
+       <Link to={props.link} className="btn btn-primary">{props.button}</Link>
       </div>
     </div>
   );
@@ -60,7 +61,7 @@ function ImageGrid(props) {
   );
   return (
     <div className="dark-bg text-light">
-    <div className="container pt-5 pb-5">
+    <div className="w-100">
       {listItems}
     </div>
     </div>

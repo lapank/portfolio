@@ -25,8 +25,8 @@ function ThreeColBoxContent(props) {
         </div>
        </div>
       
-    		<div className="col-md-6">
-  	    		<img className="img-fluid" src={props.image} alt={props.altText} />
+    		<div className="col-md-6" style={{paddingLeft:0}}>
+        <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 955, backgroundPosition: 'center', height:629}}></div>
   	    </div>
 
   	</div>	
