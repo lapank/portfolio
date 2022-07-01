@@ -5,7 +5,7 @@ import glass from './images/glass.png';
 import josephine from './images/josephine.png';
 import susanna from './images/susanna.png';
 
-export const videoGalleryData = [
+export const developmentVideoData = [
 	{
 		title1: 'Network Concepts: Multiplexing and Demultiplexing',
 		image1: 'https://picsum.photos/325/325',
@@ -27,5 +27,18 @@ export const videoGalleryData = [
 		image5: 'https://picsum.photos/300/325',
 		text5: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6',
 		video5: 'https://www.youtube.com/embed/q3Ry0N_nF4M',
+	},
+]
+
+export const managmentVideoData = [
+	{
+		title1: 'SAAM Arcade',
+		image1: 'https://picsum.photos/325/325',
+		text1: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
+		video1: 'https://www.youtube.com/embed/lyOE7SZn39g',
+		title2: 'Photo DC: Mark Seliger',
+		image2: 'https://picsum.photos/407/325',
+		text2: 'Drupal, Print & Web Design, Css3, Public Engagment, Accessibility',
+		video2: 'https://www.youtube.com/embed/ud9XGZp3WQw',
 	},
 ]
