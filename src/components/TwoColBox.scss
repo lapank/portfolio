@@ -27,4 +27,31 @@ body{
     font-size: 4rem;
 }
 
+@keyframes rocking {
+  from {
+    transform: rotate(-5deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+}
 
+/* The element to apply the animation to */
+.animation {
+  position: absolute;
+  margin-top: 0;
+  animation-name: rocking;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  transform-origin: bottom;
+}
+
+.background-animation{
+    position: absolute;
+}
+
+.animation-container{
+    height: 610px;
+}

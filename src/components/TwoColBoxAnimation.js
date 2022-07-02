@@ -1,12 +1,13 @@
 import './TwoColBox.scss';
 
 
-function TwoColBoxContent(props) {
+function TwoColBoxAnimationContent(props) {
   // Correct! There is no need to specify the key here:
   return (
   	<div className='row'>
-  		<div className="col-md-6">
-        <img className="img-fluid" src={props.image} alt={props.altText} />
+  		<div className="col-md-6 animation-container">
+        <img className="img-fluid background-animation" src={props.image} alt={props.altText} />
+	    		<img className="img-fluid animation" src={props.image2} alt={props.altText} />
 	    </div>
 	    <div className="col-md-6">
 	    	<div className="p-3">
@@ -19,12 +20,13 @@ function TwoColBoxContent(props) {
   );
 }
 
-function TwoColBox(props) {
+function TwoColBoxAnimation(props) {
   const item = props.item;
   const listItems = item.map((item) =>
     // Correct! Key should be specified inside the array.
-    <TwoColBoxContent key={item.eyebrow}
+    <TwoColBoxAnimationContent key={item.eyebrow}
       image = {item.image}
+      image2 = {item.image2}
       altText = {item.altText}
       link = {item.link}
       eyebrow = {item.eyebrow}
@@ -38,4 +40,4 @@ function TwoColBox(props) {
   );
 }
 
-export default TwoColBox;
+export default TwoColBoxAnimation;

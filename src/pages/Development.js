@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from '../components/Slider';
 import {sliderData} from '../components/SliderData';
 import {devData} from '../components/TwoColBoxData';
-import TwoColBox from '../components/TwoColBox';
+import TwoColBoxAnimation from '../components/TwoColBoxAnimation';
 import {developmentVideoData} from '../components/VideoGalleryData';
 import VideoGallery from '../components/VideoGallery.js';
 
@@ -10,7 +10,7 @@ function Development(){
 	return(
 		<div className='development'>
 			<h1>Development</h1>
-			<TwoColBox item={devData}/>
+			<TwoColBoxAnimation item={devData}/>
 			<VideoGallery item={developmentVideoData}/>
 			<Slider item={sliderData}/>
 			<div className="container embed-responsive embed-responsive-1by1">

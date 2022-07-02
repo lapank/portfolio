@@ -3,6 +3,8 @@ import abattoir from './images/abattoir-side.png';
 import instagram from './images/motor-voter-instagram-comments.gif';
 import graph from './images/mode-of-turnout.gif';
 import ignite from './images/ignite-tomorrow-gif-500px.gif';
+import rug from './images/rug.png';
+import momma from './images/momma.png';
 
 
 export const introData = [
@@ -19,7 +21,8 @@ export const introData = [
 
 export const devData = [
 	{
-		image: 'https://picsum.photos/575/375',
+		image: rug,
+		image2: momma,
 		altText: 'Insert alt text.',
 		eyebrow: 'Skills',
 		h3: 'Passionate about Technology, Art, and People',
