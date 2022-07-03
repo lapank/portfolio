@@ -9,6 +9,7 @@ import Art from './pages/Art';
 import Management from './pages/Management';
 
 function App(){
+	
 	return(
 			<div className='App'>
 			<Router>

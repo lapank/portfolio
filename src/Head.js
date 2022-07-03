@@ -10,6 +10,7 @@ function Head(){
         name="description"
         content="Ideas page using react helmet very easy to implement "
       />
+      
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link
@@ -18,6 +19,7 @@ function Head(){
 		  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 		  crossorigin="anonymous"
 		/>
+    
     </Helmet>
    </>
    )
