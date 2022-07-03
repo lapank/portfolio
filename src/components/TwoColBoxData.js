@@ -84,9 +84,9 @@ export const manageData = [
 	{
 		image: 'https://picsum.photos/575/375',
 		altText: 'Insert alt text.',
-		eyebrow: 'Skills',
-		h3: 'Passionate about Technology, Art, and People',
-		text: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
+		eyebrow: 'Redesign',
+		h3: 'Case Study: Company Intranet',
+		text: 'Sanky Tree, Line Chart, Gantt Chart, Pie Chart. Discovery Period. Take stock of intranet\'s current offerings, goals, and pain points before charting a path forward. How do People Currently use the Intranet?',
 		link: '#'
 	},
 
