@@ -60,7 +60,7 @@ function GanttChart ({google}) {
       console.log(options);
 
       // Instantiate and draw our chart, passing in some options.
-      const newChart = new google.visualization.Gantt(document.getElementById('chartDiv'));
+      const newChart = new google.visualization.Gantt(document.getElementById('ganttChart'));
       newChart.draw(data, options);
 
       setChart(newChart);
@@ -70,7 +70,7 @@ function GanttChart ({google}) {
   return (
     <>
       {!google && <Spinner />}
-      <div id="chartDiv" className={!google ? 'd-none' : ''} />
+      <div id="ganttChart" className={!google ? 'd-none' : ''} />
     </>
   )
 }
