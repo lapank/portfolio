@@ -15,8 +15,8 @@ function GalleryContent(props){
       <div className="row">
         <div className="col-md-8 bg-light">
           <div className="row">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe className="embed-responsive-item" src={video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div className="embed-responsive embed-responsive-16by9">
+              <iframe className="embed-responsive-item" src={video} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
           </div>
           

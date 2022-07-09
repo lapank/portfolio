@@ -16,7 +16,7 @@ function SliderContent(props){
           <div className="row">
               <div style={{backgroundImage: `url("${thumbnail}")`, backgroundRepeat: 'no-repeat', backgroundSize: 'contain',backgroundPosition: 'center', height:700, width:1000}}></div>
           </div>
-          <div class="container">
+          <div className="container">
           <div className="row">
             <div onClick={() => {setThumbnail(props.image1); setText(props.text1); setTitle(props.title1)}} style={{backgroundImage: `url("${props.image1}")`}} id="thumbnail1" className="col-2 border thumbnailBox"></div>
               <div onClick={() => {setThumbnail(props.image2); setText(props.text2); setTitle(props.title2)}} style={{backgroundImage: `url("${props.image2}")`}} id="thumbnail2" className="col-2 border thumbnailBox"></div>

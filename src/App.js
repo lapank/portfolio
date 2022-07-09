@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Development from './pages/Development';
 import Art from './pages/Art';
 import Management from './pages/Management';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App(){
 	

@@ -15,7 +15,7 @@ function useGoogleCharts () {
                 script.id = 'googleChartsScript';
                 script.onload = () => {
                     if (window.google && window.google.charts) {
-                        window.google.charts.load('current', {'packages':['corechart']});
+                        window.google.charts.load('current', {'packages':['corechart', 'gantt', 'sankey']});
 
                         window.google.charts.setOnLoadCallback(() => setGoogle(window.google))
                     }
