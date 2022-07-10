@@ -12,12 +12,12 @@ function SankeyChartThree ({google}) {
     data.addColumn('string', 'To');
     data.addColumn('number', 'Weight');
     data.addRows([
-       [ 'Home Page', 'Frequently Used Resources', 2000 ],
-       [ 'Home Page', 'Organisation Charts', 1200 ],
-       [ 'Home Page', 'Search', 684 ],
-       [ 'Home Page', 'Departments', 636 ],
-       [ 'Home Page', 'Forms and Templates', 579 ],
-       [ 'Home Page', 'Drop-off', 4800 ],
+       [ 'Home Page', 'Frequently Used Resources', 346 ],
+       [ 'Home Page', 'Organisation Charts', 637 ],
+       [ 'Home Page', 'Search', 290 ],
+       [ 'Home Page', 'Staff Cafe', 791 ],
+       [ 'Home Page', 'Departments', 376 ],
+       [ 'Home Page', 'Drop-off', 1800 ],
         ]);
 
     let sankyColors = ['#eee', '#111', '#333', '#555',
