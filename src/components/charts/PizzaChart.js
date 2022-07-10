@@ -8,18 +8,18 @@ function PizzaChart ({google}) {
     if (google && !chart) {
       // Create the data table.
       const data = new google.visualization.DataTable();
-      data.addColumn('string', 'Topping');
-      data.addColumn('number', 'Slices');
+      data.addColumn('string', 'Concerns');
+      data.addColumn('number', 'Comments');
       data.addRows([
-        ['Mushrooms', 3],
-        ['Onions', 1],
-        ['Olives', 1],
-        ['Zucchini', 1],
-        ['Pepperoni', 2]
+        ['Facility Requests', 29],
+        ['Technology Requests', 20],
+        ['Personel Requests', 48],
+        ['Recognition', 9],
+        ['Strategy Suggestions', 16]
       ]);
 
       // Set chart options
-      var options = {'title':'How Much Pizza I Ate Last Night',
+      var options = {'title':'What do people want from the intranet?',
                     'width':400,
                     'height':300};
 

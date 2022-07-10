@@ -8,16 +8,16 @@ function LineChart ({google}) {
     if (google && !chart) {
       // Create the data table.
       const data = new google.visualization.arrayToDataTable([
-          ['Year', 'Sales', 'Expenses'],
-          ['2004',  1000,      400],
-          ['2005',  1170,      460],
-          ['2006',  660,       1120],
-          ['2007',  1030,      540]
+          ['Year', 'Site Views'],
+          ['2018',  64388],
+          ['2019',  59421],
+          ['2020',  38002],
+          ['2021',  31464]
         ]);
 
       // Set chart options
       var options = {
-          title: 'Company Performance',
+          title: 'Site Views by Year',
           curveType: 'function',
           legend: { position: 'bottom' }
         };
