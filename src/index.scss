@@ -7,6 +7,7 @@ $midLight: #7e663d;
 $light: #d8cbb5;
 $lightest:#fcfaf5;
 $blue:#025dc6;
+$lightTeal:#49e5d8;
 
 $Amiri: "arial", san-serif;
 $Kant: 'Exo 2', sans-serif;
@@ -23,13 +24,19 @@ body {
 }
 
 .gradientBackground{
-  background: linear-gradient(#e66465, #9198e5);
+  background: 
+      radial-gradient(circle, rgba(130,230,218, 1), rgba(130,230,218, 0)80%),
+      linear-gradient(160deg, rgba(69,231,216,1), rgba(69,231,216,0) 60%),
+      linear-gradient(45deg, rgba(11,121,173,1), rgba(11,121,173,0) 50%),
+      linear-gradient(130deg, rgba(11,154,148,1), rgba(11,154,148,0) 40%),
+      linear-gradient(215deg, rgba(10,153,100,1), rgba(10,153,100,20%) 50%),
+      linear-gradient(330deg, rgba(6,70,95,1), rgba(6,70,95,0) 50%);
 }
 
 
 .gradientText{
   font-size: 72px;
-  background: -webkit-linear-gradient(#9198e5, #e66465);
+  background: -webkit-linear-gradient($lightTeal,#0a9d69);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -42,25 +49,46 @@ body {
   font-family: $Amiri;
   font-weight: 700;
   font-size: $largeFont;
+  color: $lightest;
+}
+
+.headerTextDark{
+  font-family: $Amiri;
+  font-weight: 700;
+  font-size: $largeFont;
   color: $dark;
 }
 
 .accentText{
   font-family: $Amiri;
-  color: $midDark;
+  color: $lightest;
   font-size: 1.1rem;
   line-height: $accentHeight;
   text-align: center;
 }
 
-.bodyText{
+.accentTextDark{
+  font-family: $Amiri;
+  color: $dark;
+  font-size: 1.1rem;
+  line-height: $accentHeight;
+  text-align: center;
+}
+
+.bodyTextLight{
   font: 1rem $Kant;
-  color: $medium;
+  color: $lightest;
+  line-height: $lineHeight;
+}
+
+.bodyTextDark{
+  font: 1rem $Kant;
+  color: $dark;
   line-height: $lineHeight;
 }
 
 .navbar-light .navbar-brand{
-  background: -webkit-linear-gradient(#9198e5, #e66465);
+  background: -webkit-linear-gradient(#0a6793, $lightTeal);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2rem;
@@ -75,15 +103,12 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  background: -webkit-linear-gradient(#9198e5, #e66465);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: $lightest !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  background: -webkit-linear-gradient(#9198e5, #e66465);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: $lightTeal !important;
+  text-decoration: underline;
 }
 
 .navbar-toggle {
@@ -94,6 +119,15 @@ body {
   align-items: center;
   color: rgba(0,0,0,.5) !important;
   border-color: rgba(0,0,0,.1) !important;
+}
+
+.backgroundLightest{
+  background-color: $lightest !important;
+}
+
+.tealBackground {
+  background-color: $lightTeal !important;
+  color: $dark !important;
 }
 
 ol, ul {

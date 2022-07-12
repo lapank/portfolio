@@ -10,19 +10,19 @@ function ThreeColBoxContent(props) {
          <div className='row'>
            <div className="col-md-12">
            <div className="p-3">
-            <h3 className="headerText large">{props.h3}</h3>
+            <h3 className="headerTextDark large">{props.h3}</h3>
             </div>
            </div>
          </div>
         <div className='row'>
           <div className="col-md-4">
             <div className="p-3">
-                <h4 className="accentText">{props.eyebrow}</h4>
+                <h4 className="accentTextDark">{props.eyebrow}</h4>
             </div>
            </div>
            <div className="col-md-8">
             <div className="p-3">
-              <p className="bodyText">{props.text}</p>
+              <p className="bodyTextDark">{props.text}</p>
             </div>
            </div>
         </div>
