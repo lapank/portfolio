@@ -4,6 +4,7 @@ function Nav(){
 	const [click, setClick] = useState(0);
 	if(click % 2 !== 1){
 		return(
+			<div className="w-100">
 			<nav class="navbar navbar-expand-lg navbar-light">
 			  <a class="navbar-brand headerText" href="/">Kaylin Lapan | Portfolio</a>
 			  <button onClick={() => {setClick(click+1)}} className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,6 +24,7 @@ function Nav(){
 			    </ul>
 			  </div>
 			</nav>
+			</div>
 		)
 	}else{
 		return(

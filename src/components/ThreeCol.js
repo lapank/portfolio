@@ -6,7 +6,7 @@ function ThreeColBoxContent(props) {
     <div className="col-md-6" style={{paddingRight:0}}>
         <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 955, backgroundPosition: 'center', height:629}}></div>
         </div>
-       <div className="col-md-6 p-5">
+       <div className="col-md-6 p-5 gradientBackground">
          <div className='row'>
            <div className="col-md-12">
            <div className="p-3">

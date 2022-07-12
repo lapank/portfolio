@@ -33,7 +33,7 @@ function FourCards(props) {
       button = {item.button}/>
   );
   return (
-    <div className="w-100">
+    <div className="w-100 gradientBackground">
     <div className='p-5'>
     <h2 className="yellow large times">Web Development</h2>
     <div className='row pt-2'>
