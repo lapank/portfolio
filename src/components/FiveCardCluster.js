@@ -101,7 +101,7 @@ function RightClusterContent(props){
 function FiveCardCluster(){
   return (
     <div className="w-100 p-5">
-	    <h2>Project Manager & Product Owner</h2>
+	    <h2 className="yellow large times">Project Manager & Product Owner</h2>
 	    <div className='row pt-2'>
 	    	<div className="col-md-8">
 		    	

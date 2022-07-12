@@ -15,7 +15,6 @@ function Home(){
 			<ThreeCol item={threeColData}/>
 			<ImageGrid item={imageGridIntroData}/>
 			<FourCards item={fourCardsIntroData} />
-			
 			<FiveCardCluster />
 		</div>
 	);

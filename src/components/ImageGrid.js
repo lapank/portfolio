@@ -6,7 +6,19 @@ function ImageGridContent(props) {
   // Correct! There is no need to specify the key here:
   return (
     <div className='row'>
-      
+       <div className="col-md-6 p-3 mb-4">
+
+      <div className="p-5 mb-4">
+
+      <div className="d-flex align-items-center justify-content-center" style={{height: 500}}>
+       <p>
+         <span className="headerText">{props.title}</span><br/><span className="bodyText mt-5">{props.text}</span><br/>
+         <Link to={props.link} className="btn btn-primary mt-5">{props.button}</Link>
+        </p>
+        
+      </div>
+      </div>
+      </div>
       <div className="col-md-6">
         <div className="row imageGrid">
           <div style={{backgroundImage: `url("${props.image2}")`, backgroundRepeat: 'no-repeat', backgroundSize: 300, backgroundPosition: 'center'}} className="col-4 border" ></div>
@@ -26,11 +38,9 @@ function ImageGridContent(props) {
           </div>
         </div>
       </div>
-      <div className="col-md-6">
-       <h2>{props.title}</h2>
-       <p>{props.text}</p>
-       <Link to={props.link} className="btn btn-primary">{props.button}</Link>
-      </div>
+      
+
+     
     </div>
   );
 }
@@ -60,10 +70,9 @@ function ImageGrid(props) {
       altText7 = {item.altText7} />
   );
   return (
-    <div className="dark-bg text-light">
+
     <div className="w-100">
       {listItems}
-    </div>
     </div>
   );
 }

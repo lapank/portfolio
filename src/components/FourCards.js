@@ -1,4 +1,5 @@
 import './FourCards.scss';
+import './ImageGrid.scss';
 import {Link} from 'react-router-dom';
 
 function FourCardsContent(props) {
@@ -9,7 +10,7 @@ function FourCardsContent(props) {
       <div className="p-3 border bg-light">
         <img src={props.image} className="card-img-top" alt={props.altText}/>
         <div className="card-body">
-          <h5 className="card-title">{props.title}</h5>
+          <h5 className="card-title ">{props.title}</h5>
           <p className="card-text">{props.text}</p>
           <Link to={props.link} className="btn btn-primary">{props.button}</Link>
           </div>
@@ -34,7 +35,7 @@ function FourCards(props) {
   return (
     <div className="w-100">
     <div className='p-5'>
-    <h2>Web Development</h2>
+    <h2 className="yellow large times">Web Development</h2>
     <div className='row pt-2'>
       {listItems}
       </div>
