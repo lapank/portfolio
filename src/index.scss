@@ -1,26 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Exo+2:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;600&family=Raleway:wght@800&display=swap');
 
-$dark: #29251e;
-$midDark: #3c2b0d;
-$medium: #5e4823;
-$midLight: #7e663d;
-$light: #d8cbb5;
-$lightest:#fcfaf5;
-$blue:#025dc6;
-$lightTeal:#49e5d8;
-
-$Amiri: "arial", san-serif;
-$Kant: 'Exo 2', sans-serif;
+$bodyFont: 'Exo 2', sans-serif;
+$headerFont: 'Raleway', sans-serif;
 
 $largeFont: 4rem;
 $mediumFont: 1.3rem;
 $lineHeight: 1.3rem;
 $accentHeight: 1.2rem;
 
+$dark: #29251e;
+$midDark: #3c2b0d;
+$midLight: #ede6da;
+$light: #fcfaf5;
 
-body {
-  margin: 20px;
-  background-color: $lightest !important;
+$lightTeal:#49e5d8;
+$darkTeal:#0a6793;
+
+
+$medium: #5e4823;
+$lightest:#fcfaf5;
+$blue:#025dc6;
+$lightTeal:#49e5d8;
+
+.btn-primary{
+  background-color: $lightTeal;
+  border-color: $darkTeal !important;
+  color: $dark;
+  font-family: $bodyFont;
+  font-weight:600!important;
+}
+
+.bodyTextDark{
+  font-family: $bodyFont;
+  font-weight:200 !important;
+  color: $dark;
+}
+
+.bodyTextLight{
+  font-family: $bodyFont;
+  font-weight:200 !important;
+  color: $light;
 }
 
 .gradientBackground{
@@ -36,7 +55,7 @@ body {
 
 .gradientText{
   font-size: 72px;
-  background: -webkit-linear-gradient($lightTeal,#0a9d69);
+  background: -webkit-linear-gradient($darkTeal,$lightTeal);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -46,21 +65,21 @@ body {
 }
 
 .headerText{
-  font-family: $Amiri;
+  font-family: $headerFont;
   font-weight: 700;
   font-size: $largeFont;
   color: $lightest;
 }
 
 .headerTextDark{
-  font-family: $Amiri;
+  font-family: $headerFont;
   font-weight: 700;
   font-size: $largeFont;
   color: $dark;
 }
 
 .accentText{
-  font-family: $Amiri;
+  font-family: $headerFont;
   color: $lightest;
   font-size: 1.1rem;
   line-height: $accentHeight;
@@ -68,7 +87,7 @@ body {
 }
 
 .accentTextDark{
-  font-family: $Amiri;
+  font-family: $headerFont;
   color: $dark;
   font-size: 1.1rem;
   line-height: $accentHeight;
@@ -76,50 +95,20 @@ body {
 }
 
 .bodyTextLight{
-  font: 1rem $Kant;
+  font: 1rem $bodyFont;
   color: $lightest;
   line-height: $lineHeight;
 }
 
 .bodyTextDark{
-  font: 1rem $Kant;
+  font: 1rem $bodyFont;
   color: $dark;
   line-height: $lineHeight;
 }
 
-.navbar-light .navbar-brand{
-  background: -webkit-linear-gradient(#0a6793, $lightTeal);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 2rem;
-}
 
-.navbar {
-  background-color: $dark;
-  height: 80px;
-  display: flex;
-  justify-content:  flex-start;
-  align-items: canter;
-}
 
-.navbar-light .navbar-nav .nav-link {
-  color: $lightest !important;
-}
 
-.navbar-light .navbar-nav .nav-link:hover {
-  color: $lightTeal !important;
-  text-decoration: underline;
-}
-
-.navbar-toggle {
-  width: 100%;
-  height: 80px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  color: rgba(0,0,0,.5) !important;
-  border-color: rgba(0,0,0,.1) !important;
-}
 
 .backgroundLightest{
   background-color: $lightest !important;

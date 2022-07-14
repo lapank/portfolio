@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import '../index.scss';
+import './Nav.scss';
 
 function Nav(){
 	const [click, setClick] = useState(0);

@@ -1,0 +1,38 @@
+@import '../index.scss';
+
+.navbar-light .navbar-brand{
+  background: -webkit-linear-gradient($darkTeal, $lightTeal);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-family:$headerFont;
+}
+
+.navbar {
+  background-color: $dark;
+  height: 80px;
+  display: flex;
+  justify-content:  flex-start;
+  align-items: canter;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $lightest !important;
+  font-family:$bodyFont;
+  font-weight:600;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: $lightTeal !important;
+  text-decoration: underline;
+}
+
+.navbar-toggle {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgba(0,0,0,.5) !important;
+  border-color: rgba(0,0,0,.1) !important;
+}
