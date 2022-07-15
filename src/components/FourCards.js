@@ -8,7 +8,7 @@ function FourCardsContent(props) {
     
       <div className="col-lg-3 col-6">
       <div className="border backgroundDark roundedEdges">
-      <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 370, height:150, backgroundPosition: 'center'}} className="card-img-top roundedEdgesTop" ></div>
+      <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 370, height:150, backgroundPosition: 'center'}} className="card-img-top roundedEdgesTop"></div>
         <div className="card-body">
           <h5 className="card-title smallTitleLight">{props.title}</h5>
           <p className="card-text bodyTextLight">{props.text}</p>
