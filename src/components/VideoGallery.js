@@ -1,6 +1,6 @@
-import './Slider.scss';
+import '../index.scss';
 import React, { useState } from 'react';
-
+import * as AiIcons from 'react-icons/ai';
 
 
 
@@ -20,30 +20,46 @@ function GalleryContent(props){
             </div>
           </div>
           
-          <div className="row">
+          <div className="row p-5 backgroundLight bodyTextDark">
             <p>{text}</p>
           </div>
         </div>
         <div className="col-md-4">
-          <div className="row" onClick={() => {setThumbnail(props.image1); setText(props.text1); setTitle(props.title1); setVideo(props.video1)}}>
-            <div style={{backgroundImage: `url("${props.image1}")`}} id="thumbnail1" className="col-6 thumbnailBox"></div>
-            <div className="col-6">{props.title1}</div>
+
+          <div className="row borderLight" onClick={() => {setThumbnail(props.image1); setText(props.text1); setTitle(props.title1); setVideo(props.video1)}}>
+            <div style={{backgroundImage: `url("${props.image1}")`}} id="thumbnail1" className="col-6 thumbnailBox">
+            <div className="centerAbsolute"><div className="gradientBackground playBackground"></div><AiIcons.AiFillPlayCircle className="playButton"/>
+            </div>
+            </div>
+            <div className="col-6 smallTitleDark">{props.title1}</div>
           </div>
-          <div className="row" onClick={() => {setThumbnail(props.image2); setText(props.text2); setTitle(props.title2); setVideo(props.video2)}}>
-            <div style={{backgroundImage: `url("${props.image2}")`}} id="thumbnail1" className="col-6 thumbnailBox"></div>
-            <div className="col-6">{props.title2}</div>
+          <div className="row borderLight" onClick={() => {setThumbnail(props.image2); setText(props.text2); setTitle(props.title2); setVideo(props.video2)}}>
+            <div style={{backgroundImage: `url("${props.image2}")`}} id="thumbnail1" className="col-6 thumbnailBox">
+              <div className="centerAbsolute"><div className="gradientBackground playBackground"></div><AiIcons.AiFillPlayCircle className="playButton"/>
+            </div>
+            </div>
+            <div className="col-6 smallTitleDark">{props.title2}</div>
           </div>              
-          <div className="row" onClick={() => {setThumbnail(props.image3); setText(props.text3); setTitle(props.title3); setVideo(props.video3)}}>
-            <div style={{backgroundImage: `url("${props.image3}")`}} id="thumbnail1" className="col-6 thumbnailBox"></div>
-            <div className="col-6">{props.title3}</div>
+          <div className="row borderLight" onClick={() => {setThumbnail(props.image3); setText(props.text3); setTitle(props.title3); setVideo(props.video3)}}>
+            <div style={{backgroundImage: `url("${props.image3}")`}} id="thumbnail1" className="col-6 thumbnailBox">
+              <div className="centerAbsolute"><div className="gradientBackground playBackground"></div><AiIcons.AiFillPlayCircle className="playButton"/>
+            </div>
+            </div>
+            <div className="col-6 smallTitleDark">{props.title3}</div>
           </div>              
-          <div className="row" onClick={() => {setThumbnail(props.image4); setText(props.text4); setTitle(props.title4); setVideo(props.video4)}}>
-            <div style={{backgroundImage: `url("${props.image4}")`}} id="thumbnail1" className="col-6 thumbnailBox"></div>
-            <div className="col-6">{props.title4}</div>
+          <div className="row borderLight" onClick={() => {setThumbnail(props.image4); setText(props.text4); setTitle(props.title4); setVideo(props.video4)}}>
+            <div style={{backgroundImage: `url("${props.image4}")`}} id="thumbnail1" className="col-6 thumbnailBox">
+              <div className="centerAbsolute"><div className="gradientBackground playBackground"></div><AiIcons.AiFillPlayCircle className="playButton"/>
+            </div>
+            </div>
+            <div className="col-6 smallTitleDark">{props.title4}</div>
           </div>             
-          <div className="row" onClick={() => {setThumbnail(props.image5); setText(props.text5); setTitle(props.title5); setVideo(props.video5)}}>
-            <div style={{backgroundImage: `url("${props.image5}")`}} id="thumbnail1" className="col-6 thumbnailBox"></div>
-            <div className="col-6">{props.title5}</div>
+          <div className="row borderLight" onClick={() => {setThumbnail(props.image5); setText(props.text5); setTitle(props.title5); setVideo(props.video5)}}>
+            <div style={{backgroundImage: `url("${props.image5}")`}} id="thumbnail1" className="col-6 thumbnailBox">
+              <div className="centerAbsolute"><div className="gradientBackground playBackground"></div><AiIcons.AiFillPlayCircle className="playButton"/>
+            </div>
+            </div>
+            <div className="col-6 smallTitleDark">{props.title5}</div>
           </div>          
           </div>
         </div>
@@ -78,7 +94,7 @@ function Gallery(props){
       video5 = {item.video5} />
   );
   return (
-    <div className="w-100 pt-5 pb-5">
+    <div className="w-100 pt-5 pb-5 backgroundMedium">
       {listItems}
     </div>
   );

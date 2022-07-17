@@ -1,4 +1,5 @@
 import './TwoColBox.scss';
+import '../index.scss';
 
 
 function TwoColBoxAnimationContent(props) {
@@ -11,9 +12,9 @@ function TwoColBoxAnimationContent(props) {
 	    </div>
 	    <div className="col-md-6">
 	    	<div className="p-3">
-				<h4 className="yellow small">{props.eyebrow}</h4>
-				<h3 className="yellow times large">{props.h3}</h3>
-				<p className="white">{props.text}</p>
+				<p className="smallTitleDark">{props.eyebrow}</p>
+				<h3 className="headerTextDark large">{props.h3}</h3>
+				<p className="bodyTextDark">{props.text}</p>
 			</div>
 		</div>
 	</div>	
@@ -34,8 +35,10 @@ function TwoColBoxAnimation(props) {
       text = {item.text} />
 	);
   return (
-    <div className="container pt-2">
+    <div className="w-100 gradientBackground p-5">
+    <div className="container">
       {listItems}
+    </div>
     </div>
   );
 }

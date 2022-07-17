@@ -1,4 +1,5 @@
 import './Slider.scss';
+import '../index.scss'
 import React, { useState } from 'react';
 
 function SliderContent(props){
@@ -8,12 +9,12 @@ function SliderContent(props){
   return (
     <div>
       <div className="row">
-        <div className="col-md-4 bg-light">
-          <h3>{title}</h3>
-          <p>{text}</p>
+        <div className="col-md-4 gradientBackground p-5">
+          <h3 className="smallTitleDark">{title}</h3>
+          <p className="bodyTextDark">{text}</p>
         </div>
-        <div className="col-md-8">
-          <div className="row">
+        <div className="col-md-8 overflow p-0">
+          <div className="row border backgroundLightest">
               <div style={{backgroundImage: `url("${thumbnail}")`, backgroundRepeat: 'no-repeat', backgroundSize: 'contain',backgroundPosition: 'center', height:700, width:1000}}></div>
           </div>
           <div className="container">
@@ -57,7 +58,7 @@ function Slider(props){
       text6 = {item.text6}  />
   );
   return (
-    <div className="container pt-5 pb-5">
+    <div className="w-100 p-5 backgroundDark">
       {listItems}
     </div>
   );

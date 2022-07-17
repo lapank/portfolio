@@ -9,7 +9,6 @@ import VideoGallery from '../components/VideoGallery.js';
 function Development(){
 	return(
 		<div className='development'>
-			<h1>Development</h1>
 			<TwoColBoxAnimation item={devData}/>
 			<VideoGallery item={developmentVideoData}/>
 			<Slider item={sliderData}/>

@@ -1,4 +1,5 @@
 import './TwoColBox.scss';
+import '../index.scss';
 
 
 function TwoColBoxContent(props) {
@@ -32,7 +33,7 @@ function TwoColBox(props) {
       text = {item.text} />
 	);
   return (
-    <div className="container pt-2">
+    <div className="w-100 pt-2 gradientBackground">
       {listItems}
     </div>
   );

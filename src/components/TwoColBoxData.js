@@ -25,7 +25,7 @@ export const devData = [
 		image2: momma,
 		altText: 'Insert alt text.',
 		eyebrow: 'Skills',
-		h3: 'Passionate about Technology, Art, and People',
+		h3: 'Web Development',
 		text: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
 		link: '#'
 	},
@@ -37,7 +37,7 @@ export const artData = [
 		image: 'https://picsum.photos/575/375',
 		altText: 'Insert alt text.',
 		eyebrow: 'Skills',
-		h3: 'Passionate about Technology, Art, and People',
+		h3: 'Fine Art and Digital Media',
 		text: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
 		link: '#'
 	},

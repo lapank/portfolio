@@ -22,6 +22,36 @@ $lightest:#fcfaf5;
 $blue:#025dc6;
 $lightTeal:#49e5d8;
 
+$thumbnailHeight: 7rem;
+
+.thumbnailBox{
+  height: $thumbnailHeight;
+}
+
+.playButton{
+  color: $dark;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  z-index: 20;
+}
+
+.playBackground{
+  height: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  z-index: 10;
+  left: 9px;
+  top: 9px;
+}
+
+.centerAbsolute{
+  top: 30%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  position: relative;
+}
+
 .btn-primary{
   background-color: $lightTeal;
   border-color: $darkTeal !important;
@@ -92,6 +122,12 @@ $lightTeal:#49e5d8;
   color: $lightest;
 }
 
+.smallTitleDark{
+  color: $dark;
+  font-family: $bodyFont;
+  font-weight:600!important;
+}
+
 .accentTextDark{
   font-family: $headerFont;
   color: $dark;
@@ -113,8 +149,13 @@ $lightTeal:#49e5d8;
 }
 
 
+.borderLight{
+  border: solid $light;
+}
 
-
+.overflow{
+  overflow: hidden;
+}
 
 .backgroundLightest{
   background-color: $lightest !important;
