@@ -6,6 +6,7 @@ import wireframe from './images/wireframe.png';
 
 export const sliderData = [
 	{
+		header: 'Code and Mock-ups',
 		title1: 'Art and Digital Media',
 		image1: api,
 		text1: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',

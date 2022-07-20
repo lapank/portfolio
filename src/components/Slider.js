@@ -8,14 +8,15 @@ function SliderContent(props){
   const [title, setTitle] = useState(props.title1);
   return (
     <div>
+    <h2 className="headerText gradientText p-5">{props.header}</h2>
       <div className="row">
         <div className="col-md-4 gradientBackground p-5">
           <h3 className="smallTitleDark">{title}</h3>
           <p className="bodyTextDark">{text}</p>
         </div>
         <div className="col-md-8 overflow p-0">
-          <div className="row border backgroundLightest">
-              <div style={{backgroundImage: `url("${thumbnail}")`, backgroundRepeat: 'no-repeat', backgroundSize: 'contain',backgroundPosition: 'center', height:700, width:1000}}></div>
+          <div className="row">
+              <div className="backgroundMidDark" style={{backgroundImage: `url("${thumbnail}")`, backgroundRepeat: 'no-repeat', backgroundSize: 'contain',backgroundPosition: 'center', height:700, width:1000}}></div>
           </div>
           <div className="container">
           <div className="row">
@@ -38,6 +39,7 @@ function Slider(props){
   const listItems = item.map((item) =>
     // Correct! Key should be specified inside the array.
     <SliderContent key={item.title1}
+      header = {item.header}
       title1 = {item.title1}
       image1 = {item.image1}
       text1 = {item.text1}

@@ -24,6 +24,7 @@ $lightTeal:#49e5d8;
 
 $thumbnailHeight: 7rem;
 
+
 .thumbnailBox{
   height: $thumbnailHeight;
 }
@@ -148,6 +149,9 @@ $thumbnailHeight: 7rem;
   line-height: $lineHeight;
 }
 
+.borderMedium{
+  border: solid $medium;
+}
 
 .borderLight{
   border: solid $light;

@@ -1,12 +1,6 @@
-import abattoir from './images/abattoir-side.png';
-import adriana from './images/adriana.png';
-import genavieve from './images/genavieve.png';
-import glass from './images/glass.png';
-import josephine from './images/josephine.png';
-import susanna from './images/susanna.png';
-
 export const developmentVideoData = [
 	{
+		header: 'Software Engineering Projects and Concepts',
 		title1: 'Network Concepts: Multiplexing and Demultiplexing',
 		image1: 'https://picsum.photos/325/325',
 		text1: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
@@ -32,6 +26,7 @@ export const developmentVideoData = [
 
 export const managmentVideoData = [
 	{
+		header: 'Programs Created and Coordinated',
 		title1: 'SAAM Arcade',
 		image1: 'https://picsum.photos/325/325',
 		text1: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
