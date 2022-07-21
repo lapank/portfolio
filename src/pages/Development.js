@@ -13,10 +13,11 @@ function Development(){
 			<TwoColBoxAnimation item={devData}/>
 			<VideoGallery item={developmentVideoData}/>
 			<Slider item={sliderData}/>
-			<div className="backgroundLightest container embed-responsive embed-responsive-1by1">
+			<div className="container embed-responsive embed-responsive-1by1">
 			<iframe title="Alt Text Checker" className="embed-responsive-item" src="https://kaylinlapan.com/alt-text/index.html" />
 			</div>
-			<div className="container">
+			<div className="container embed-responsive embed-responsive-1by1">
+			<div className="fullScreenWarning"><p>Please view Full Screen</p></div>
 			<iframe title="Tower Defense Game" style={{width: 929, height: 729}} src="https://kaylinlapan.com/tower-defense/index.html" />
 			</div>
 			

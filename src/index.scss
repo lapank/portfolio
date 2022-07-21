@@ -1,5 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;600&family=Raleway:wght@800&display=swap');
 
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+// Small devices
+@mixin sm {
+   @media (min-width: #{$screen-sm-min}) {
+       @content;
+   }
+}
+
+// Medium devices
+@mixin md {
+   @media (min-width: #{$screen-md-min}) {
+       @content;
+   }
+}
+
+// Large devices
+@mixin lg {
+   @media (min-width: #{$screen-lg-min}) {
+       @content;
+   }
+}
+
+// Extra large devices
+@mixin xl {
+   @media (min-width: #{$screen-xl-min}) {
+       @content;
+   }
+}
+
+.fullScreenWarning {
+    border: solid red 10px;
+    background-color: rgba(255, 0, 0, 0.9);
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 700px;
+    filter: blur(1.5rem);
+// 576px window width and more
+    @include sm {
+      border: solid blue 10px;
+      background-color: rgba(255, 0, 0, 0.9);
+      position: absolute;
+      width: 700px;
+      height: 700px;
+      top: 0;
+      z-index: 10;
+      width: 100%;
+      height: 700px;
+      filter: blur(1.5rem);
+    }
+// 992px window width and more
+    @include lg {
+      display: none;
+    }
+
+}
+
+
 $bodyFont: 'Exo 2', sans-serif;
 $headerFont: 'Raleway', sans-serif;
 
@@ -170,7 +242,7 @@ $thumbnailHeight: 7rem;
   color: $dark !important;
 }
 
-ol, ul {
+/*ol, ul {
   padding-left: 30px;
 }
 
@@ -214,4 +286,4 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
-}
+}*/
