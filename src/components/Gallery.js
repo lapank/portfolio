@@ -83,6 +83,7 @@ function Gallery(props){
   );
   return (
     <div className="container pt-5 pb-5">
+    <h2 className="gradientText headerText ">Fine Art</h2>
       {listItems}
     </div>
   );
