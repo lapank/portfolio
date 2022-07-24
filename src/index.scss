@@ -71,6 +71,37 @@ $screen-xl-min: 1200px;
 
 }
 
+.game{
+  width: 600px; 
+  height: 600px;
+  // 576px window width and more
+    @include sm {
+      width: 600px; 
+      height: 600px;
+    }
+    @include sm {
+      width: 600px; 
+      height: 600px;
+    }
+    @include md {
+      width: 700px; 
+      height: 729px;
+    }
+  // 992px window width and more
+    @include lg {
+      width: 900px; 
+      height: 700px;
+    }
+}
+
+.altText{
+  height: 850px;
+}
+
+.relative{
+  position: relative;
+}
+
 
 $bodyFont: 'Exo 2', sans-serif;
 $headerFont: 'Raleway', sans-serif;
@@ -81,7 +112,7 @@ $lineHeight: 1.3rem;
 $accentHeight: 1.2rem;
 
 $dark: #29251e;
-$midDark: #3c2b0d;
+$midDark: #3d3527;
 $midLight: #ede6da;
 $light: #fcfaf5;
 

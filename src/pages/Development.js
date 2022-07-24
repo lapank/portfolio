@@ -13,12 +13,20 @@ function Development(){
 			<TwoColBoxAnimation item={devData}/>
 			<VideoGallery item={developmentVideoData}/>
 			<Slider item={sliderData}/>
-			<div className="container embed-responsive embed-responsive-1by1">
+			<div className="container pt-5">
+			<h2 className="headerTextDark">Alt Text Validator</h2>
+			<p className="bodyTextDark">Built to help content creators write best practive alt text.</p>
+			</div>
+			<div className="container embed-responsive embed-responsive-4by3 altText">
 			<iframe title="Alt Text Checker" className="embed-responsive-item" src="https://kaylinlapan.com/alt-text/index.html" />
 			</div>
-			<div className="container embed-responsive embed-responsive-1by1">
-			<div className="fullScreenWarning"><p>Please view Full Screen</p></div>
-			<iframe title="Tower Defense Game" style={{width: 929, height: 729}} src="https://kaylinlapan.com/tower-defense/index.html" />
+			<div className="container pt-5">
+			<h2 className="headerTextDark">Tower Defense Game</h2>
+			<p className="bodyTextDark">Built with the HTML5 canvas API and JavaScript.</p>
+			</div>
+			<div className="container relative embed-responsive embed-responsive-4by3">
+			<div className="fullScreenWarning"></div>
+			<iframe title="Tower Defense Game" className="game" src="https://kaylinlapan.com/tower-defense/index.html" />
 			</div>
 			
 		</div>
