@@ -9,7 +9,7 @@ import VideoGallery from '../components/VideoGallery.js';
 
 function Development(){
 	return(
-		<div className='development backgroundMedium'>
+		<div className='development backgroundMedium pb-5'>
 			<TwoColBoxAnimation item={devData}/>
 			<VideoGallery item={developmentVideoData}/>
 			<Slider item={sliderData}/>
@@ -25,7 +25,7 @@ function Development(){
 			<p className="bodyTextDark">Built with the HTML5 canvas API and JavaScript.</p>
 			</div>
 			<div className="container relative embed-responsive embed-responsive-4by3">
-			<div className="fullScreenWarning"></div>
+			<div className="fullScreenWarning"><p className="smallTitleDark">View on a wider browser window to play.</p></div>
 			<iframe title="Tower Defense Game" className="game" src="https://kaylinlapan.com/tower-defense/index.html" />
 			</div>
 			

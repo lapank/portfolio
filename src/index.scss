@@ -41,29 +41,27 @@ $screen-xl-min: 1200px;
 }
 
 .fullScreenWarning {
-    border: solid red 10px;
-    background-color: rgba(255, 0, 0, 0.9);
+    background: 
+      radial-gradient(circle, rgba(130,230,218, 1), rgba(130,230,218, 0)80%),
+      linear-gradient(160deg, rgba(69,231,216,1), rgba(69,231,216,0) 60%),
+      linear-gradient(45deg, rgba(11,121,173,1), rgba(11,121,173,0) 50%),
+      linear-gradient(130deg, rgba(11,154,148,1), rgba(11,154,148,0) 40%),
+      linear-gradient(215deg, rgba(10,153,100,1), rgba(10,153,100,20%) 50%),
+      linear-gradient(330deg, rgba(6,70,95,1), rgba(6,70,95,0) 50%);
     position: absolute;
-    width: 700px;
-    height: 700px;
     top: 0;
     z-index: 10;
     width: 100%;
-    height: 700px;
-    filter: blur(1.5rem);
-// 576px window width and more
-    @include sm {
-      border: solid blue 10px;
-      background-color: rgba(255, 0, 0, 0.9);
-      position: absolute;
-      width: 700px;
-      height: 700px;
-      top: 0;
-      z-index: 10;
-      width: 100%;
-      height: 700px;
-      filter: blur(1.5rem);
-    }
+    height: 550px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  @include sm{
+    height: 410px;
+  }
+  @include md{
+    height: 550px;;
+  }
 // 992px window width and more
     @include lg {
       display: none;
@@ -155,6 +153,8 @@ $thumbnailHeight: 7rem;
   transform: translate(-50%, -50%);
   position: relative;
 }
+
+
 
 .btn-primary{
   background-color: $lightTeal;
