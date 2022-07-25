@@ -23,7 +23,6 @@ function GalleryContent(props){
       title: useState(props.title),
       ...(props.state2 || {})
     };
-
   return (
           <div className="row borderMedium backgroundLightest" onClick={() => {setText(props.text); setTitle(props.title); setVideo(props.video);}}>
             <div style={{backgroundImage: `url("${props.image}")`}} id="thumbnail1" className="col-6 thumbnailBox">
@@ -55,6 +54,11 @@ function VideoGalleryTest(props){
       state2={{ title: [title, setTitle] }}
       state4={{ video: [video, setVideo] }}
       />);
+
+  //console.log(listItems);
+  //console.log(listItems[0].props.video);
+  console.log(video);
+
   return (
     <div>
       <div className="row backgroundDark">
