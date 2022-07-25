@@ -7,20 +7,20 @@ function Nav(){
 	if(click % 2 !== 1){
 		return(
 			<div className="w-100">
-			<nav class="navbar navbar-expand-lg navbar-light">
-			  <a class="navbar-brand headerText" href="/">Kaylin Lapan | Portfolio</a>
+			<nav className="navbar navbar-expand-lg navbar-light">
+			  <a className="navbar-brand headerText" href="/">Kaylin Lapan | Portfolio</a>
 			  <button onClick={() => {setClick(click+1)}} className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
+			    <span className="navbar-toggler-icon"></span>
 			  </button>
-			  <div class="collapse navbar-collapse bodyText" id="navbarNavDropdown">
-			    <ul class="navbar-nav">
-			      <li class="nav-item">
+			  <div className="collapse navbar-collapse bodyText" id="navbarNavDropdown">
+			    <ul className="navbar-nav">
+			      <li className="nav-item">
 			        <a className="nav-link" href="/web-development">Web Development</a>
 			      </li>
-			      <li class="nav-item">
+			      <li className="nav-item">
 			        <a className="nav-link" href="/art-digital-media">Art & Digital Media</a>
 			      </li>
-			      <li class="nav-item">
+			      <li className="nav-item">
 			      	<a className="nav-link" href="/product-owner-project-management">Product Owner & Project Managment</a>
 			      </li>
 			    </ul>

@@ -9,7 +9,6 @@ function GalleryContent(props){
   const [text, setText] = useState(props.text1);
   const [title, setTitle] = useState(props.title1);
   const [video, setVideo] = useState(props.video1);
-  console.log(video);
   return (
     <div>
     <h2 className="headerTextDark p-5">{props.header}</h2>
@@ -96,6 +95,7 @@ function Gallery(props){
       text5 = {item.text5} 
       video5 = {item.video5} />
   );
+  console.log(item.video1);
   return (
     <div className="w-100 pt-5 pb-5 backgroundMedium">
       {listItems}
