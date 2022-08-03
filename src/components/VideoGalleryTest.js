@@ -46,11 +46,11 @@ function VideoGalleryTest(props){
   console.log(video);
   const listItems = item.map((item) =>
     // Correct! Key should be specified inside the array.
-    <GalleryContent key={item.title1}
-      title = {item.title1}
-      image = {item.image1}
-      text = {item.text1}
-      video = {item.video1}
+    <GalleryContent key={item.title}
+      title = {item.title}
+      image = {item.image}
+      text = {item.text}
+      video = {item.video}
       state1={{ text: [text, setText] }}
       state2={{ title: [title, setTitle] }}
       state4={{ video: [video, setVideo] }}

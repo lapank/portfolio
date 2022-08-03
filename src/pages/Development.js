@@ -4,8 +4,8 @@ import Slider from '../components/Slider';
 import {sliderData} from '../components/SliderData';
 import {devData} from '../components/TwoColBoxData';
 import TwoColBoxAnimation from '../components/TwoColBoxAnimation';
-import {developmentVideoData} from '../components/VideoGalleryData';
-import VideoGallery from '../components/VideoGallery.js';
+import {developmentVideoData} from '../components/VideoGalleryDataTest';
+import VideoGallery from '../components/VideoGalleryTest.js';
 
 function Development(){
 	return(

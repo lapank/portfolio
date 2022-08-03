@@ -12,11 +12,8 @@ import VideoGalleryTest from '../components/VideoGalleryTest.js';
 function Management(){
 	return(
 		<div className='management'>
-				<h1>Management</h1>
-				<VideoGallery item={managmentVideoData}/>
 				<VideoGalleryTest item={managmentVideoDataTest}/>
 				<FourCards item={fourCardsManageData} />
-				<TwoColBox item={manageData}/>
 				<Charts />
 		</div>
 	);
