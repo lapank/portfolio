@@ -36,10 +36,11 @@ function GalleryContent(props){
 
 function VideoGalleryTest(props){
   
-  const [text, setText] = useState(props.text1);
-  const [title, setTitle] = useState(props.title1);
-  const [video, setVideo] = useState(props.video1);
+  let [text, setText] = useState(props.text1);
+  let [title, setTitle] = useState(props.title1);
+  let [video, setVideo] = useState(props.video1);
   const item = props.item;
+
 
 
   console.log(video);
@@ -54,6 +55,12 @@ function VideoGalleryTest(props){
       state2={{ title: [title, setTitle] }}
       state4={{ video: [video, setVideo] }}
       />);
+
+  if(video == undefined){
+    video = (listItems[0].props.video);
+    title = (listItems[0].props.title);
+    text = (listItems[0].props.text);
+  }
 
   //console.log(listItems);
   //console.log(listItems[0].props.video);
