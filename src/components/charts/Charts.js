@@ -17,8 +17,12 @@ function Charts() {
     <p className="bodyTextLight">Sanky Tree, Line Chart, Gantt Chart, Pie Chart. Discovery Period. Take stock of intranet's current offerings, goals, and pain points before charting a path forward. How do People Currently use the Intranet?</p>
     	<div className='row'>
     		<div className="col-6">
-        <p className="bodyTextLight">This date was gathered from the Feedback Survey and Suggestion box on Skynet to create a total of 122 responses from 2017 to present.</p>
+        <div className="lightCard">
+        <p className="bodyTextDark">This date was gathered from the Feedback Survey and Suggestion box on Skynet to create a total of 122 responses from 2017 to present.</p>
+        <div className="centerAbsolute">
           <PizzaChart google={google}/>
+        </div>
+        </div>
   	    </div>
   	    <div className="col-6">
           <LineChart google={google} />

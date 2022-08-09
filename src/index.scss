@@ -1,3 +1,31 @@
+$bodyFont: 'Exo 2', sans-serif;
+$headerFont: 'Raleway', sans-serif;
+
+$largeFont: 4rem;
+$mediumFont: 1.3rem;
+$lineHeight: 1.3rem;
+$accentHeight: 1.2rem;
+
+$dark: #29251e;
+$midDark: #3d3527;
+$midLight: #ede6da;
+$light: #fcfaf5;
+
+$lightTeal:#49e5d8;
+$darkTeal:#0a6793;
+
+
+$medium: #5e4823;
+$lightest:#fcfaf5;
+$blue:#025dc6;
+$lightTeal:#49e5d8;
+
+$thumbnailHeight: 7rem;
+
+body{
+  background-color:$dark !important;  
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;600&family=Raleway:wght@800&display=swap');
 
 // Small tablets and large smartphones (landscape view)
@@ -101,31 +129,6 @@ $screen-xl-min: 1200px;
 }
 
 
-$bodyFont: 'Exo 2', sans-serif;
-$headerFont: 'Raleway', sans-serif;
-
-$largeFont: 4rem;
-$mediumFont: 1.3rem;
-$lineHeight: 1.3rem;
-$accentHeight: 1.2rem;
-
-$dark: #29251e;
-$midDark: #3d3527;
-$midLight: #ede6da;
-$light: #fcfaf5;
-
-$lightTeal:#49e5d8;
-$darkTeal:#0a6793;
-
-
-$medium: #5e4823;
-$lightest:#fcfaf5;
-$blue:#025dc6;
-$lightTeal:#49e5d8;
-
-$thumbnailHeight: 7rem;
-
-
 .thumbnailBox{
   height: $thumbnailHeight;
 }
@@ -148,13 +151,18 @@ $thumbnailHeight: 7rem;
 }
 
 .centerAbsolute{
-  top: 30%;
-  left: 87%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  position: relative;
 }
 
-
+.lightCard{
+  background-color:$light;
+  height: 23rem;
+  position: relative;
+}
 
 .btn-primary{
   background-color: $lightTeal;

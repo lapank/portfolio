@@ -21,7 +21,18 @@ function PizzaChart ({google}) {
       // Set chart options
       var options = {'title':'What do people want from the intranet?',
                     'width':400,
-                    'height':300};
+                    'height':300,
+                    'backgroundColor':'#fcfaf5',
+                    'backgroundColor.stroke':'#fcfaf5',
+                    'pieSliceTextStyle':{color: '#29251e', fontName: '"Exo 2", sans-serif;', fontSize: '2rem'},
+                    slices: {
+                    0: { color: '#82e6da' },
+                    1: { color: '#45e7d8' },
+                    2: { color: '#0b79ad' },
+                    3: { color: '#0b9a94' },
+                    4: { color: '#0a9964' }
+                  }
+                };
 
       // Instantiate and draw our chart, passing in some options.
       const newChart = new google.visualization.PieChart(document.getElementById('pizzaChart'));
