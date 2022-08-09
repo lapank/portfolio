@@ -20,29 +20,28 @@ function SankeyChartOne ({google}) {
        [ 'Home Page', 'Drop-off', 4800 ],
         ]);
 
-    let sankyColors = ['#eee', '#111', '#333', '#555',
-                  '#777', '#999', '#bbb', '#ddd'];
+     let colors = ['#82e6da', '#06465f', '#0b79ad', '#45e7d8',
+                  '#0b9a94', '#0a9964', '#82e6da'];
 
-      // Set chart options
-     let options = {
-        width: 300,
-          height: 300,
-          sankey: {
-            node: {
-              nodePadding: 40,
-              colors: sankyColors,
-              label: { 
-                fontName: 'Source Sans Pro',
+    let options = {
+      height: 300,
+      sankey: {
+        node: {
+
+          nodePadding: 20,
+          colors: colors,
+          label: { 
+                fontName: "'Exo 2', sans-serif",
                 fontSize: 14,
-                color: '#000',
+                color: '#29251e',
                 },
-            },
-            link: {
-              colorMode: 'gradient',
-              colors: sankyColors
-            },
-          }
-        };
+        },
+        link: {
+          colorMode: 'gradient',
+          colors: colors
+        }
+      }
+    };
 
       // Instantiate and draw our chart, passing in some options.
       const newChart = new google.visualization.Sankey(document.getElementById('sankeyChartOne'));

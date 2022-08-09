@@ -19,32 +19,28 @@ function SankeyChartTwo ({google}) {
        [ 'Home Page', 'Drop-off', 3500 ],
         ]);
 
-    let sankyColors = ['#fcfaf5', '#82e6da', '#0b79ad', '#45e7d8',
-                  '#0b9a94', '#0a9964','#82e6da'];
+    let colors = ['#82e6da', '#06465f', '#0b79ad', '#45e7d8',
+                  '#0b9a94', '#0a9964', '#82e6da'];
 
-      // Set chart options
-     let options = {
-        width: 300,
-          height: 300,
-          sankey: {
+    let options = {
+      height: 300,
+      sankey: {
+        node: {
 
-            node: {
-              nodePadding: 40,
-              colors: sankyColors,
-              label: { 
+          nodePadding: 20,
+          colors: colors,
+          label: { 
                 fontName: "'Exo 2', sans-serif",
                 fontSize: 14,
                 color: '#29251e',
                 },
-
-              colors: '#0b79ad',    
-            },
-            link: {
-              colorMode: 'gradient',
-              colors: sankyColors
-            }
-          }
-        };
+        },
+        link: {
+          colorMode: 'gradient',
+          colors: colors
+        }
+      }
+    };
 
       // Instantiate and draw our chart, passing in some options.
       const newChart = new google.visualization.Sankey(document.getElementById('sankeyChartTwo'));

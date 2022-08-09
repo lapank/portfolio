@@ -51,9 +51,14 @@ function GanttChart ({google}) {
 
       // Set chart options
       let options = {
+
           height: 400,
         gantt: {
-          trackHeight: 30
+          trackHeight: 30,
+          innerGridTrack: {fill: '#fcfaf5;'},
+          innerGridDarkTrack: {fill: '#ede6da'},
+          innerGridHorizLine:{stroke: '#fcfaf5'},
+          percentStyle:{fill:'#82e6da'},
         }
       };
 

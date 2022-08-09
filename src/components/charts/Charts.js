@@ -36,13 +36,15 @@ function Charts() {
         <div className='row mt-5 mb-5'>
           <div className="col-4">
           <div className="lightCard">
+          <h3 className="smallTitleDark">2017</h3>
           <div className="centerAbsolute">
-            <SankeyChartOne google={google} />
+            <SankeyChartThree google={google} />
            </div> 
           </div>
           </div>
           <div className="col-4">
           <div className="lightCard">
+          <h3 className="smallTitleDark">2018</h3>
           <div className="centerAbsolute">
             <SankeyChartTwo google={google} />
             </div>
@@ -50,8 +52,9 @@ function Charts() {
           </div>
           <div className="col-4">
           <div className="lightCard">
+          <h3 className="smallTitleDark">2019</h3>
           <div className="centerAbsolute">
-            <SankeyChartThree google={google} />
+            <SankeyChartOne google={google} />
             </div>
             </div>
           </div>
