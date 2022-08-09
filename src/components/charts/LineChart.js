@@ -19,7 +19,9 @@ function LineChart ({google}) {
       var options = {
           title: 'Site Views by Year',
           curveType: 'function',
-          legend: { position: 'bottom' }
+          legend: { position: 'bottom' },
+          colors:['#06465f'],
+          'backgroundColor':'#fcfaf5',
         };
 
       // Instantiate and draw our chart, passing in some options.

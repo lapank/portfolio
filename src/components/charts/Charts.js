@@ -25,19 +25,35 @@ function Charts() {
         </div>
   	    </div>
   	    <div className="col-6">
+        <div className="lightCard">
+        <div className="centerAbsolute">
           <LineChart google={google} />
+        </div>
+        </div>
   			</div>
       </div>
         
         <div className='row mt-5 mb-5'>
           <div className="col-4">
+          <div className="lightCard">
+          <div className="centerAbsolute">
             <SankeyChartOne google={google} />
+           </div> 
+          </div>
           </div>
           <div className="col-4">
+          <div className="lightCard">
+          <div className="centerAbsolute">
             <SankeyChartTwo google={google} />
+            </div>
+            </div>
           </div>
           <div className="col-4">
+          <div className="lightCard">
+          <div className="centerAbsolute">
             <SankeyChartThree google={google} />
+            </div>
+            </div>
           </div>
         </div>
         <div className='row'>

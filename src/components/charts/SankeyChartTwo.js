@@ -19,27 +19,30 @@ function SankeyChartTwo ({google}) {
        [ 'Home Page', 'Drop-off', 3500 ],
         ]);
 
-    let sankyColors = ['#eee', '#111', '#333', '#555',
-                  '#777', '#999', '#bbb', '#ddd'];
+    let sankyColors = ['#fcfaf5', '#82e6da', '#0b79ad', '#45e7d8',
+                  '#0b9a94', '#0a9964','#82e6da'];
 
       // Set chart options
      let options = {
         width: 300,
           height: 300,
           sankey: {
+
             node: {
               nodePadding: 40,
               colors: sankyColors,
               label: { 
-                fontName: 'Source Sans Pro',
+                fontName: "'Exo 2', sans-serif",
                 fontSize: 14,
-                color: '#000',
+                color: '#29251e',
                 },
+
+              colors: '#0b79ad',    
             },
             link: {
               colorMode: 'gradient',
               colors: sankyColors
-            },
+            }
           }
         };
 
