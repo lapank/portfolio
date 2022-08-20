@@ -1,12 +1,14 @@
 import arcade from './images/saam-arcade-stars.jpg';
 import htf from './images/htf-homepage.jpg';
 import nasmSite from './images/air-space-site.png';
+import skynet from './images/skynet-pie-chart.png';
+import seliger from './images/seliger.png';
 
 export const leftDoubleCardContent = [
 	{
 		eyebrow:'Event',
 		title: 'SAAM Arcade',
-		text: 'Created and managed a two day video game event featuring over 100 indie and classic arcades, musical performances and programming workshops, bringing over 20,000 guests to the museum.',
+		text: 'Founded a two day arcade featuring games, musical performances and programming workshops that was attended by over 20,000 guests.',
 		link: '/product-owner-project-management',
 		button:'Learn about the Arcade',
 		image: arcade,
@@ -15,21 +17,19 @@ export const leftDoubleCardContent = [
 	{
 		eyebrow:'Website',
 		title: 'How Things Fly',
-		text: 'Managed conversion of 12 Flash interactives and 2 Unity interactives into ReactJS and migration of Drupal 5 site to Drupal 8.',
+		text: 'Managed the conversion of 12 Flash interactives and 2 Unity interactives to ReactJS in addition to a Drupal 5 to Drupal 8 site migration.',
 		link: '/product-owner-project-management',
 		button:'Learn about the website',
 		image: htf,
 		altText: 'Insert alt text.',
-	},
-	
-		
+	},	
 ]
 
 export const leftFullWidthCardContent = [
 	{
 		eyebrow:'Website',
 		title: 'Air and Space Website',
-		text: 'Manage development work, QA, and content design and development for Drupal 8 website.  In addition to its conversion to Drupal 9.',
+		text: 'Currently managing the Smithsonian National Air and Space Museum’s websites, coordinating development work, performing quality assurance testing, designing new features and functionality, and shepherding the sites through their life cycles and upgrades.',
 		link: '/product-owner-project-management',
 		button:'Learn about the website',
 		image: nasmSite,
@@ -41,19 +41,19 @@ export const rightCardClusterContent = [
 	{
 		eyebrow:'Website',
 		title: 'Skynet Intranet',
-		text: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
+		text: 'Manage the Smithsonian National Air and Space Museum’s intranet, using user testing, and analytics to develop a roadmap to a site redesign.',
 		link: '/product-owner-project-management',
 		button:'Learn about the website',
-		image: 'https://picsum.photos/225/125',
+		image: skynet,
 		altText: 'Insert alt text.',
 	},
 	{
 		eyebrow:'Event',
 		title: 'Photo DC Lectures',
-		text: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
+		text: 'Partnered with Photo DC to create an annual lecture series at the Smithsonian American Art Museum featuring well known photographers discussing their work.',
 		link: '/product-owner-project-management',
 		button:'Learn about the lecture',
-		image: 'https://picsum.photos/225/125',
+		image: seliger,
 		altText: 'Insert alt text.',
 	},
 ]

@@ -11,7 +11,7 @@ function Card(props){
 		
 	      <div className="p-3">
 	        <div className="border backgroundDark roundedEdges">
-      <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 370, height:150, backgroundPosition: 'center'}} className="card-img-top roundedEdgesTop"></div>
+      <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 1100, height:150, backgroundPosition: 'center'}} className="card-img-top roundedEdgesTop"></div>
         <div className="card-body">
           <h5 className="card-title smallTitleLight">{props.title}</h5>
           <p className="card-text bodyTextLight">{props.text}</p>
@@ -28,7 +28,7 @@ function DoubleCard(props){
 	return(
 	      <div className="col-6">
 	        <div className="border backgroundDark roundedEdges">
-      <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 400, height:150, backgroundPosition: 'center'}} className="card-img-top roundedEdgesTop"></div>
+      <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 600, height:150, backgroundPosition: 'center'}} className="card-img-top roundedEdgesTop"></div>
         <div className="card-body">
           <h5 className="card-title smallTitleLight">{props.title}</h5>
           <p className="card-text bodyTextLight">{props.text}</p>
