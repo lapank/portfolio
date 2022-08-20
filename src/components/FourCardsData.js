@@ -1,8 +1,9 @@
 import tower from './images/tower-defense.png';
 import wireframe from './images/wireframe.png';
-import cssAnimation from './images/illustration-momma.jpg';
+import flutter from './images/flutter-theme.png';
 import htf from './images/htf-homepage.jpg';
 import nasmSite from './images/air-space-site.png';
+import altText from './images/alt-text-checker.png';
 
 export const fourCardsIntroData = [
 	{
@@ -14,26 +15,26 @@ export const fourCardsIntroData = [
 		button: 'Play game',
 	},
 	{
-		image: 'https://picsum.photos/225/125',
+		image: altText,
 		altText: 'Insert alt text.',
 		title: 'Alt Text Checker',
-		text: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
+		text: 'Web application that checks best practices when writing alt text.',
 		link: '/web-development',
 		button: 'Use alt text checker',
 	},
 	{
 		image: wireframe,
 		altText: 'Insert alt text.',
-		title: 'Wireframes and Mock-ups, Automated testing, API',
-		text: 'Web and software design and development materials made with Adobe XD, Photoshop, Figma, and Python.',
+		title: 'Code Samples and Web Designs',
+		text: 'Code I developed for an API and automated testing, as well as wireframes and mock-ups.',
 		link: '/web-development',
 		button: 'View wireframes',
 	},
 	{
-		image: cssAnimation,
+		image: flutter,
 		altText: 'Insert alt text.',
-		title: 'Css Animations/Flutter Project',
-		text: 'Built mobile application with Flutter SDK, and Css animations with Css3.',
+		title: 'Flutter Applications and Computer Networking',
+		text: 'View videos showing my Flutter SDK applications and teaching computer networking concepts.',
 		link: '/web-development',
 		button: 'View css animations',
 	},

@@ -10,7 +10,7 @@ import museum from './images/final_hazy.jpg';
 export const imageGridIntroData = [
 	{
 		title: 'Art and Digital Media',
-		text: 'Using Adobe Creative Suite as well as traditional mediums like pen and ink, oil painting, graphite, and watercolor, Kaylin creates digital and fine art.',
+		text: 'Using Adobe Creative Suite as well as traditional mediums like pen and ink, oil painting, graphite, and watercolor, I create digital and fine art.',
 		link: '/art-digital-media',
 		button: 'View art and media',
 		image1: abattoir,
