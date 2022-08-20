@@ -24,9 +24,9 @@ export const devData = [
 		image: rug,
 		image2: momma,
 		altText: 'Insert alt text.',
-		eyebrow: 'Skills',
+		eyebrow: 'Skills: React, Drupal, Flutter, Css Animations, HTML5 Canvas, JavaScript6, WCAG, Python, Git, UX, UI, Web Design',
 		h3: 'Web Development',
-		text: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
+		text: 'I graduated from Oregon State University in 2022 with a degree in Computer Science.  Here is a selection of projects I worked on during my time at Oregon State.',
 		link: '#'
 	},
 
