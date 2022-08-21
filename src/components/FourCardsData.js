@@ -11,7 +11,7 @@ export const fourCardsIntroData = [
 		altText: 'Insert alt text.',
 		title: 'Tower Defense Game',
 		text: 'Web browser game built with the HTML5 Canvas API.',
-		link: '/web-development',
+		link: '/web-development#game',
 		button: 'Play game',
 	},
 	{
@@ -19,7 +19,7 @@ export const fourCardsIntroData = [
 		altText: 'Insert alt text.',
 		title: 'Alt Text Checker',
 		text: 'Web application that checks best practices when writing alt text.',
-		link: '/web-development',
+		link: '/web-development#alt',
 		button: 'Use alt text checker',
 	},
 	{
@@ -27,7 +27,7 @@ export const fourCardsIntroData = [
 		altText: 'Insert alt text.',
 		title: 'Code Samples and Web Designs',
 		text: 'Code I developed for an API and automated testing, as well as wireframes and mock-ups.',
-		link: '/web-development',
+		link: '/web-development#samples',
 		button: 'View wireframes',
 	},
 	{
@@ -35,7 +35,7 @@ export const fourCardsIntroData = [
 		altText: 'Insert alt text.',
 		title: 'Flutter Applications and Computer Networking',
 		text: 'View videos showing my Flutter SDK applications and teaching computer networking concepts.',
-		link: '/web-development',
+		link: '/web-development#video',
 		button: 'View css animations',
 	},
 

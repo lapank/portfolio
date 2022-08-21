@@ -8,19 +8,25 @@ import {developmentVideoData} from '../components/VideoGalleryDataTest';
 import VideoGallery from '../components/VideoGalleryTest.js';
 
 function Development(){
+	let hash = window.location.hash;
+	function navigate(){
+	 window.location.replace(hash);
+	}
 	return(
-		<div className='development backgroundMedium pb-5'>
+		<div className='development backgroundMedium pb-5' onLoad={navigate}>
 			<TwoColBoxAnimation item={devData}/>
+			<div id="video"></div>
 			<VideoGallery item={developmentVideoData}/>
+			<div id="samples"></div>
 			<Slider item={sliderData}/>
 			<div className="container pt-5">
-			<h2 className="headerTextDark">Alt Text Validator</h2>
+			<h2 id="alt" className="headerTextDark">Alt Text Validator</h2>
 			<p className="bodyTextDark">Built to help content creators write best practive alt text.</p>
 			</div>
 			<div className="container embed-responsive embed-responsive-4by3 altText">
 			<iframe title="Alt Text Checker" className="embed-responsive-item" src="https://kaylinlapan.com/alt-text/index.html" />
 			</div>
-			<div className="container pt-5">
+			<div id="game" className="container pt-5">
 			<h2 className="headerTextDark">Tower Defense Game</h2>
 			<p className="bodyTextDark">Built with the HTML5 canvas API and JavaScript.</p>
 			</div>
