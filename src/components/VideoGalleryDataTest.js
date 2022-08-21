@@ -7,6 +7,7 @@ import arcade from './images/arcade.png';
 import seliger from './images/seliger.png';
 
 export const developmentVideoData = [
+
 	{
 		title: 'Network Concepts: Multiplexing and Demultiplexing',
 		image: multiplexing,

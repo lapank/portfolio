@@ -25,7 +25,6 @@ function SliderContent(props){
               <div onClick={() => {setThumbnail(props.image3); setText(props.text3); setTitle(props.title3)}} style={{backgroundImage: `url("${props.image3}")`}} id="thumbnail3" className="col-2 border thumbnailBox"></div>
               <div onClick={() => {setThumbnail(props.image4); setText(props.text4); setTitle(props.title4)}} style={{backgroundImage: `url("${props.image4}")`}} id="thumbnail4" className="col-2 border thumbnailBox"></div>
               <div onClick={() => {setThumbnail(props.image5); setText(props.text5); setTitle(props.title5)}} style={{backgroundImage: `url("${props.image5}")`}} id="thumbnail5" className="col-2 border thumbnailBox"></div>
-              <div onClick={() => {setThumbnail(props.image6); setText(props.text6); setTitle(props.title6)}} style={{backgroundImage: `url("${props.image6}")`}} id="thumbnail6" className="col-2 border thumbnailBox"></div>
           </div>
           </div>
         </div>
@@ -55,9 +54,7 @@ function Slider(props){
       title5 = {item.title5}
       image5 = {item.image5}
       text5 = {item.text5} 
-      title6 = {item.title6}
-      image6 = {item.image6}
-      text6 = {item.text6}  />
+ />
   );
   return (
     <div className="w-100 p-5 backgroundDark">

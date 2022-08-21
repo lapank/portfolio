@@ -60,7 +60,6 @@ function VideoGalleryTest(props){
 
   return (
     <div>
-    <h2>hi</h2>
       <div className="row backgroundLightest">
         <div className="col-md-8">
           <div className="row">
