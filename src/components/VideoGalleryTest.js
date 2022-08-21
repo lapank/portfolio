@@ -40,10 +40,6 @@ function VideoGalleryTest(props){
   let [title, setTitle] = useState(props.title1);
   let [video, setVideo] = useState(props.video1);
   const item = props.item;
-
-
-
-  console.log(video);
   const listItems = item.map((item) =>
     // Correct! Key should be specified inside the array.
     <GalleryContent key={item.title}
@@ -62,12 +58,9 @@ function VideoGalleryTest(props){
     text = (listItems[0].props.text);
   }
 
-  //console.log(listItems);
-  //console.log(listItems[0].props.video);
-  console.log(video);
-
   return (
     <div>
+    <h2>hi</h2>
       <div className="row backgroundLightest">
         <div className="col-md-8">
           <div className="row">

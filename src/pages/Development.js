@@ -10,8 +10,10 @@ import VideoGallery from '../components/VideoGalleryTest.js';
 function Development(){
 	let hash = window.location.hash;
 	function navigate(){
-	 window.location.replace(hash);
-	}
+		if(hash){
+	 		window.location.replace(hash);
+	 	}
+	 }
 	return(
 		<div className='development backgroundMedium pb-5' onLoad={navigate}>
 			<TwoColBoxAnimation item={devData}/>
