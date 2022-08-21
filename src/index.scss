@@ -131,6 +131,8 @@ $screen-xl-min: 1200px;
 
 .thumbnailBox{
   height: $thumbnailHeight;
+  background-size: 300px; 
+  background-position: center;
 }
 
 .playButton{
@@ -156,6 +158,21 @@ $screen-xl-min: 1200px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.centerPlayIcon{
+  margin: 0;
+  position: absolute;
+  top: 48%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+
+.blueBorder{
+  background-color: $lightTeal;
+  height: 47px;
+  width: 47px;
+  border-radius: 24px;
 }
 
 .lightCard{

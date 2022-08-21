@@ -10,31 +10,31 @@ export const developmentVideoData = [
 	{
 		title: 'Network Concepts: Multiplexing and Demultiplexing',
 		image: multiplexing,
-		text: 'An outline of how computer applications communicate with one another through data segments wrapped into packets and sent from a source computer to a recipient computer.',
+		text: 'An outline of communication between computer applications through data segments wrapped into packets.',
 		video: 'https://www.youtube.com/embed/hInRlX1NhWI'
 	},
 	{
 		title: 'Network Concepts: CSMA/CD Exponencial Backoff',
 		image: csma,
-		text: 'Public Engagment, Accessibility',
+		text: 'How early ethernet networks detected and corrected data collisions, including how exponential backoff is calculated.',
 		video: 'https://www.youtube.com/embed/j9TAGdwHwDI'
 	},
 	{
 		title: 'Flutter App: List and Styling',
 		image: flutterList,
-		text: 'Drupal, Print & Web Design, Css3, Public Engagment, Accessibility',
+		text: 'How styles in a simple Flutter application can be updated.',
 		video: 'https://www.youtube.com/embed/LJBpNmAIDGI'
 	},
 	{
 		title: 'Flutter App: Database, State, Day/Night Theme',
 		image: flutterTheme,
-		text: 'Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
+		text: 'Demonstration of a Flutter application that stores list enteries in a database, and remembers style settings after being closed and reopened.',
 		video: 'https://www.youtube.com/embed/ZWV2BlNPxZg',
 	},
 	{
 		title: 'Flutter App: Saving Data',
 		image: flutterData,
-		text: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6',
+		text: 'Demonstration of a Flutter application that interacts with a phone’s camera to store pictures and text to an external database.',
 		video: 'https://www.youtube.com/embed/q3Ry0N_nF4M',
 	},
 ]

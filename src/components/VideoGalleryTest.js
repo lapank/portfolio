@@ -26,7 +26,7 @@ function GalleryContent(props){
   return (
           <div className="row borderMedium backgroundLightest" onClick={() => {setText(props.text); setTitle(props.title); setVideo(props.video);}}>
             <div style={{backgroundImage: `url("${props.image}")`}} id="thumbnail1" className="col-6 thumbnailBox">
-            <div className="centerAbsolute"><div className="gradientBackground playBackground"></div><AiIcons.AiFillPlayCircle className="playButton"/>
+            <div className="centerPlayIcon"><div className="gradientBackground playBackground"></div><div className="blueBorder"><AiIcons.AiFillPlayCircle className="playButton"/></div>
             </div>
             </div>
             <div className="col-6 smallTitleDark">{props.title}</div>
@@ -68,7 +68,7 @@ function VideoGalleryTest(props){
 
   return (
     <div>
-      <div className="row backgroundDark">
+      <div className="row backgroundLightest">
         <div className="col-md-8">
           <div className="row">
             <div className="embed-responsive embed-responsive-16by9">
@@ -81,7 +81,7 @@ function VideoGalleryTest(props){
             <p className="bodyTextDark">{text}</p>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 backgroundMedium">
       {listItems}
     </div>
     </div>
