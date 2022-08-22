@@ -11,7 +11,7 @@ $midDark: #3d3527;
 $midLight: #ede6da;
 $light: #fcfaf5;
 
-$lightTeal:#49e5d8;
+
 $darkTeal:#0a6793;
 
 
@@ -128,6 +128,15 @@ $screen-xl-min: 1200px;
   position: relative;
 }
 
+.link{
+  color: $darkTeal;
+  text-decoration: underline;
+  font-family:$bodyFont;
+  font-weight:600;
+}
+.link:hover{
+  color:teal;
+}
 
 .thumbnailBox{
   height: $thumbnailHeight;
