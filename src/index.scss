@@ -138,6 +138,18 @@ $screen-xl-min: 1200px;
   color:teal;
 }
 
+.linkLight{
+  color: $lightTeal;
+  font-family:$bodyFont;
+  font-weight:600;
+  text-decoration: underline;
+}
+
+.linkLight:hover{
+  color:$darkTeal;
+  text-decoration: underline;
+}
+
 .thumbnailBox{
   height: $thumbnailHeight;
   background-size: 300px; 

@@ -5,6 +5,7 @@ import graph from './images/mode-of-turnout.gif';
 import ignite from './images/ignite-tomorrow-gif-500px.gif';
 import rug from './images/rug.png';
 import momma from './images/momma.png';
+import josephine from './images/josephine.png';
 
 
 export const introData = [
@@ -34,11 +35,11 @@ export const devData = [
 
 export const artData = [
 	{
-		image: 'https://picsum.photos/575/375',
+		image: josephine,
 		altText: 'Insert alt text.',
-		eyebrow: 'Skills',
+		eyebrow: 'Skills: PhotoShop, InDesign, Illustrator, Premiere Pro, After Effects',
 		h3: 'Fine Art and Digital Media',
-		text: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
+		text: 'I studied studio art, focusing on drawing, painting and digital media.',
 		link: '#'
 	},
 

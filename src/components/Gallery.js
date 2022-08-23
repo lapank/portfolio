@@ -1,4 +1,4 @@
-import './Slider.scss';
+import './Gallery.scss';
 import React, { useState } from 'react';
 
 
@@ -20,31 +20,33 @@ function GalleryContent(props){
             <p>{text}</p>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-2">
           <div className="row" onClick={() => {setThumbnail(props.image1); setText(props.text1); setTitle(props.title1);}}>
-            <div style={{backgroundImage: `url("${props.image1}")`}} id="thumbnail1" className="col-12 thumbnailBox"></div>
+            <div style={{backgroundImage: `url("${props.image1}")`}} id="thumbnail1" className="col-12 thumbnailBoxGallery border"></div>
           </div>
           <div className="row" onClick={() => {setThumbnail(props.image2); setText(props.text2); setTitle(props.title2);}}>
-            <div style={{backgroundImage: `url("${props.image2}")`}} id="thumbnail1" className="col-12 thumbnailBox"></div>
+            <div style={{backgroundImage: `url("${props.image2}")`}} id="thumbnail1" className="col-12 thumbnailBoxGallery border"></div>
           </div>              
           <div className="row" onClick={() => {setThumbnail(props.image3); setText(props.text3); setTitle(props.title3);}}>
-            <div style={{backgroundImage: `url("${props.image3}")`}} id="thumbnail1" className="col-12 thumbnailBox"></div>
+            <div style={{backgroundImage: `url("${props.image3}")`}} id="thumbnail1" className="col-12 thumbnailBoxGallery border"></div>
           </div>              
           <div className="row" onClick={() => {setThumbnail(props.image4); setText(props.text4); setTitle(props.title4);}}>
-            <div style={{backgroundImage: `url("${props.image4}")`}} id="thumbnail1" className="col-12 thumbnailBox"></div>
+            <div style={{backgroundImage: `url("${props.image4}")`}} id="thumbnail1" className="col-12 thumbnailBoxGallery border"></div>
           </div>             
-          <div className="row" onClick={() => {setThumbnail(props.image5); setText(props.text5); setTitle(props.title5);}}>
-            <div style={{backgroundImage: `url("${props.image5}")`}} id="thumbnail1" className="col-12 thumbnailBox"></div>
+          </div>
+          <div className="col-md-2">
+            <div className="row" onClick={() => {setThumbnail(props.image5); setText(props.text5); setTitle(props.title5);}}>
+            <div style={{backgroundImage: `url("${props.image5}")`}} id="thumbnail1" className="col-12 thumbnailBoxGallery border"></div>
           </div>
           <div className="row" onClick={() => {setThumbnail(props.image6); setText(props.text6); setTitle(props.title6);}}>
-            <div style={{backgroundImage: `url("${props.image6}")`}} id="thumbnail1" className="col-12 thumbnailBox"></div>
+            <div style={{backgroundImage: `url("${props.image6}")`}} id="thumbnail1" className="col-12 thumbnailBoxGallery border"></div>
           </div>   
           <div className="row" onClick={() => {setThumbnail(props.image7); setText(props.text7); setTitle(props.title7);}}>
-            <div style={{backgroundImage: `url("${props.image7}")`}} id="thumbnail1" className="col-12 thumbnailBox"></div>
+            <div style={{backgroundImage: `url("${props.image7}")`}} id="thumbnail1" className="col-12 thumbnailBoxGallery border"></div>
           </div>    
           <div className="row" onClick={() => {setThumbnail(props.image8); setText(props.text8); setTitle(props.title8);}}>
-            <div style={{backgroundImage: `url("${props.image8}")`}} id="thumbnail1" className="col-12 thumbnailBox"></div>
-          </div>        
+            <div style={{backgroundImage: `url("${props.image8}")`}} id="thumbnail1" className="col-12 thumbnailBoxGallery border"></div>
+          </div>  
           </div>
         </div>
     </div>
