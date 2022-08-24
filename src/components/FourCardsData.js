@@ -4,6 +4,8 @@ import flutter from './images/flutter-theme.png';
 import htf from './images/htf-homepage.jpg';
 import nasmSite from './images/air-space-site.png';
 import altText from './images/alt-text-checker.png';
+import saam from './images/saam.png';
+import amp from './images/amp.png';
 
 export const fourCardsIntroData = [
 	{
@@ -46,33 +48,33 @@ export const fourCardsManageData = [
 		image: nasmSite,
 		altText: 'Insert alt text.',
 		title: 'Smithsonian National Air and Space Museum Website',
-		text: 'Drupal 9',
-		link: 'https://airandspace.si.edu',
-		button: '',
+		text: 'I am the product owner for the National Air and Space Museum’s main website.  I shepherded the site from Drupal 7 through upgrades and redesigns eventually becoming the current Drupal 9 site.',
+		link: 'https://airandspace.si.edu/',
+		button: 'Visit the website',
 	},
 	{
 		image: htf,
 		altText: 'Insert alt text.',
 		title: 'How Things Fly Website',
-		text: 'Drupal 8',
+		text: 'I project managed the upgrade of the How Things Fly site from Drupal 6 to Drupal 8 and managed the migration of 12 Flash interactives to ReactJS and 2 Unity interactives to the most recent version of Unity.',
 		link: 'https://howthingsfly.si.edu',
-		button: '',
+		button: 'Visit the website',
 	},
 	{
-		image: 'https://picsum.photos/225/125',
+		image: saam,
 		altText: 'Insert alt text.',
 		title: 'Smithsonian American Art Museum Website',
-		text: 'Drupal 7',
+		text: 'I managed content and helped facilitate the migration of the American Art Museum’s website from ColdFusion to Drupal 8. ',
 		link: 'https://americanart.si.edu',
-		button: '',
+		button: 'Visit the website',
 	},
 	{
-		image: 'https://picsum.photos/225/125',
+		image: amp,
 		altText: 'Insert alt text.',
-		title: 'Google AMP Apollo 50 Websites',
-		text: 'Google Accelerated Mobile Pages.',
+		title: 'Google AMP Apollo 50 Applications',
+		text: 'I worked with Google to develop 20 Accelerated Mobile Page (AMP) applications in celebration of the Apollo 50th anniversary.',
 		link: 'https://airandspace.si.edu/amp-stories/margaret-hamilton/',
-		button: '',
+		button: 'Visit the website',
 	},
 
 ]

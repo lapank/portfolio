@@ -5,6 +5,7 @@ import flutterTheme from './images/flutter-theme.png';
 import flutterData from './images/flutter-data.png';
 import arcade from './images/arcade.png';
 import seliger from './images/seliger.png';
+import egaming from './images/e-gaming.png';
 
 export const developmentVideoData = [
 
@@ -44,13 +45,19 @@ export const managmentVideoDataTest = [
 	{
 		title: 'SAAM Arcade',
 		image: arcade,
-		text: 'Drupal, Print & Web Design, Css3, HTML5, JavaScript6, Project Management, Public Engagment, Accessibility',
+		text: 'While working at the Smithsonian American Art Museum, I created SAAM Arcade in partnership with American University, MAGFest, and the Entertainment Software Association. SAAM Arcade featured over 100 video games ranging from student games, and indies, to arcade classics. In 2017, the arcade lasted a full weekend, featuring an E-Sports tournament with the DC Boys and Girls Club, game building workshops, concerts, and more. 20,000 people attended the arcade making it the museum\'s most popular event to date.',
 		video: 'https://www.youtube.com/embed/lyOE7SZn39g',
+	},
+	{
+		title: 'E-Gaming with the Bodys and Girls Club',
+		image: egaming,
+		text: 'Events DC partnered with the Boys & Girls Club of Greater Washington, the Boys & Girls Club of Annapolis, and NRG Esports to host the first Youth Esports League Championship. Participating youth from both Boys & Girls Clubs competed in a six-week single elimination bracket-style tournament featuring Madden NFL 17 and NBA 2K17, which culminated for the championship on August 5 at the Smithsonian American Art Museum’s “SAAM Arcade” event. The Greater Washington Club won the championship in Madden NFL 17, while the Annapolis Club won in NBA 2k17. Viewers were treated to play-by-play commentating from Mega Ran and NRG Esports’ Nairo.',
+		video: 'https://www.youtube.com/embed/CkJ4xe7aRj8',
 	},
 	{
 		title: 'Photo DC: Mark Seliger',
 		image: seliger,
-		text: 'Drupal, Print & Web Design, Css3, Public Engagment, Accessibility',
+		text: 'I created a lecture series in partnership with PhotoDC and the Smithsonian American Art Museum that brought famous photographers like Mary Ellen Mark and Mark Seliger to the American Art Museum to discuss their work.',
 		video: 'https://www.youtube.com/embed/ud9XGZp3WQw',
 	},
 ]

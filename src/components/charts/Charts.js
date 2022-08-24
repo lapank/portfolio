@@ -60,6 +60,25 @@ function Charts() {
           </div>
         </div>
         <div className='row'>
+        <p className="bodyTextLight">We spend 3 weeks taking stock of existing content types, components, external site integrations, and custom functionality. (Discovery phase)
+  
+Simultaneously we talk to staff about their wish list for the site, things they like and things they wish they could do with Skynet. 2 weeks (Discovery phase)
+
+1 week to map out a new information architecture and general page functionality and run this by team(Discovery)
+
+1 week take stackholder feedback and retool ai (discovery)
+
+2 weeks – develop look and feel for website with stakeholder interviews and component mock-ups
+
+3 weeks – develop wireframes for site
+
+1 week – examine the number of components being created and reused and ensure this is doable by the dev team
+
+2 weeks – develop high fidelity mockups for wireframes
+
+1 week review with stakholders
+
+3 months – development and review accessibility testing and security scanning TRB approval</p>
           <GanttChart google={google} />
         </div>
         <h2 className="headerText">Customer Journey Map:</h2>

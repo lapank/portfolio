@@ -3,6 +3,7 @@ import './ImageGrid.scss';
 import {Link} from 'react-router-dom';
 
 function FourCardsContent(props) {
+  console.log(props.link);
   // Correct! There is no need to specify the key here:
   return (
     
@@ -12,7 +13,7 @@ function FourCardsContent(props) {
         <div className="card-body">
           <h5 className="card-title smallTitleLight">{props.title}</h5>
           <p className="card-text bodyTextLight">{props.text}</p>
-          <Link to={props.link} className="btn btn-primary tealBackground">{props.button}</Link>
+          <a href={props.link} className="btn btn-primary tealBackground">{props.button}</a>
           </div>
         </div>
     </div>

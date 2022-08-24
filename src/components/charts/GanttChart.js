@@ -10,26 +10,25 @@ function GanttChart ({google}) {
       // Create the data table.
       const data = new google.visualization.DataTable();
       data.addColumn('string', 'Task ID');
-      data.addColumn('string', 'Task Name');
-      data.addColumn('string', 'Resource');
-      data.addColumn('date', 'Start Date');
-      data.addColumn('date', 'End Date');
-      data.addColumn('number', 'Duration');
-      data.addColumn('number', 'Percent Complete');
-      data.addColumn('string', 'Dependencies');
+      data.addColumn('string', 'Task Name', 'color: #82e6da');
+      data.addColumn('string', 'Resource', 'color: #06465f');
+      data.addColumn('date', 'Start Date', 'color: #0b79ad');
+      data.addColumn('date', 'End Date', 'color: #45e7d8');
+      data.addColumn('number', 'Duration','color: #0b9a94');
+      data.addColumn('number', 'Percent Complete','color: #0a9964');
+      data.addColumn('string', 'Dependencies','color: #82e6da');
 
-      console.log(data);
 
     data.addRows([
-        ['2014Spring', 'Spring 2014', 'spring',
+        ['2014Spring', 'Inventory', 'spring',
          new Date(2014, 2, 22), new Date(2014, 5, 20), null, 100, null],
-        ['2014Summer', 'Summer 2014', 'summer',
+        ['2014Summer', 'Information Architecture', 'summer',
          new Date(2014, 5, 21), new Date(2014, 8, 20), null, 100, null],
-        ['2014Autumn', 'Autumn 2014', 'autumn',
+        ['2014Autumn', 'Wireframeing', 'autumn',
          new Date(2014, 8, 21), new Date(2014, 11, 20), null, 100, null],
-        ['2014Winter', 'Winter 2014', 'winter',
+        ['2014Winter', 'Designs and Mock-ups', 'winter',
          new Date(2014, 11, 21), new Date(2015, 2, 21), null, 100, null],
-        ['2015Spring', 'Spring 2015', 'spring',
+        ['2015Spring', 'Dvelopment', 'spring',
          new Date(2015, 2, 22), new Date(2015, 5, 20), null, 50, null],
         ['2015Summer', 'Summer 2015', 'summer',
          new Date(2015, 5, 21), new Date(2015, 8, 20), null, 0, null],
@@ -54,6 +53,14 @@ function GanttChart ({google}) {
 
           height: 400,
         gantt: {
+          palette:[
+            {
+              "color": "#82e6da",
+              "dark": "#82e6da",
+              "light": "#0b79ad"
+            },
+              
+          ],
           trackHeight: 30,
           innerGridTrack: {fill: '#fcfaf5;'},
           innerGridDarkTrack: {fill: '#ede6da'},
