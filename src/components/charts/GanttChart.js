@@ -10,40 +10,46 @@ function GanttChart ({google}) {
       // Create the data table.
       const data = new google.visualization.DataTable();
       data.addColumn('string', 'Task ID');
-      data.addColumn('string', 'Task Name', 'color: #82e6da');
-      data.addColumn('string', 'Resource', 'color: #06465f');
-      data.addColumn('date', 'Start Date', 'color: #0b79ad');
-      data.addColumn('date', 'End Date', 'color: #45e7d8');
-      data.addColumn('number', 'Duration','color: #0b9a94');
-      data.addColumn('number', 'Percent Complete','color: #0a9964');
-      data.addColumn('string', 'Dependencies','color: #82e6da');
+      data.addColumn('string', 'Task Name');
+      data.addColumn('string', 'Team');
+      data.addColumn('date', 'Start Date');
+      data.addColumn('date', 'End Date');
+      data.addColumn('number', 'Duration');
+      data.addColumn('number', 'Percent Complete');
+      data.addColumn('string', 'Dependencies');
 
 
     data.addRows([
-        ['2014Spring', 'Inventory', 'spring',
-         new Date(2014, 2, 22), new Date(2014, 5, 20), null, 100, null],
-        ['2014Summer', 'Information Architecture', 'summer',
-         new Date(2014, 5, 21), new Date(2014, 8, 20), null, 100, null],
-        ['2014Autumn', 'Wireframeing', 'autumn',
-         new Date(2014, 8, 21), new Date(2014, 11, 20), null, 100, null],
-        ['2014Winter', 'Designs and Mock-ups', 'winter',
-         new Date(2014, 11, 21), new Date(2015, 2, 21), null, 100, null],
-        ['2015Spring', 'Dvelopment', 'spring',
-         new Date(2015, 2, 22), new Date(2015, 5, 20), null, 50, null],
-        ['2015Summer', 'Summer 2015', 'summer',
-         new Date(2015, 5, 21), new Date(2015, 8, 20), null, 0, null],
-        ['2015Autumn', 'Autumn 2015', 'autumn',
-         new Date(2015, 8, 21), new Date(2015, 11, 20), null, 0, null],
-        ['2015Winter', 'Winter 2015', 'winter',
-         new Date(2015, 11, 21), new Date(2016, 2, 21), null, 0, null],
-        ['Football', 'Football Season', 'sports',
-         new Date(2014, 8, 4), new Date(2015, 1, 1), null, 100, null],
-        ['Baseball', 'Baseball Season', 'sports',
-         new Date(2015, 2, 31), new Date(2015, 9, 20), null, 14, null],
-        ['Basketball', 'Basketball Season', 'sports',
-         new Date(2014, 9, 28), new Date(2015, 5, 20), null, 86, null],
-        ['Hockey', 'Hockey Season', 'sports',
-         new Date(2014, 9, 8), new Date(2015, 5, 21), null, 89, null]
+        ['2023Spring', 'Technical Inventory', 'Developers',
+         new Date(2023, 2, 6), new Date(2023, 3, 24), null, 100, null],
+        ['2023Summer', 'UX Research', 'UX, IA and Designers',
+         new Date(2023, 2, 6), new Date(2023, 2, 17), null, 100, null],
+        ['2023Autumn', 'Wireframing', 'UX and IA',
+         new Date(2023, 2, 13), new Date(2023, 2, 24), null, 100, null],
+        ['2023Winter', 'Review and Revise Wireframes', 'Designers, UX and IA and Stakeholders',
+         new Date(2023, 2, 20), new Date(2023, 3, 3), null, 100, null],
+        ['2024Spring', 'High Fidelity Mock-ups', 'Designers',
+         new Date(2023, 3, 3), new Date(2023, 3, 17), null, 50, null],
+        ['2024Summer', 'Review and Revise Mock-ups', 'Designers, Developers and Stakeholders',
+         new Date(2023, 3, 10), new Date(2023, 3, 24), null, 0, null],
+        ['2024Autumn', 'Sprint One', 'Developers',
+         new Date(2023, 4, 3), new Date(2023, 4, 28), null, 0, null],
+         ['2024Winter', 'Review Build', 'QA and Stakeholders',
+         new Date(2023, 5, 1), new Date(2023, 5, 5), null, 0, null],
+         ['2', 'Sprint Two', 'Developers',
+         new Date(2023, 5, 1), new Date(2023, 6, 2), null, 0, null],
+         ['Football', 'Review Build', 'QA and Stakeholders',
+         new Date(2023, 5, 29), new Date(2023, 6, 2), null, 100, null],
+         ['3', 'Sprint Three', 'Developers',
+         new Date(2023, 6, 2), new Date(2023, 6, 30), null, 0, null],
+        ['Baseball', 'Accessibility Testing and Remediation', 'QA and Developers',
+         new Date(2023, 6, 2), new Date(2023, 6, 30), null, 14, null],
+        ['Basketball', 'Security Testing and Remediation', 'QA and Developers',
+         new Date(2023, 6, 2), new Date(2023, 6, 30), null, 86, null],
+        ['Hockey', 'Acceptance Testing', 'Stakeholders',
+         new Date(2023, 7, 4), new Date(2023, 7, 15), null, 89, null],
+         ['3', 'Final Remediation and Hand-off', 'Developers',
+         new Date(2023, 7, 4), new Date(2023, 7, 29), null, 89, null],
       ]);
 
     console.log(data);
@@ -51,14 +57,14 @@ function GanttChart ({google}) {
       // Set chart options
       let options = {
 
-          height: 400,
+          height: 500,
         gantt: {
           palette:[
             {
-              "color": "#82e6da",
-              "dark": "#82e6da",
-              "light": "#0b79ad"
-            },
+              "color": "#f00",
+              "dark": "#0f0"
+            }
+            
               
           ],
           trackHeight: 30,
