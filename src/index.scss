@@ -124,6 +124,16 @@ $screen-xl-min: 1200px;
   height: 850px;
 }
 
+a:hover, .videoThumbnail:hover{
+  cursor: pointer;
+}
+
+
+
+.btn-primary:hover{
+  background-color:$lightest !important;
+}
+
 .relative{
   position: relative;
 }
@@ -154,23 +164,6 @@ $screen-xl-min: 1200px;
   height: $thumbnailHeight;
   background-size: 300px; 
   background-position: center;
-}
-
-.playButton{
-  color: $dark;
-  width: 3rem;
-  height: 3rem;
-  position: absolute;
-  z-index: 20;
-}
-
-.playBackground{
-  height: 1.5rem;
-  width: 1.5rem;
-  position: absolute;
-  z-index: 10;
-  left: 9px;
-  top: 9px;
 }
 
 .centerAbsolute{

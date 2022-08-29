@@ -1,0 +1,55 @@
+@import '../index.scss';
+
+.videoThumbnail{
+  transition: 0.3s;
+  border-radius: 0px 56px 56px 0px;
+  border: solid #2B948A;
+  margin-right: 10px !important;
+  background: linear-gradient(#fcfaf5, #d9faf6);
+  margin-bottom: 5px;
+  margin-top: 5px !important;
+
+  :hover{
+  background: linear-gradient(#fcfaf5, #fcfaf5);
+  }
+
+
+  .playButton{
+  color: $dark;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  z-index: 20;
+
+    :hover > & {
+      color: blue;
+    }
+  }
+
+  .playBackground{
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    z-index: 10;
+    left: 9px;
+    top: 9px;
+  }
+}
+
+
+
+
+
+
+.videoBackground{
+background-color: #82e6da;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #82e6da 100px ), repeating-linear-gradient( #2b948a55, #2b948a );
+}
+
+
+.videoTextArea{
+background: radial-gradient(#fcfaf5, #d9faf6);
+border: solid #2B948A;
+}
+

@@ -1,4 +1,5 @@
 import '../index.scss';
+import './VideoGallery.scss';
 import React, { useState } from 'react';
 import * as AiIcons from 'react-icons/ai';
 
@@ -24,7 +25,7 @@ function GalleryContent(props){
       ...(props.state2 || {})
     };
   return (
-          <div className="row borderMedium backgroundLightest" onClick={() => {setText(props.text); setTitle(props.title); setVideo(props.video);}}>
+          <div className="row backgroundLightest videoThumbnail" onClick={() => {setText(props.text); setTitle(props.title); setVideo(props.video);}}>
             <div style={{backgroundImage: `url("${props.image}")`}} id="thumbnail1" className="col-6 thumbnailBox">
             <div className="centerPlayIcon"><div className="gradientBackground playBackground"></div><div className="blueBorder"><AiIcons.AiFillPlayCircle className="playButton"/></div>
             </div>
@@ -68,12 +69,12 @@ function VideoGalleryTest(props){
             </div>
           </div>
           
-          <div className="row p-5 bodyTextDark backgroundLightest">
+          <div className="row p-5 bodyTextDark videoTextArea">
             <p className="smallTitleDark">{title}</p>
             <p className="bodyTextDark">{text}</p>
           </div>
         </div>
-        <div className="col-md-4 backgroundMedium">
+        <div className="col-md-4 videoBackground">
       {listItems}
     </div>
     </div>
