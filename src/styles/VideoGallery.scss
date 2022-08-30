@@ -1,17 +1,15 @@
 @import '../index.scss';
+@import './variables.scss';
 
 .videoThumbnail{
-  transition: 0.3s;
   border-radius: 0px 56px 56px 0px;
-  border: solid #2B948A;
   margin-right: 10px !important;
-  background: linear-gradient(#fcfaf5, #d9faf6);
+  /*@include linearGradient(#fcfaf5, #d9faf6);*/
+  background-color: #fcfaf5;
   margin-bottom: 5px;
   margin-top: 5px !important;
 
-  :hover{
-  background: linear-gradient(#fcfaf5, #fcfaf5);
-  }
+
 
 
   .playButton{
@@ -20,10 +18,6 @@
   height: 3rem;
   position: absolute;
   z-index: 20;
-
-    :hover > & {
-      color: blue;
-    }
   }
 
   .playBackground{
@@ -36,20 +30,29 @@
   }
 }
 
+.videoThumbnail:hover .playButton {
+  /*color: #0b9a94;*/
+}
 
 
+.videoThumbnail:hover{
+  transition: 0.3s;
+  opacity: .8;
+  margin-bottom: 5px;
+  margin-top: 5px !important;
+}
 
 
+.videoHeader{
+background: linear-gradient(#82e6da,#0b9a94);
+}
 
 .videoBackground{
-background-color: #82e6da;
-opacity: 1;
-background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #82e6da 100px ), repeating-linear-gradient( #2b948a55, #2b948a );
+background-color: #0b9a94;
 }
 
 
 .videoTextArea{
-background: radial-gradient(#fcfaf5, #d9faf6);
-border: solid #2B948A;
+background-color: #fcfaf5;
 }
 

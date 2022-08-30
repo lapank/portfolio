@@ -1,0 +1,28 @@
+$bodyFont: 'Exo 2', sans-serif;
+$headerFont: 'Raleway', sans-serif;
+
+$largeFont: 4rem;
+$mediumFont: 1.3rem;
+$lineHeight: 1.3rem;
+$accentHeight: 1.2rem;
+
+$dark: #29251e;
+$midDark: #3d3527;
+$midLight: #ede6da;
+$light: #fcfaf5;
+
+
+$darkTeal:#0a6793;
+
+
+$medium: #5e4823;
+$lightest:#fcfaf5;
+$blue:#025dc6;
+$lightTeal:#49e5d8;
+
+$thumbnailHeight: 7rem;
+
+
+@mixin linearGradient($color1, $color2) {
+  background: linear-gradient($color1, $color2);
+}

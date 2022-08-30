@@ -10,7 +10,7 @@ import VideoGalleryTest from '../components/VideoGalleryTest.js';
 function Management(){
 	return(
 		<div className='management'>
-		<div className="backgroundLightest">
+		<div className="videoHeader">
 			<div className=" container p-5 headerTextDark" id="video">Program Managment</div>
 			</div>
 				<VideoGalleryTest item={managmentVideoDataTest}/>
