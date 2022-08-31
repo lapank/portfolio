@@ -7,6 +7,13 @@ import arcade from './images/arcade.png';
 import seliger from './images/seliger.png';
 import egaming from './images/e-gaming.png';
 
+export const developmentVideoTitle = [
+	{
+		eyebrow: 'Videos',
+		title: 'Flutter Apps and Computer Networking'
+	}
+]
+
 export const developmentVideoData = [
 
 	{

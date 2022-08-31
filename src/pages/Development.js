@@ -17,9 +17,6 @@ function Development(){
 	return(
 		<div className='development backgroundMedium pb-5' onLoad={navigate}>
 			<TwoColBoxAnimation item={devData}/>
-			<div className="videoHeader">
-			<div className=" container p-5 headerTextDark" id="video">Flutter Apps and Computer Networking</div>
-			</div>
 			<VideoGallery item={developmentVideoData}/>
 			<div id="samples"></div>
 			<Slider item={sliderData}/>

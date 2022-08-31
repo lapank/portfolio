@@ -2,14 +2,11 @@
 @import './variables.scss';
 
 .videoThumbnail{
-  border-radius: 0px 56px 56px 0px;
   margin-right: 10px !important;
   /*@include linearGradient(#fcfaf5, #d9faf6);*/
-  background-color: #fcfaf5;
-  margin-bottom: 5px;
-  margin-top: 5px !important;
-
-
+  background-color: #383531;
+  margin: 0 5px 5px 5px;
+  border-radius:25px;
 
 
   .playButton{
@@ -30,29 +27,59 @@
   }
 }
 
+.videoEmbed{
+  border-radius: 50px;
+}
+
+.videoPlacement{
+  /*margin-left:4% !important;
+  margin-right:1% !important;*/
+}
+
 .videoThumbnail:hover .playButton {
-  /*color: #0b9a94;*/
+transition: 0.3s;
+  color: #383531;
 }
 
 
 .videoThumbnail:hover{
   transition: 0.3s;
-  opacity: .8;
-  margin-bottom: 5px;
-  margin-top: 5px !important;
+  background-color:#615d57;
 }
 
 
-.videoHeader{
-background: linear-gradient(#82e6da,#0b9a94);
+.videoEyebrow{
+  color: $lightTeal;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600 !important;
+  font-size: 1.3rem;
+}
+
+.videoTitle{
+  color: $light;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
 }
 
 .videoBackground{
-background-color: #0b9a94;
+background-color: $dark;
 }
 
 
 .videoTextArea{
-background-color: #fcfaf5;
+background-color: $dark;
 }
+
+.videoThumbnailBox{
+  border: #383531 solid 6px;
+  height: $thumbnailHeight;
+  background-size: 300px; 
+  background-position: center;
+  border-radius: 25px;
+}
+
+.videoThumbnail:hover .videoThumbnailBox{
+transition: 0.3s;
+      border: #615d57 solid 6px;
+    }
 

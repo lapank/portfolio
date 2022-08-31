@@ -2,6 +2,8 @@ import '../index.scss';
 import '../styles/VideoGallery.scss';
 import React, { useState } from 'react';
 import * as AiIcons from 'react-icons/ai';
+import {developmentVideoTitle} from './VideoGalleryDataTest';
+import VideoTitle from './VideoTitle.js';
 
 
 
@@ -26,11 +28,11 @@ function GalleryContent(props){
     };
   return (
           <div className="row videoThumbnail" onClick={() => {setText(props.text); setTitle(props.title); setVideo(props.video);}}>
-            <div style={{backgroundImage: `url("${props.image}")`}} id="thumbnail1" className="col-6 thumbnailBox">
+            <div style={{backgroundImage: `url("${props.image}")`}} id="thumbnail1" className="col-3 videoThumbnailBox">
             <div className="centerPlayIcon"><div className="gradientBackground playBackground"></div><div className="blueBorder"><AiIcons.AiFillPlayCircle className="playButton"/></div>
             </div>
             </div>
-            <div className="col-6 smallTitleDark">{props.title}</div>
+            <div className="col-9 smallTitleLight">{props.title}</div>
           </div>
   );
 }
@@ -60,22 +62,25 @@ function VideoGalleryTest(props){
   }
 
   return (
-    <div>
+  <div className="backgroundDark">
+    <div className="container-lg">
+    <VideoTitle item={developmentVideoTitle}/>
       <div className="row">
-        <div className="col-md-8">
-          <div className="row">
-            <div className="embed-responsive embed-responsive-16by9">
+        <div className="col-md-7">
+          <div className="row videoPlacement">
+            <div className="videoEmbed embed-responsive embed-responsive-16by9">
               <iframe className="embed-responsive-item" src={video} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
           </div>
           
           <div className="row p-5 bodyTextDark videoTextArea">
-            <p className="smallTitleDark">{title}</p>
-            <p className="bodyTextDark">{text}</p>
+            <p className="smallTitleLight">{title}</p>
+            <p className="bodyTextLight">{text}</p>
           </div>
         </div>
-        <div className="col-md-4 videoBackground">
+        <div className="col-md-5 videoBackground">
       {listItems}
+    </div>
     </div>
     </div>
     </div>
