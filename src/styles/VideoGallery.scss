@@ -55,23 +55,34 @@ transition: 0.3s;
   font-size: 1.3rem;
 }
 
-.videoTitle{
+.videoGalleryTitle{
   color: $light;
   font-family: "Raleway", sans-serif;
   font-size: 1.5rem;
+}
+
+.videoTitle{
+  font-family: $bodyFont;
+  font-weight:600!important;
+  color: $lightest;
+  font-size: 1.7rem;
+  line-height: 2.2rem;
 }
 
 .videoBackground{
 background-color: $dark;
 }
 
+.videoThumbnailText{
+  margin-right: 1rem;
+}
 
 .videoTextArea{
 background-color: $dark;
 }
 
 .videoThumbnailBox{
-  border: #383531 solid 6px;
+  border: #383531 solid 10px;
   height: $thumbnailHeight;
   background-size: 300px; 
   background-position: center;
@@ -80,6 +91,6 @@ background-color: $dark;
 
 .videoThumbnail:hover .videoThumbnailBox{
 transition: 0.3s;
-      border: #615d57 solid 6px;
+      border: #615d57 solid 10px;
     }
 

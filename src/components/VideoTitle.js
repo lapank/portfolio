@@ -9,7 +9,7 @@ function TitleContent(props){
 	return(
 		<div>
 		<h4 className="videoEyebrow">{props.eyebrow}</h4>
-		<h2 className="videoTitle">{props.title}</h2>
+		<h2 className="videoGalleryTitle">{props.title}</h2>
 		</div>
 	);
 }
@@ -23,7 +23,11 @@ function VideoTitle(props){
       title = {item.title}
     />);
     return (
-    	<div className="pt-5 pb-5">{listItems}</div>
+    	<div className="pt-5 pb-3 backgroundDark">
+    	<div className="container-lg">
+    	{listItems}
+    	</div>
+    	</div>
   );
    }
 

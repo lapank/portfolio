@@ -2,8 +2,6 @@ import '../index.scss';
 import '../styles/VideoGallery.scss';
 import React, { useState } from 'react';
 import * as AiIcons from 'react-icons/ai';
-import {developmentVideoTitle} from './VideoGalleryDataTest';
-import VideoTitle from './VideoTitle.js';
 
 
 
@@ -32,7 +30,12 @@ function GalleryContent(props){
             <div className="centerPlayIcon"><div className="gradientBackground playBackground"></div><div className="blueBorder"><AiIcons.AiFillPlayCircle className="playButton"/></div>
             </div>
             </div>
-            <div className="col-9 smallTitleLight">{props.title}</div>
+            <div className="col-9 smallTitleLight">
+            <div className="p-1 videoThumbnailText">
+            <div className="row">{props.title}</div>
+            <div className="row bodyTextLight pt-2">{props.thumbnailText}</div>
+            </div>
+            </div>
           </div>
   );
 }
@@ -50,6 +53,7 @@ function VideoGalleryTest(props){
       image = {item.image}
       text = {item.text}
       video = {item.video}
+      thumbnailText = {item.thumbnailText}
       state1={{ text: [text, setText] }}
       state2={{ title: [title, setTitle] }}
       state4={{ video: [video, setVideo] }}
@@ -62,9 +66,9 @@ function VideoGalleryTest(props){
   }
 
   return (
-  <div className="backgroundDark">
+  <div className="backgroundDark pb-5">
     <div className="container-lg">
-    <VideoTitle item={developmentVideoTitle}/>
+    
       <div className="row">
         <div className="col-md-7">
           <div className="row videoPlacement">
@@ -73,9 +77,9 @@ function VideoGalleryTest(props){
             </div>
           </div>
           
-          <div className="row p-5 bodyTextDark videoTextArea">
-            <p className="smallTitleLight">{title}</p>
-            <p className="bodyTextLight">{text}</p>
+          <div className="row pt-5 videoTextArea">
+            <p className="videoTitle">{title}</p>
+            <p className="bodyTextLight pb-3">{text}</p>
           </div>
         </div>
         <div className="col-md-5 videoBackground">

@@ -6,6 +6,8 @@ import {devData} from '../components/TwoColBoxData';
 import TwoColBoxAnimation from '../components/TwoColBoxAnimation';
 import {developmentVideoData} from '../components/VideoGalleryDataTest';
 import VideoGallery from '../components/VideoGalleryTest.js';
+import {developmentVideoTitle} from '../components/VideoGalleryDataTest';
+import VideoTitle from '../components/VideoTitle.js';
 
 function Development(){
 	let hash = window.location.hash;
@@ -16,7 +18,9 @@ function Development(){
 	 }
 	return(
 		<div className='development backgroundMedium pb-5' onLoad={navigate}>
+
 			<TwoColBoxAnimation item={devData}/>
+			<VideoTitle item={developmentVideoTitle}/>
 			<VideoGallery item={developmentVideoData}/>
 			<div id="samples"></div>
 			<Slider item={sliderData}/>
