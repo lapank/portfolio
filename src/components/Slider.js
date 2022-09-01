@@ -4,6 +4,12 @@ import '../styles/VideoGallery.scss';
 import '../index.scss'
 import React, { useState } from 'react';
 
+import api from './images/color-api.png';
+import menu from './images/mega-menu-indent-line.jpg';
+import page from './images/race-to-the-moon-draft.jpg';
+import test from './images/unit-tests.png';
+import wireframe from './images/wireframe.png';
+
 /*function SliderContent(props){
   const [thumbnail, setThumbnail] = useState(props.image1);
   const [text, setText] = useState(props.text1);
@@ -130,11 +136,11 @@ function Slider(props){
   <input type="radio" name="slider" id="s4"/>
   <input type="radio" name="slider" id="s5"/>
 
-  <label for="s1" id="slide1">1</label>
-  <label for="s2" id="slide2">2</label>
-  <label for="s3" id="slide3">3</label>
-  <label for="s4" id="slide4">4</label>
-  <label for="s5" id="slide5">5</label>
+  <label for="s1" id="slide1"></label>
+  <label for="s2" id="slide2"></label>
+  <label for="s3" id="slide3"></label>
+  <label for="s4" id="slide4"></label>
+  <label for="s5" id="slide5"></label>
 </section>
 </div>
     );

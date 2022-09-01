@@ -87,22 +87,42 @@ input[type=radio]:checked {
 
 #slide1 {
   background: tomato;
+  background-image: url('../components/images/color-api.png');
+  background-size:     contain;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
 }
 
 #slide2 {
   background: yellowgreen;
+  background-image: url('../components/images/wireframe.png');
+  background-size:     contain;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
 }
 
 #slide3 {
   background: dodgerblue;
+  background-image: url('../components/images/unit-tests.png');
+  background-size:     contain;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
 }
 
 #slide4 {
   background: slateblue;
+  background-image: url('../components/images/race-to-the-moon-draft.jpg');
+  background-size:     contain;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
 }
 
 #slide5 {
   background: violet;
+  background-image: url('../components/images/mega-menu-indent-line.jpg');
+  background-size:     contain;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
 }
 
 
