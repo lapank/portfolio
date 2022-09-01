@@ -4,7 +4,7 @@ import '../styles/VideoGallery.scss';
 import '../index.scss'
 import React, { useState } from 'react';
 
-function SliderContent(props){
+/*function SliderContent(props){
   const [thumbnail, setThumbnail] = useState(props.image1);
   const [text, setText] = useState(props.text1);
   const [title, setTitle] = useState(props.title1);
@@ -117,6 +117,27 @@ function Slider(props){
     </div>
     </div>
   );
+}*/
+
+function Slider(props){
+
+  return(
+    <div>
+  <section id="slider">
+  <input type="radio" name="slider" id="s1"/>
+  <input type="radio" name="slider" id="s2"/>
+  <input type="radio" name="slider" id="s3"/>
+  <input type="radio" name="slider" id="s4"/>
+  <input type="radio" name="slider" id="s5"/>
+
+  <label for="s1" id="slide1">1</label>
+  <label for="s2" id="slide2">2</label>
+  <label for="s3" id="slide3">3</label>
+  <label for="s4" id="slide4">4</label>
+  <label for="s5" id="slide5">5</label>
+</section>
+</div>
+    );
 }
 
 

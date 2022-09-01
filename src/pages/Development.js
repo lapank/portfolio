@@ -16,13 +16,19 @@ function Development(){
 	 		window.location.replace(hash);
 	 	}
 	 }
+
+	 function sliderSelect(){
+	    //console.log('hi');
+	    document.getElementById("s1").checked = true;
+	    //console.log(document.getElementById("s1").innerHTML);
+	  }
 	return(
-		<div className='development backgroundMedium pb-5' onLoad={navigate}>
+		<div className='development backgroundMedium pb-5' onLoad={navigate} onLoad={sliderSelect}>
 
 			<TwoColBoxAnimation item={devData}/>
 			<VideoTitle item={developmentVideoTitle}/>
 			<VideoGallery item={developmentVideoData}/>
-			<div id="samples"></div>
+			<div id="samples" ></div>
 			<Slider item={sliderData}/>
 			<div className="container pt-5">
 			<h2 id="alt" className="headerTextDark">Alt Text Validator</h2>
