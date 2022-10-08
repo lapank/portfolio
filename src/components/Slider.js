@@ -129,8 +129,25 @@ function Slider(props){
 function SliderContent(props){
     return(
     <div>
+      <div className="description">{props.title}</div>
+      <div className="description">{props.text}</div>
+    </div>
+    );
+}
+
+function Slider(props){
+  const item = props.item;
+  const listItems = item.map((item) =>
+    // Correct! Key should be specified inside the array.
+    <SliderContent key={item.title}
+      title = {item.title}
+      text = {item.text}
+ />
+);
+  return(
+    <div>
       <section id="slider">
-      <div className="description">{props.title1}</div>
+      {listItems}
       <input type="radio" name="slider" id="s1"/>
       <input type="radio" name="slider" id="s2"/>
       <input type="radio" name="slider" id="s3"/>
@@ -145,25 +162,6 @@ function SliderContent(props){
     </section>
     </div>
     );
-}
-
-function Slider(props){
-  const item = props.item;
-  const listItems = item.map((item) =>
-    // Correct! Key should be specified inside the array.
-    <SliderContent key={item.title1}
-      title1 = {item.title1}
-      title2 = {item.title2}
-      title3 = {item.title3}
-      title4 = {item.title4}
-      title5 = {item.title5}
- />
-);
-  return(
-    <div className="w-100">
-      {listItems}
-    </div>
-  );
 }
 
 
