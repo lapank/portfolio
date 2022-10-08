@@ -8,6 +8,7 @@ import {developmentVideoData} from '../components/VideoGalleryDataTest';
 import VideoGallery from '../components/VideoGalleryTest.js';
 import {developmentVideoTitle} from '../components/VideoGalleryDataTest';
 import VideoTitle from '../components/VideoTitle.js';
+import {developmentSliderTitle} from '../components/SliderData.js'
 
 function Development(){
 	let hash = window.location.hash;
@@ -29,6 +30,7 @@ function Development(){
 			<VideoTitle item={developmentVideoTitle}/>
 			<VideoGallery item={developmentVideoData}/>
 			<div id="samples" ></div>
+			<VideoTitle item={developmentSliderTitle}/>
 			<Slider item={sliderData}/>
 			<div className="container pt-5">
 			<h2 id="alt" className="headerTextDark">Alt Text Validator</h2>

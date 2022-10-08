@@ -1,7 +1,8 @@
 import './Slider.scss';
 import '../styles/CodeGallery.scss';
 import '../styles/VideoGallery.scss';
-import '../index.scss'
+import '../index.scss';
+import '../styles/VideoGallery.scss';
 import React, { useState } from 'react';
 
 import api from './images/color-api.png';
@@ -125,25 +126,44 @@ function Slider(props){
   );
 }*/
 
-function Slider(props){
-
-  return(
+function SliderContent(props){
+    return(
     <div>
-  <section id="slider">
-  <input type="radio" name="slider" id="s1"/>
-  <input type="radio" name="slider" id="s2"/>
-  <input type="radio" name="slider" id="s3"/>
-  <input type="radio" name="slider" id="s4"/>
-  <input type="radio" name="slider" id="s5"/>
+      <section id="slider">
+      <div className="description">{props.title1}</div>
+      <input type="radio" name="slider" id="s1"/>
+      <input type="radio" name="slider" id="s2"/>
+      <input type="radio" name="slider" id="s3"/>
+      <input type="radio" name="slider" id="s4"/>
+      <input type="radio" name="slider" id="s5"/>
 
-  <label for="s1" id="slide1"></label>
-  <label for="s2" id="slide2"></label>
-  <label for="s3" id="slide3"></label>
-  <label for="s4" id="slide4"></label>
-  <label for="s5" id="slide5"></label>
-</section>
-</div>
+      <label for="s1" id="slide1"></label>
+      <label for="s2" id="slide2"></label>
+      <label for="s3" id="slide3"></label>
+      <label for="s4" id="slide4"></label>
+      <label for="s5" id="slide5"></label>
+    </section>
+    </div>
     );
+}
+
+function Slider(props){
+  const item = props.item;
+  const listItems = item.map((item) =>
+    // Correct! Key should be specified inside the array.
+    <SliderContent key={item.title1}
+      title1 = {item.title1}
+      title2 = {item.title2}
+      title3 = {item.title3}
+      title4 = {item.title4}
+      title5 = {item.title5}
+ />
+);
+  return(
+    <div className="w-100">
+      {listItems}
+    </div>
+  );
 }
 
 

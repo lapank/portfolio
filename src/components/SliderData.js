@@ -29,3 +29,10 @@ export const sliderData = [
 		text5: 'Wireframe developed for the Smithsonian National Air and Space Museum’s redesign using Figma and Adobe XD.',
 	},
 ]
+
+export const developmentSliderTitle = [
+	{
+		eyebrow: 'Samples',
+		title: 'Code Samples and Web Designs'
+	}
+]
