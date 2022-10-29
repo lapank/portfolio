@@ -50,7 +50,6 @@ $screen-xl-min: 1200px;
   width: 100%; /*50%*/
   height: 200vw;/*30vw*/
   margin: 80px auto;
-  font-family: 'Helvetica Neue', sans-serif;
   perspective: 1400px;
   transform-style: preserve-3d;
     @include sm{
@@ -70,7 +69,7 @@ $screen-xl-min: 1200px;
 
 input[type=radio] {
   position: relative;
-  bottom: 5%;
+  bottom: 50%;
   left: 50%;
   width: 18px;
   height: 18px;

@@ -3,6 +3,8 @@ import '../styles/CodeGallery.scss';
 import '../styles/VideoGallery.scss';
 import '../index.scss';
 import '../styles/VideoGallery.scss';
+import {developmentSliderTitle} from './SliderData.js'
+import VideoTitle from './VideoTitle.js';
 import React, { useState } from 'react';
 
 import api from './images/color-api.png';
@@ -136,6 +138,7 @@ function SliderContent(props){
 }
 
 function Slider(props){
+  
   const item = props.item;
   const listItems = item.map((item) =>
     // Correct! Key should be specified inside the array.
@@ -146,8 +149,18 @@ function Slider(props){
 );
   return(
     <div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+        <VideoTitle item={developmentSliderTitle}/>
+        </div>
+        <div class="col">
+        {listItems}
+        </div>
+      </div>
+    </div>
       <section id="slider">
-      {listItems}
+      
       <input type="radio" name="slider" id="s1"/>
       <input type="radio" name="slider" id="s2"/>
       <input type="radio" name="slider" id="s3"/>
