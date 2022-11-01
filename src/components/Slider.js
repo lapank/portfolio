@@ -7,12 +7,6 @@ import {developmentSliderTitle} from './SliderData.js'
 import VideoTitle from './VideoTitle.js';
 import React, { useState } from 'react';
 
-import api from './images/color-api.png';
-import menu from './images/mega-menu-indent-line.jpg';
-import page from './images/race-to-the-moon-draft.jpg';
-import test from './images/unit-tests.png';
-import wireframe from './images/wireframe.png';
-
 
 function text (title, text){
   document.getElementById("sampleTitle").innerHTML = title;
@@ -28,7 +22,7 @@ function Slider(props){
         <div className="col">
         <VideoTitle item={developmentSliderTitle}/>
         </div>
-        <div className="col">
+        <div className="col sliderText">
         <h2 id="sampleTitle">{item[0].title}</h2>
         <p id="sampleText">{item[0].text}</p>
         </div>
