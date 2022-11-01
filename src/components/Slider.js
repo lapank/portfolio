@@ -14,56 +14,13 @@ import test from './images/unit-tests.png';
 import wireframe from './images/wireframe.png';
 
 
-function text (){
-  console.log("text function");
-  let s1 = document.getElementById("s1").checked;
-  let s2 = document.getElementById("s2").checked;
-  let s3 = document.getElementById("s3").checked;
-  let s4 = document.getElementById("s4").checked;
-  let s5 = document.getElementById("s5").checked;
-
-  switch(true) {
-  case s1:
-    console.log("h1");
-    break;
-  case s2:
-    console.log("h2");
-    break;
-  case s3:
-    console.log("h3");
-    break;
-  case s4:
-    console.log("h4");
-    break;
-  case s5:
-    console.log("h5");
-    break;
-  default:
-  console.log("h1");
-    break;
-}
-}
-
-function SliderContent(props){
-    return(
-    <div>
-      <div className="description">{props.title}</div>
-      <div className="description">{props.text}</div>
-    </div>
-    );
+function text (title, text){
+  document.getElementById("sampleTitle").innerHTML = title;
+  document.getElementById("sampleText").innerHTML = text;
 }
 
 function Slider(props){
-  
   const item = props.item;
-  const listItems = item.map((item) =>
-    // Correct! Key should be specified inside the array.
-    <SliderContent key={item.title}
-      title = {item.title}
-      text = {item.text}
- />
-);
-  console.log(item[1]);
   return(
     <div>
     <div className="container">
@@ -72,17 +29,18 @@ function Slider(props){
         <VideoTitle item={developmentSliderTitle}/>
         </div>
         <div className="col">
-        {listItems}
+        <h2 id="sampleTitle">{item[0].title}</h2>
+        <p id="sampleText">{item[0].text}</p>
         </div>
       </div>
     </div>
       <section id="slider">
       
-      <input type="radio" name="slider" id="s1"onClick={() => { text();}}/>
-      <input type="radio" name="slider" id="s2" onClick={() => { text();}}/>
-      <input type="radio" name="slider" id="s3"onClick={() => { text();}}/>
-      <input type="radio" name="slider" id="s4"onClick={() => { text();}}/>
-      <input type="radio" name="slider" id="s5"onClick={() => { text();}}/>
+      <input type="radio" name="slider" id="s1"onClick={() => { text(item[0].title, item[0].text);}}/>
+      <input type="radio" name="slider" id="s2" onClick={() => { text(item[4].title, item[4].text);}}/>
+      <input type="radio" name="slider" id="s3"onClick={() => { text(item[3].title, item[3].text);}}/>
+      <input type="radio" name="slider" id="s4"onClick={() => { text(item[2].title, item[2].text);}}/>
+      <input type="radio" name="slider" id="s5"onClick={() => { text(item[1].title, item[1].text);}}/>
 
       <label for="s1" id="slide1"></label>
       <label for="s2" id="slide2"></label>
