@@ -16,15 +16,15 @@ function text (title, text){
 function Slider(props){
   const item = props.item;
   return(
-    <div>
+    <div className="backgroundDark pb-5">
     <div className="container">
       <div className="row">
-        <div className="col">
+        <div className="col-5">
         <VideoTitle item={developmentSliderTitle}/>
         </div>
-        <div className="col sliderText">
-        <h2 id="sampleTitle">{item[0].title}</h2>
-        <p id="sampleText">{item[0].text}</p>
+        <div className="col-7 sliderText gradientBackground">
+        <h2 id="sampleTitle" className="sliderTitle">{item[0].title}</h2>
+        <p id="sampleText" className="sliderBodyText">{item[0].text}</p>
         </div>
       </div>
     </div>

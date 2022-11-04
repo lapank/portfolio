@@ -44,8 +44,26 @@ $screen-xl-min: 1200px;
    }
 }
 
+.sliderTitle{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600 !important;
+    color: #29251e;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+}
+
+.sliderBodyText{
+  font: 1rem "Exo 2", sans-serif;
+  color: #29251e;
+  line-height: 1.3rem;
+}
+
 .sliderText{
-  height: 200px;
+  height: 150px;
+  margin-bottom: 2rem;
+  margin-top:50px !important;
+  border-radius: 25px;
+  padding: 20px;
 }
 
 #slider {
@@ -121,7 +139,7 @@ input[type=radio]:checked {
 }
 
 #slide1 {
-  background: tomato;
+  background: #383531;
   background-image: url('../components/images/color-api.png');
   background-size:     contain;                     
     background-repeat:   no-repeat;
@@ -129,7 +147,7 @@ input[type=radio]:checked {
 }
 
 #slide2 {
-  background: yellowgreen;
+  background: #383531;
   background-image: url('../components/images/wireframe.png');
   background-size:     contain;                    
     background-repeat:   no-repeat;
@@ -137,7 +155,7 @@ input[type=radio]:checked {
 }
 
 #slide3 {
-  background: dodgerblue;
+  background: #383531;
   background-image: url('../components/images/unit-tests.png');
   background-size:     contain;                    
     background-repeat:   no-repeat;
@@ -145,7 +163,7 @@ input[type=radio]:checked {
 }
 
 #slide4 {
-  background: slateblue;
+  background: #383531;
   background-image: url('../components/images/race-to-the-moon-draft.jpg');
   background-size:     contain;                    
     background-repeat:   no-repeat;
@@ -153,11 +171,36 @@ input[type=radio]:checked {
 }
 
 #slide5 {
-  background: violet;
+  background: #383531;
   background-image: url('../components/images/mega-menu-indent-line.jpg');
   background-size:     contain;                    
     background-repeat:   no-repeat;
     background-position: center center;
+}
+
+#slide1:hover{
+  background-color: #615d57;
+  transition: 0.3s;
+}
+
+#slide2:hover{
+  background-color: #615d57;
+  transition: 0.3s;
+}
+
+#slide3:hover{
+  background-color: #615d57;
+  transition: 0.3s;
+}
+
+#slide4:hover{
+  background-color: #615d57;
+  transition: 0.3s;
+}
+
+#slide5:hover{
+  background-color: #615d57;
+  transition: 0.3s;
 }
 
 
