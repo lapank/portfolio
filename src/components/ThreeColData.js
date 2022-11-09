@@ -1,5 +1,5 @@
 
-import portrait from './images/kaylin-portrait.jpg';
+import portrait from './images/portrait-wide.jpg';
 
 
 export const threeColData = [

@@ -2,11 +2,11 @@
 function ThreeColBoxContent(props) {
   // Correct! There is no need to specify the key here:
   return (
-  	<div className='row'>
-    <div className="col-md-6" style={{paddingRight:0}}>
-        <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 955, backgroundPosition: 'center', height:629}}></div>
+    <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 1700, backgroundPosition: 'center', height:800}}>
+    <div className='row'>
+    <div className="col-md-6">
         </div>
-       <div className="col-md-6 p-5 gradientBackground">
+       <div className="col-md-6 p-5">
          <div className='row'>
            <div className="col-md-12">
            <div className="p-3">
@@ -27,7 +27,7 @@ function ThreeColBoxContent(props) {
            </div>
         </div>
        </div>
-      
+      </div>
     		
 
   	</div>	

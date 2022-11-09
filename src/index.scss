@@ -210,6 +210,11 @@ a:hover, .videoThumbnail:hover{
       linear-gradient(330deg, rgba(6,70,95,1), rgba(6,70,95,0) 50%);
 }
 
+.tanGrandientBackground{
+  background-image: 
+    linear-gradient(to right top, #a18e6d, #b8a88d, #cfc3ae, #e7dfd0, #fffbf3);
+}
+
 
 .gradientText{
   font-size: 72px;
