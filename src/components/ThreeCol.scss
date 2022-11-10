@@ -1,0 +1,113 @@
+@import '../styles/variables.scss';
+
+.absoluteContainer{
+	position:relative;
+}
+
+.threeColBackgroundImage{
+	z-index:0;
+	position:relative;
+	max-width: 400%;
+    height: 500px;
+    left: -320px;
+  @include sm{
+    max-width: 100%;
+    height: auto;
+    left: 0px;
+  }
+  @include md{
+    max-width: 100%;
+    height: auto;
+    left: 0px;
+  }
+// 992px window width and more
+    @include lg {
+      max-width: 100%;
+    height: auto;
+    left: 0px;
+    }
+
+}
+
+.threeColHeader {
+	font-family: $raleway;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #29251e;
+  @include sm{
+    font-size: 1.2rem;
+  }
+  @include md{
+    font-size: 2rem;
+  }
+// 992px window width and more
+    @include lg {
+      font-size: 3rem;
+    }
+
+}
+.threeColAccent{
+	font-family: $raleway;
+    color: #29251e;
+    font-size: .9rem;
+    line-height: .9rem;
+    text-align: left;
+  @include sm{
+    font-size: .8rem;
+    line-height: .9rem;
+    
+  }
+  @include md{
+    font-size: .9rem;
+    line-height: .9rem;
+    
+  }
+// 992px window width and more
+    @include lg {
+    	font-size: 1.1rem;
+    	line-height: 1.1rem;
+    }
+
+}
+.threeColText{
+    font-family: $exo;
+    color: #29251e;
+    font-size: 1rem;
+    line-height: 1rem;
+  @include sm{
+  	font-size: .8rem;
+  	line-height: .9rem;
+  }
+  @include md{
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+// 992px window width and more
+    @include lg {
+      font-size: 1.2rem;
+      line-height: 1.2rem;
+    }
+
+}
+
+.topText {
+    z-index:200;
+	position:absolute;
+	top:5%;
+	padding: 0 1rem 0 0;
+  @include sm{
+    top:10%;
+    padding: 0 2rem;
+  }
+  @include md{
+    top:10%;
+    padding: 0 2rem;
+  }
+// 992px window width and more
+    @include lg {
+      top:20%;
+      max-width: 1200px;
+      right: 0px;
+    }
+
+}
