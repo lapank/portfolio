@@ -33,7 +33,7 @@
 	font-family: $raleway;
     font-weight: 700;
     font-size: 1.5rem;
-    color: #29251e;
+    color: $dark;
   @include sm{
     font-size: 1.2rem;
   }
@@ -48,7 +48,7 @@
 }
 .threeColAccent{
 	font-family: $raleway;
-    color: #29251e;
+    color: $dark;
     font-size: .9rem;
     line-height: .9rem;
     text-align: left;
@@ -71,7 +71,7 @@
 }
 .threeColText{
     font-family: $exo;
-    color: #29251e;
+    color: $dark;
     font-size: 1rem;
     line-height: 1rem;
   @include sm{
