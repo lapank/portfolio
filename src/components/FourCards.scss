@@ -1,7 +1,56 @@
+@import '../styles/variables.scss';
+
 .roundedEdgesTop{
 	border-radius: 1rem 1rem 0px 0px !important;
 }
 
 .roundedEdges{
 	border-radius: 1rem !important;
+}
+
+.fourCardBackground{
+	background-color:$dark;
+}
+
+.fourColBackground{
+	color:$light;
+	font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.fourColCard{
+	margin-right: 10px !important;
+    background-color: #383531;
+    margin: 0 5px 5px 5px;
+    border-radius: 25px;
+    height:420px;
+}
+
+.fourColCard:hover{
+	background-color:$medium;
+	transition: 0.3s;
+}
+
+.fourColThumbnail{
+	border: #383531 solid 10px;
+    height: 7rem;
+    background-size: 300px;
+    background-position: center;
+    border-radius: 25px;
+}
+
+.fourColButton{
+	position:absolute;
+	bottom:2rem;
+}
+
+.fourColCard:hover .fourColThumbnail{
+	transition: 0.3s;
+    border: #615d57 solid 10px;
+}
+
+.fourColCard:hover .fourColButton{
+	transition: 0.3s;
+    background-color: red;
 }

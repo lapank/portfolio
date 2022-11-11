@@ -3,19 +3,18 @@ import './ImageGrid.scss';
 import {Link} from 'react-router-dom';
 
 function FourCardsContent(props) {
-  console.log(props.link);
   // Correct! There is no need to specify the key here:
   return (
     
-      <div className="col-lg-3 col-6">
-      <div className="border backgroundDark roundedEdges">
-      <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 370, height:150, backgroundPosition: 'center'}} className="card-img-top roundedEdgesTop"></div>
+      <div className="col-md-6 col-xl-3">
+      <a href={props.link}><div className="fourColCard">
+      <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 370, height:150, backgroundPosition: 'center'}} className="fourColThumbnail"></div>
         <div className="card-body">
           <h5 className="card-title smallTitleLight">{props.title}</h5>
           <p className="card-text bodyTextLight">{props.text}</p>
-          <a href={props.link} className="btn btn-primary tealBackground">{props.button}</a>
+          <a href={props.link} className="btn btn-primary fourColButton">{props.button}</a>
           </div>
-        </div>
+        </div></a>
     </div>
     
   );
@@ -34,10 +33,10 @@ function FourCards(props) {
       button = {item.button}/>
   );
   return (
-    <div className="w-100 backgroundMedium">
+    <div className="w-100 fourCardBackground">
     <div className='p-5'>
-    <h2 className="headerTextDark">Web Development</h2>
-    <div className='row pt-2'>
+    <h2 className="fourColBackground">Web Development</h2>
+    <div className='row pt-5'>
       {listItems}
       </div>
     </div>

@@ -13,8 +13,8 @@ function Home(){
 	return(
 		<div className='home'>
 			<ThreeCol item={threeColData}/>
-			<ImageGrid item={imageGridIntroData}/>
 			<FourCards item={fourCardsIntroData} />
+			<ImageGrid item={imageGridIntroData}/>
 			<FiveCardCluster />
 		</div>
 	);
