@@ -8,10 +8,12 @@ import {imageGridIntroData} from '../components/ImageGridData.js';
 import FiveCardCluster from '../components/FiveCardCluster.js';
 import {threeColData} from '../components/ThreeColData.js';
 import ThreeCol from '../components/ThreeCol.js';
+import NavOverlay from '../components/NavOverlay.js';
 
 function Home(){
 	return(
 		<div className='home'>
+			<NavOverlay/>
 			<ThreeCol item={threeColData}/>
 			<FourCards item={fourCardsIntroData} />
 			<ImageGrid item={imageGridIntroData}/>

@@ -11,10 +11,8 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 function App(){
 	
 	return(
-			<div className='App'  className="backgroundDark" style={{overflow: 'hidden'}}>
+			<div className='App'  className="" style={{overflow: 'hidden'}}>
 			<Router>
-				
-				<Nav />
 				<Routes>
 					<Route path='/' exact element={<Home />}/>
 					<Route path='/web-development' element={<Development />}/>

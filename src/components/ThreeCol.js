@@ -4,7 +4,7 @@ function ThreeColBoxContent(props) {
   // Correct! There is no need to specify the key here:
   return (
     <div>
-    <div className="absoluteContainer">
+    <div className="relativeContainer">
     <img className="threeColBackgroundImage" src={props.image} />
     <div className="row topText">
       <div className="col-5">
@@ -43,7 +43,7 @@ function ThreeColBox(props) {
       text = {item.text} />
   );
   return (
-    <div className="w-100">
+    <div className="w-100 ThreeColContainer">
       {listItems}
     </div>
   );
