@@ -8,28 +8,9 @@
   right:0px;
 }
 
-.nav-item{
-  background-color:$midDark;
-  margin: 0 .5rem;
-  padding: 0 1rem;
-  border-radius: 1rem !important;
-}
-.nav-item:hover{
-  background-color:$medium;
-}
-
 .navOverlayButtons{
   position: absolute;
   right: 2rem;
-}
-
-.navbar-light .navbar-brand{
-color:$lightest!important;
-  /*background: -webkit-linear-gradient($darkTeal, $lightTeal);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
-  font-size: 1.4rem;
-  font-family:$headerFont;
 }
 
 .navbar {
@@ -41,13 +22,9 @@ background: rgba(0,0,0,0);
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: $light !important;
+  /*color: $light !important;*/
   font-family:$bodyFont;
   font-weight:600;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-  text-decoration: underline;
 }
 
 .navbar-toggle {
@@ -59,8 +36,29 @@ background: rgba(0,0,0,0);
   color: white;
 }
 
-.navbar-toggler-icon{
-  background: -webkit-linear-gradient($darkTeal,$lightTeal);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.outlineNavOverlay{
+  border: $medium 2px solid;
+  border-radius: 1rem !important;
+  margin-right:.5rem;
+}
+
+.outlineNavOverlay:hover{
+  border:$midDark 2px solid;
+  background-color: rgba(0,0,0,.1);
+}
+
+.textNavOverlay{
+  color:$medium !important;
+}
+
+.textNavOverlay:hover{
+  color:$midDark !important;
+  text-decoration: none;
+}
+
+.headerTextNavOverlay{
+  text-shadow: 2px 2px $medium;
+  font-size: 2rem !important;
+  font-family:$headerFont;
+  color:$lightest !important;
 }

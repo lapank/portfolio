@@ -1,32 +1,32 @@
 @import '../index.scss';
 
-.navbar-light .navbar-brand{
+/*.navbar-light .navbar-brand{
 color:$lightest!important;
-  /*background: -webkit-linear-gradient($darkTeal, $lightTeal);
+  background: -webkit-linear-gradient($darkTeal, $lightTeal);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
+  -webkit-text-fill-color: transparent;
   font-size: 1.4rem;
   font-family:$headerFont;
-}
+}*/
 
-.navbar {
+/*.navbar {
   background-color: $dark;
   height: 80px;
   display: flex;
   justify-content:  flex-start;
   align-items: canter;
-}
+}*/
 
 .navbar-light .navbar-nav .nav-link {
-  color: $midLight !important;
+  /*color: $midLight !important;*/
   font-family:$bodyFont;
   font-weight:600;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+/*.navbar-light .navbar-nav .nav-link:hover {
   color: $orange !important;
   text-decoration: underline;
-}
+}*/
 
 .navbar-toggle {
   width: 100%;
