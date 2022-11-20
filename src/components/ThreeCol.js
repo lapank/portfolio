@@ -43,7 +43,7 @@ function ThreeColBox(props) {
       text = {item.text} />
   );
   return (
-    <div className="w-100 ThreeColContainer">
+    <div className="w-100 threeColContainer">
       {listItems}
     </div>
   );

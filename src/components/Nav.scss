@@ -38,7 +38,13 @@ color:$lightest!important;
 }
 
 .navbar-light .navbar-toggler{
-  background-color: $orange !important;
+  background-color: $cream !important;
+  box-shadow: 2px 2px $medium;
+}
+.navbar-light .navbar-toggler:hover{
+  background-color: $smokyCream !important;
+  transition: .3s;
+  box-shadow: 2px 2px $midDark;
 }
 
 .navbar-toggler-icon{

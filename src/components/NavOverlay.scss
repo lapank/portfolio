@@ -64,4 +64,10 @@ background: rgba(0,0,0,0);
   font-size: 2rem !important;
   font-family:$headerFont;
   color:$lightest !important;
+  @include lg {
+  font-size: 1.5rem !important;
+  }
+  @include xl {
+     font-size: 2rem !important;
+  }
 }

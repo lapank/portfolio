@@ -1,8 +1,17 @@
 @import '../styles/variables.scss';
 
-.ThreeColContainer{
+.threeColContainer{
   position:relative;
-  top:0px;
+  height: 95vw;
+  @include sm{
+    height: 50vw;
+  }
+  @include md{
+  height: 50vw;
+  }
+  @include lg {
+
+  }
 }
 
 .relativeContainer{
@@ -13,23 +22,26 @@
 	z-index:0;
 	position:relative;
 	max-width: 400%;
-    height: 500px;
-    left: -320px;
+  height: 500px;
+  left: -115px;
+  top:-10px;
   @include sm{
     max-width: 100%;
     height: auto;
     left: 0px;
+    top:0px;
   }
   @include md{
     max-width: 100%;
     height: auto;
     left: 0px;
+    top:-10px
   }
-// 992px window width and more
-    @include lg {
-      max-width: 100%;
+  @include lg {
+    max-width: 100%;
     height: auto;
     left: 0px;
+    top:-100px;
     }
 
 }
@@ -96,16 +108,16 @@
 }
 
 .topText {
-    z-index:200;
+  z-index:200;
 	position:absolute;
-	top:5%;
+	top:20%;
 	padding: 0 1rem 0 0;
   @include sm{
-    top:10%;
+    top:25%;
     padding: 0 2rem;
   }
   @include md{
-    top:10%;
+    top:20%;
     padding: 0 2rem;
   }
 // 992px window width and more
