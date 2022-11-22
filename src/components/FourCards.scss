@@ -8,12 +8,16 @@
 	border-radius: 1rem !important;
 }
 
+.fourCardTitle{
+	color:$medium !important;
+}
+
 .fourCardBackground{
-	background-color:$dark;
+	background-color:$light;
 }
 
 .fourColBackground{
-	color:$light;
+	color:$dark !important;
 	font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 4rem;
@@ -21,7 +25,6 @@
 
 .fourColCard{
 	margin-right: 10px !important;
-    background-color: #383531;
     margin: 0 5px 5px 5px;
     border-radius: 25px;
     height:420px;
@@ -33,7 +36,7 @@
 }
 
 .fourColThumbnail{
-	border: #383531 solid 10px;
+	border: $light solid 10px;
     height: 7rem;
     background-size: 300px;
     background-position: center;

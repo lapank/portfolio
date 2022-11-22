@@ -7,11 +7,11 @@ function FourCardsContent(props) {
   return (
     
       <div className="col-md-6 col-xl-3">
-      <a href={props.link}><div className="fourColCard">
+      <a href={props.link}><div className="fourColCard outlineNavOverlay">
       <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 370, height:150, backgroundPosition: 'center'}} className="fourColThumbnail"></div>
         <div className="card-body">
-          <h5 className="card-title smallTitleLight">{props.title}</h5>
-          <p className="card-text bodyTextLight">{props.text}</p>
+          <h5 className="card-title ">{props.title}</h5>
+          <p className="card-text">{props.text}</p>
           <a href={props.link} className="btn btn-primary fourColButton">{props.button}</a>
           </div>
         </div></a>
@@ -35,7 +35,7 @@ function FourCards(props) {
   return (
     <div className="w-100 fourCardBackground">
     <div className='p-5'>
-    <h2 className="fourColBackground">Web Development</h2>
+    <h2 className="threeColHeader large fourCardTitle">Web Development</h2>
     <div className='row pt-5'>
       {listItems}
       </div>
