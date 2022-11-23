@@ -10,6 +10,7 @@
 
 .fourCardTitle{
 	color:$medium !important;
+	text-align:center;
 }
 
 .fourCardBackground{
@@ -31,7 +32,7 @@
 }
 
 .fourColCard:hover{
-	background-color:$medium;
+	background-color:rgba(0,0,0,.1);
 	transition: 0.3s;
 }
 
@@ -50,10 +51,17 @@
 
 .fourColCard:hover .fourColThumbnail{
 	transition: 0.3s;
-    border: #615d57 solid 10px;
+    border: rgba(0,0,0,.1) solid 10px;
 }
 
 .fourColCard:hover .fourColButton{
 	transition: 0.3s;
     background-color: red;
+}
+
+.outlineFourCards{
+	border: $lightShadow 1px solid;
+    border-radius: 1rem !important;
+    margin-right: 0.5rem;
+    box-shadow: 2px 2px $lightShadow;
 }
