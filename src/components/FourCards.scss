@@ -43,6 +43,9 @@
     background-position: center;
     border-radius: 25px;
 }
+.fourColThumbnail:hover{
+	border: $light solid 10px;
+}
 
 .fourColButton{
 	position:absolute;
@@ -51,12 +54,17 @@
 
 .fourColCard:hover .fourColThumbnail{
 	transition: 0.3s;
-    border: rgba(0,0,0,.1) solid 10px;
+    border: $lightHover solid 10px;
 }
 
-.fourColCard:hover .fourColButton{
+.fourColCard:hover .fourColButton {
 	transition: 0.3s;
-    background-color: red;
+    background-color: #0271c8;
+}
+
+.fourColCard:hover .fourColButton:hover{
+	transition: 0.3s;
+    background-color: #0271c8!important;
 }
 
 .outlineFourCards{
