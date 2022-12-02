@@ -8,6 +8,7 @@ function FourCardsContent(props) {
     
       <div className="col-md-6 col-xl-3">
       <a href={props.link}><div className="fourColCard outlineFourCards">
+      <div className="thumbnailDark"></div>
       <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 370, height:150, backgroundPosition: 'center'}} className="fourColThumbnail"></div>
         <div className="card-body">
           <h5 className="card-title ">{props.title}</h5>

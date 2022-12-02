@@ -8,43 +8,65 @@
 	border-radius: 1rem !important;
 }
 
+.thumbnailDark{
+	position:absolute;
+	z-index:100;
+	height:100%;
+	width:100%;
+}
+
+.thumbnailDark:hover{
+	transition: 0.3s;
+	background-color:rgba(0,0,0,.04);
+	z-index:100;
+	border-radius: 15px;
+}
+
 .fourCardTitle{
-	color:$medium !important;
+	color:$midDark !important;
 	text-align:center;
-}
-
-.fourCardBackground{
-	background-color:$light;
-}
-
-.fourColBackground{
-	color:$dark !important;
 	font-family: "Raleway", sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 4rem;
 }
 
+.fourCardBackground{
+	background-color:$lightHover;
+}
+
 .fourColCard{
+	position:relative;
+	background-color:$light;
 	margin-right: 10px !important;
     margin: 0 5px 5px 5px;
     border-radius: 25px;
     height:420px;
+    color:$medium !important;
+
+
+}
+
+.fourColCard a:hover{
+	transition: 0.3s;
+	color:$dark !important;
+	text-decoration: none !important;
 }
 
 .fourColCard:hover{
-	background-color:rgba(0,0,0,.1);
 	transition: 0.3s;
+	color:$midDark !important;
 }
 
 .fourColThumbnail{
-	border: $light solid 10px;
     height: 7rem;
     background-size: 300px;
     background-position: center;
-    border-radius: 25px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
+
 .fourColThumbnail:hover{
-	border: $light solid 10px;
+	background-color:rgba(0,0,0,.7);
 }
 
 .fourColButton{
@@ -52,19 +74,9 @@
 	bottom:2rem;
 }
 
-.fourColCard:hover .fourColThumbnail{
+.fourColCard:hover{
 	transition: 0.3s;
     border: $lightHover solid 10px;
-}
-
-.fourColCard:hover .fourColButton {
-	transition: 0.3s;
-    background-color: #0271c8;
-}
-
-.fourColCard:hover .fourColButton:hover{
-	transition: 0.3s;
-    background-color: #0271c8!important;
 }
 
 .outlineFourCards{
@@ -72,4 +84,11 @@
     border-radius: 1rem !important;
     margin-right: 0.5rem;
     box-shadow: 2px 2px $lightShadow;
+}
+
+.outlineFourCards:hover{
+	border: $midLight 1px solid;
+    border-radius: 1rem !important;
+    margin-right: 0.5rem;
+    box-shadow: 2px 2px $midLight;
 }

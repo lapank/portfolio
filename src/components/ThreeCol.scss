@@ -3,7 +3,7 @@
 .threeColContainer{
   position:relative;
   height: 95vw;
-  background-color:$light;
+  background-color:$lightHover;
   @include sm{
     height: 50vw;
   }
@@ -51,7 +51,7 @@
 	font-family: $raleway;
     font-weight: 700;
     font-size: 1.5rem;
-    color: $dark;
+    color: $midDark;
   @include sm{
     font-size: 1.2rem;
   }
@@ -66,7 +66,7 @@
 }
 .threeColAccent{
 	font-family: $raleway;
-    color: $dark;
+    color: $midDark;
     font-size: .9rem;
     line-height: .9rem;
     text-align: left;
@@ -89,7 +89,7 @@
 }
 .threeColText{
     font-family: $exo;
-    color: $dark;
+    color: $midDark;
     font-size: 1rem;
     line-height: 1rem;
   @include sm{
