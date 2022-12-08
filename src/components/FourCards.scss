@@ -15,11 +15,25 @@
 	width:100%;
 }
 
+/*
 .thumbnailDark:hover{
 	transition: 0.3s;
-	background-color:rgba(0,0,0,.04);
+	background-color:rgba(255,255,255,.1);
 	z-index:100;
 	border-radius: 15px;
+}*/
+
+.card-title{
+	font-family: "Exo 2", sans-serif;
+    font-weight: 600 !important;
+    color: #fcfaf5;
+    font-size: 16px;
+}
+
+.card-text{
+	font: 1rem "Exo 2", sans-serif;
+    color: #fcfaf5;
+    line-height: 1.3rem;
 }
 
 .fourCardTitle{
@@ -31,18 +45,17 @@
 }
 
 .fourCardBackground{
-	background-color:$lightHover;
+	background-color:$dark;
 }
 
 .fourColCard{
 	position:relative;
-	background-color:$light;
+	background-color:$midDark;
 	margin-right: 10px !important;
     margin: 0 5px 5px 5px;
     border-radius: 25px;
     height:420px;
-    color:$medium !important;
-
+    color:$light !important;
 
 }
 
@@ -54,7 +67,8 @@
 
 .fourColCard:hover{
 	transition: 0.3s;
-	color:$midDark !important;
+	color:$light!important;
+	background-color:$medium;
 }
 
 .fourColThumbnail{
@@ -74,11 +88,11 @@
 	bottom:2rem;
 }
 
+/*
 .fourColCard:hover{
 	transition: 0.3s;
     border: $lightHover solid 10px;
 }
-
 .outlineFourCards{
 	border: $lightShadow 1px solid;
     border-radius: 1rem !important;
@@ -92,3 +106,4 @@
     margin-right: 0.5rem;
     box-shadow: 2px 2px $midLight;
 }
+*/

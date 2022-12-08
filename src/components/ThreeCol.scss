@@ -3,7 +3,7 @@
 .threeColContainer{
   position:relative;
   height: 95vw;
-  background-color:$lightHover;
+  background-color:$dark;
   @include sm{
     height: 50vw;
   }

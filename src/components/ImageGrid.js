@@ -6,7 +6,7 @@ function ImageGridContent(props) {
   // Correct! There is no need to specify the key here:
   return (
     <div className='row'>
-       <div className="col-md-6 p-5 backgroundDark">
+       <div className="col-md-6 p-5 imageGridBackground">
       <div className="d-flex align-items-center justify-content-center" style={{height: 500}}>
        <p>
          <span className="headerText gradientText">{props.title}</span>
