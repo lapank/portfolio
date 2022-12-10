@@ -1,0 +1,29 @@
+@import '../styles/variables.scss';
+
+.fiveCardCluster{
+	position:relative;
+	background-color:$midDark;
+	margin-right: 10px !important;
+    margin: 0 5px 5px 5px;
+    border-radius: 25px;
+    height:420px;
+    color:$light !important;
+}
+
+.fiveCardCluster:hover{
+	transition: 0.3s;
+	color:$light!important;
+	background-color:$medium;
+}
+
+.cardButton{
+	position:absolute;
+	bottom:2rem;
+}
+
+/*
+.fiveCardClustera:hover{
+	transition: 0.3s;
+	color:$dark !important;
+	text-decoration: none !important;
+}*/

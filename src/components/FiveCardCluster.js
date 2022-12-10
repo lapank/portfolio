@@ -1,3 +1,4 @@
+import './FiveCardCluster.scss';
 import './FiveCardClusterData.js';
 import {Link} from 'react-router-dom';
 import {leftDoubleCardContent} from './FiveCardClusterData.js';
@@ -10,14 +11,14 @@ function Card(props){
 	return(
 		
 	      <div className="p-3">
-	        <div className="border backgroundDark roundedEdges">
+	        <a href={props.link}><div className="fiveCardCluster">
       <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 1100, height:150, backgroundPosition: 'center'}} className="card-img-top roundedEdgesTop"></div>
         <div className="card-body">
-          <h5 className="card-title smallTitleLight">{props.title}</h5>
+          <h5 className="card-title ">{props.title}</h5>
           <p className="card-text bodyTextLight">{props.text}</p>
-          <Link to={props.link} className="btn btn-primary tealBackground">{props.button}</Link>
+          <Link to={props.link} className="cardButton btn btn-primary ">{props.button}</Link>
           </div>
-        </div>
+        </div></a>
 	        
 	    </div>
 	)
@@ -27,14 +28,14 @@ function DoubleCard(props){
 
 	return(
 	      <div className="col-6">
-	        <div className="border backgroundDark roundedEdges">
+	       <a href={props.link}><div className="fiveCardCluster">
       <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 600, height:150, backgroundPosition: 'center'}} className="card-img-top roundedEdgesTop"></div>
         <div className="card-body">
-          <h5 className="card-title smallTitleLight">{props.title}</h5>
+          <h5 className="card-title">{props.title}</h5>
           <p className="card-text bodyTextLight">{props.text}</p>
-          <Link to={props.link} className="btn btn-primary tealBackground">{props.button}</Link>
+          <Link to={props.link} className="cardButton btn btn-primary ">{props.button}</Link>
           </div>
-        </div>
+        </div></a>
 	    </div>
 	)
 }
@@ -103,7 +104,7 @@ function RightClusterContent(props){
 function FiveCardCluster(){
   return (
     <div className="w-100 p-5 backgroundDark">
-	    <h2 className="headerText gradientText">Project Manager & Product Owner</h2>
+	    <h2 className="videoGalleryTitle">Project Manager & Product Owner</h2>
 	    <div className='row pt-2'>
 	    	<div className="col-md-8">
 		    	
