@@ -12,12 +12,12 @@ function ThreeColBoxContent(props) {
       <div className="col-7">
         <div className="row">
           <div className="col-12">
-            <h3 className="threeColHeader large">{props.h3}</h3>
+            <h3 className="threeColHeader large darkBlueGradientText">{props.h3}</h3>
           </div>
         </div>
         <div className="row">
           <div className="col-md-3">
-            <h4 className="threeColAccent">{props.eyebrow}</h4>
+            <h4 className="threeColAccent darkBlueGradientText">{props.eyebrow}</h4>
           </div>
           <div className="col-md-9">
             <p className="threeColText">{props.text}</p>

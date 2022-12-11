@@ -8,10 +8,13 @@ import {managmentVideoDataTest} from '../components/VideoGalleryDataTest.js';
 import VideoGalleryTest from '../components/VideoGalleryTest.js';
 import {managmentVideoTitle} from '../components/VideoGalleryDataTest';
 import VideoTitle from '../components/VideoTitle.js';
+import SecondaryPageHeader from '../components/SecondaryPageHeader.js';
+import {projPage} from '../components/SecondaryPageHeaderData.js';
 
 function Management(){
 	return(
 		<div className='management'>
+		<SecondaryPageHeader item={projPage}/>
 				<VideoTitle item={managmentVideoTitle}/>
 				<VideoGalleryTest item={managmentVideoDataTest}/>
 				<FourCards item={fourCardsManageData} />

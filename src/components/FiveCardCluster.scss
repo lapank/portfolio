@@ -21,6 +21,18 @@
 	bottom:2rem;
 }
 
+.fiveCardCluster:hover .btn-primary{
+	background-color:$midLightBlue !important;
+}
+
+.fiveCardClusterTitle{
+	text-align:center;
+	padding-bottom:48px;
+	padding-top:48px;
+	font-size:3rem;
+
+}
+
 /*
 .fiveCardClustera:hover{
 	transition: 0.3s;

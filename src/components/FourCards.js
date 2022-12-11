@@ -36,7 +36,7 @@ function FourCards(props) {
   return (
     <div className="w-100 fourCardBackground">
     <div className='p-5'>
-    <h2 className="videoGalleryTitle">Web Development</h2>
+    <h2 className="blueGradientText fourColTitle headerText">Web Development</h2>
     <div className='row pt-5'>
       {listItems}
       </div>

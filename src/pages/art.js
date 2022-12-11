@@ -5,11 +5,14 @@ import {galleryData} from '../components/GalleryData.js';
 import Gallery from '../components/Gallery.js';
 import CardList from '../components/CardList.js';
 import {cardData} from '../components/CardData.js';
+import SecondaryPageHeader from '../components/SecondaryPageHeader.js';
+import {artPage} from '../components/SecondaryPageHeaderData.js';
 
 
 function Art(){
 	return(
 		<div className='art'>
+			<SecondaryPageHeader item={artPage}/>
 			<TwoColBox item={artData}/>
 			<Gallery item={galleryData}/>
 			<h2>Digital Media</h2>

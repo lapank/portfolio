@@ -112,14 +112,12 @@ a:hover, .videoThumbnail:hover{
   cursor: pointer;
 }
 
-
-
-.btn-primary:hover{
-  background-color:$midBlue !important;
-}
-
 .relative{
   position: relative;
+}
+
+.home{
+  background-color:$cream;
 }
 
 .link{
@@ -180,11 +178,15 @@ a:hover, .videoThumbnail:hover{
 }
 
 .btn-primary{
-  background-color: $darkBlue !important;
+  background-color: $midDarkBlue !important;
   border-color: $darkBlue !important;
   color: $dark;
   font-family: $bodyFont;
   font-weight:600!important;
+}
+
+.btn-primary:hover{
+  background-color:$midLightBlue !important;
 }
 
 .bodyTextDark{
@@ -224,6 +226,18 @@ background: linear-gradient(217deg, rgba(78, 36, 171,1), rgba(78, 36, 171,0) 70.
     linear-gradient(to right top, #a18e6d, #b8a88d, #cfc3ae, #e7dfd0, #fffbf3);
 }
 
+.darkBlueGradientText{
+  background: -webkit-linear-gradient(#243EAB,#2482AB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blueGradientText{
+  font-size: 72px;
+  background: -webkit-linear-gradient(#5576FF,#55CBFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .gradientText{
   font-size: 72px;

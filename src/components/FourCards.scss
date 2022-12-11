@@ -89,8 +89,13 @@
 }
 
 .fourColCard:hover .btn-primary {
-	background-color:$midBlue !important;
-	border-color:$darkBlue !important;
+	background-color:$midLightBlue !important;
+	border-color:$midBlue !important;
+}
+
+.fourColTitle{
+	text-align:center;
+	font-size:3rem;
 }
 
 /*

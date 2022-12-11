@@ -9,10 +9,10 @@ function ImageGridContent(props) {
        <div className="col-md-6 p-5 imageGridBackground">
       <div className="d-flex align-items-center justify-content-center" style={{height: 500}}>
        <p>
-         <span className="headerText gradientText">{props.title}</span>
+         <span className="headerText blueGradientText">{props.title}</span>
          <br/>
          <span className="bodyTextLight mt-5">{props.text}</span><br/>
-         <Link to={props.link} className="btn btn-primary mt-5 tealBackground">{props.button}</Link>
+         <Link to={props.link} className="btn btn-primary mt-5">{props.button}</Link>
         </p>
       </div>
       </div>

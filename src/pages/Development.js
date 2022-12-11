@@ -10,6 +10,9 @@ import {developmentVideoTitle} from '../components/VideoGalleryDataTest';
 import VideoTitle from '../components/VideoTitle.js';
 import {developmentSliderTitle} from '../components/SliderData.js';
 import NavOverlay from '../components/NavOverlay.js';
+import SecondaryPageHeader from '../components/SecondaryPageHeader.js';
+import {devPage} from '../components/SecondaryPageHeaderData.js';
+
 
 function Development(){
 	let hash = window.location.hash;
@@ -26,7 +29,7 @@ function Development(){
 	  }
 	return(
 		<div className='development backgroundMedium pb-5' onLoad={navigate} onLoad={sliderSelect}>
-			<NavOverlay/>
+			<SecondaryPageHeader item={devPage}/>
 			<TwoColBoxAnimation item={devData}/>
 			<VideoTitle item={developmentVideoTitle}/>
 			<VideoGallery item={developmentVideoData}/>
