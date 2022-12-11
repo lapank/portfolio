@@ -35,9 +35,11 @@ function TwoColBoxAnimation(props) {
       text = {item.text} />
 	);
   return (
-    <div className="w-100 gradientBackground p-5">
+    <div className="blueBackground">
+    <div className="w-100 blueGradientBackground p-5">
     <div className="container">
       {listItems}
+    </div>
     </div>
     </div>
   );

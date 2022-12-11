@@ -19,7 +19,6 @@ function Card(props){
           <Link to={props.link} className="cardButton btn btn-primary ">{props.button}</Link>
           </div>
         </div></a>
-	        
 	    </div>
 	)
 }
@@ -114,7 +113,7 @@ function FiveCardCluster(){
 		      		<LeftFullWidthContent item={leftFullWidthCardContent}/>
 		      	</div>
 	      	</div>
-	      	<div className="col-md-4 gradientBackground">
+	      	<div className="col-md-4 blueGradientBackground">
 	      		<RightClusterContent item={rightCardClusterContent}/>
 	      	</div>
 	    </div>

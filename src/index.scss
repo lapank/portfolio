@@ -115,7 +115,7 @@ a:hover, .videoThumbnail:hover{
 
 
 .btn-primary:hover{
-  background-color:$lightest !important;
+  background-color:$midBlue !important;
 }
 
 .relative{
@@ -180,8 +180,8 @@ a:hover, .videoThumbnail:hover{
 }
 
 .btn-primary{
-  background-color: $lightTeal;
-  border-color: $darkTeal !important;
+  background-color: $darkBlue !important;
+  border-color: $darkBlue !important;
   color: $dark;
   font-family: $bodyFont;
   font-weight:600!important;
@@ -197,6 +197,16 @@ a:hover, .videoThumbnail:hover{
   font-family: $bodyFont;
   font-weight:200 !important;
   color: $light;
+}
+
+.blueBackground{
+  background-color:#243EAB;
+}
+
+.blueGradientBackground{
+background: linear-gradient(217deg, rgba(78, 36, 171,1), rgba(78, 36, 171,0) 70.71%),
+            linear-gradient(127deg, rgba(36, 62, 171,1), rgba(36, 62, 171,0) 70.71%),
+            linear-gradient(336deg, rgba(36, 130, 171,1), rgba(36, 130, 171, 0) 70.71%);
 }
 
 .gradientBackground{

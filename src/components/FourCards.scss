@@ -88,6 +88,11 @@
 	bottom:2rem;
 }
 
+.fourColCard:hover .btn-primary {
+	background-color:$midBlue !important;
+	border-color:$darkBlue !important;
+}
+
 /*
 .fourColCard:hover{
 	transition: 0.3s;
