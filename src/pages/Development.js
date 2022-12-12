@@ -30,7 +30,6 @@ function Development(){
 	return(
 		<div className='development backgroundMedium pb-5' onLoad={navigate} onLoad={sliderSelect}>
 			<SecondaryPageHeader item={devPage}/>
-			<TwoColBoxAnimation item={devData}/>
 			<VideoTitle item={developmentVideoTitle}/>
 			<VideoGallery item={developmentVideoData}/>
 			<div id="samples" ></div>

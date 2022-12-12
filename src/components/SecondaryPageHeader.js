@@ -6,12 +6,10 @@ function SecondaryPageHeaderContent(props) {
   // Correct! There is no need to specify the key here:
   return (
   	<div className='row'>
-  		
-	    
 	    	<div className="p-3">
-				<p className="smallTitleDark">{props.eyebrow}</p>
-        <h3 className="headerTextDark large">{props.h3}</h3>
-        <p className="bodyTextDark">{props.text}</p>
+        <h3 className="secondaryPageHeaderTitle">{props.h3}</h3>
+        <p className="secondaryPageHeaderEyebrow">{props.eyebrow}</p>
+        <p className="bodyTextLight">{props.text}</p>
 			</div>
 		
 	</div>	

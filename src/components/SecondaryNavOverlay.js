@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../index.scss';
-import './NavOverlay.scss';
+import './SecondaryNavOverlay.scss';
 
 function Nav(){
 	const [click, setClick] = useState(0);
@@ -9,19 +9,19 @@ function Nav(){
 			<div className="w-100 navOverlayPosition">
 			<nav className="navbar navbar-expand-lg navbar-light">
 			  <a className="navbar-brand headerTextNavOverlay" href="/">Kaylin Lapan | Portfolio</a>
-			  <button onClick={() => {setClick(click+1)}} className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			  <button onClick={() => {setClick(click+1)}} className="navbar-toggler collapsed togglerShadowDark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			    <span className="navbar-toggler-icon"></span>
 			  </button>
 			  <div className="collapse navbar-collapse navOverlayButtons" id="navbarNavDropdown">
 			    <ul className="navbar-nav">
-			      <li className="nav-item outlineNavOverlay">
-			        <a className="nav-link textNavOverlay" href="/web-development">Web Development</a>
+			      <li className="nav-item outlineSecondaryNavOverlay">
+			        <a className="nav-link textSecondaryNavOverlay" href="/web-development">Web Development</a>
 			      </li>
-			      <li className="nav-item outlineNavOverlay">
-			        <a className="nav-link textNavOverlay" href="/art-digital-media">Art & Digital Media</a>
+			      <li className="nav-item outlineSecondaryNavOverlay">
+			        <a className="nav-link textSecondaryNavOverlay" href="/art-digital-media">Art & Digital Media</a>
 			      </li>
-			      <li className="nav-item outlineNavOverlay">
-			      	<a className="nav-link textNavOverlay" href="/product-owner-project-management">Product Owner & Project Managment</a>
+			      <li className="nav-item outlineSecondaryNavOverlay">
+			      	<a className="nav-link textSecondaryNavOverlay" href="/product-owner-project-management">Product Owner & Project Managment</a>
 			      </li>
 			    </ul>
 			  </div>
@@ -32,7 +32,7 @@ function Nav(){
 		return(
 			<nav className="navbar navbar-expand-lg navbar-light" style={{height: 220 + 'px'}}>
 			  <a className="navbar-brand headerTextNavOverlay" href="/">Kaylin Lapan | Portfolio</a>
-			  <button onClick={() => {setClick(click+1)}} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+			  <button onClick={() => {setClick(click+1)}} className="navbar-toggler togglerShadowDark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
 			    <span className="navbar-toggler-icon"></span>
 			  </button>
 			  <div className="collapse navbar-collapse show bodyText" id="navbarNavAltMarkup" >

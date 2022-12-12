@@ -32,7 +32,7 @@ function Nav(){
 		return(
 			<nav className="navbar navbar-expand-lg navbar-light" style={{height: 220 + 'px'}}>
 			  <a className="navbar-brand headerTextNavOverlay" href="/">Kaylin Lapan | Portfolio</a>
-			  <button onClick={() => {setClick(click+1)}} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+			  <button onClick={() => {setClick(click+1)}} className="navbar-toggler togglerShadowMedium" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
 			    <span className="navbar-toggler-icon"></span>
 			  </button>
 			  <div className="collapse navbar-collapse show bodyText" id="navbarNavAltMarkup" >

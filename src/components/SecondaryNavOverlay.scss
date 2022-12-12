@@ -13,6 +13,10 @@
   right: 2rem;
 }
 
+.togglerShadowDark{
+  box-shadow: 2px 2px $dark;
+}
+
 .navbar {
 background: rgba(0,0,0,0);
   height: 80px;
@@ -36,31 +40,35 @@ background: rgba(0,0,0,0);
   color: white;
 }
 
-.outlineNavOverlay{
-  border: $medium 1px solid;
+.outlineSecondaryNavOverlay{
+  border: $dark 1px solid;
   border-radius: 1rem !important;
   margin-right:.5rem;
-  box-shadow: 2px 2px $medium;
+  box-shadow: 2px 2px $dark;
 }
 
-.outlineNavOverlay:hover{
-  border:$midDark 1px solid;
+.outlineSecondaryNavOverlay:hover{
+  border:$dark 1px solid;
   background-color: rgba(0,0,0,.1);
-  box-shadow: 2px 2px $midDark;
+  box-shadow: 2px 2px $dark;
   transition: 0.3s;
 }
 
-.textNavOverlay{
-  color:$medium !important;
+.textSecondaryNavOverlay{
+  color:$lightBlue !important;
+}
+
+.nav-item:hover .textSecondaryNavOverlay{
+  color:$midLightBlue !important;
 }
 
 .textNavOverlay:hover{
-  color:$midDark !important;
+  color:$dark !important;
   text-decoration: none;
 }
 
 .headerTextNavOverlay{
-  text-shadow: 2px 2px $medium;
+  text-shadow: 2px 2px $dark;
   font-size: 2rem !important;
   font-family:$headerFont;
   color:$lightest !important;
