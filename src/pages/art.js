@@ -13,7 +13,6 @@ function Art(){
 	return(
 		<div className='art'>
 			<SecondaryPageHeader item={artPage}/>
-			<TwoColBox item={artData}/>
 			<Gallery item={galleryData}/>
 			<h2>Digital Media</h2>
 			<CardList item={cardData}/>

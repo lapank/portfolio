@@ -27,7 +27,7 @@ function GalleryContent(props){
   return (
           <div className="row videoThumbnail" onClick={() => {setText(props.text); setTitle(props.title); setVideo(props.video);}}>
             <div style={{backgroundImage: `url("${props.image}")`}} id="thumbnail1" className="col-3 videoThumbnailBox">
-            <div className="centerPlayIcon"><div className="gradientBackground playBackground"></div><div className="blueBorder"><AiIcons.AiFillPlayCircle className="playButton"/></div>
+            <div className="centerPlayIcon"><div className="playBackground"></div><div className="blueBorder"><AiIcons.AiFillPlayCircle className="playButton"/></div>
             </div>
             </div>
             <div className="col-9 smallTitleLight">

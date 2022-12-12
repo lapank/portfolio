@@ -165,7 +165,7 @@ a:hover, .videoThumbnail:hover{
 }
 
 .blueBorder{
-  background-color: $lightTeal;
+  background-color: $midLightBlue;
   height: 47px;
   width: 47px;
   border-radius: 24px;
@@ -227,7 +227,7 @@ background: linear-gradient(217deg, rgba(78, 36, 171,1), rgba(78, 36, 171,0) 70.
 }
 
 .darkBlueGradientText{
-  background: -webkit-linear-gradient(#243EAB,#2482AB);
+  background: -webkit-linear-gradient(#243EAB,$midBlue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

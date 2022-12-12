@@ -24,6 +24,7 @@
     z-index: 10;
     left: 9px;
     top: 9px;
+    background-color:$lightBlue;
   }
 }
 
@@ -49,7 +50,7 @@ transition: 0.3s;
 
 
 .videoEyebrow{
-  color: $lightTeal;
+  color: $lightBlue;
   font-family: "Exo 2", sans-serif;
   font-weight: 600 !important;
   font-size: 1.3rem;
