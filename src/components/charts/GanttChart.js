@@ -60,15 +60,15 @@ function GanttChart ({google}) {
         gantt: {
           palette:[
             {
-              "color": "#0b79ad",
-              "dark": "#45e7d8"
+              "color": "#889fff",
+              "dark": "#224DFF"
             },
               
           ],
           trackHeight: 30,
-          innerGridTrack: {fill: '#fcfaf5'},
-          innerGridDarkTrack: {fill: '#ede6da'},
-          innerGridHorizLine:{stroke: '#fcfaf5'},
+          innerGridTrack: {fill: '#383531'},
+          innerGridDarkTrack: {fill: '#29251e'},
+          innerGridHorizLine:{stroke: '#383531'},
           percentStyle:{fill:'#82e6da'},
         }
       };

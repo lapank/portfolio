@@ -11,13 +11,13 @@ function GalleryContent(props){
   return (
     <div>
       <div className="row">
-        <div className="col-md-8 bg-light">
+        <div className="col-md-8 cardBackground">
           <div className="row">
               <div style={{backgroundImage: `url("${thumbnail}")`, backgroundRepeat: 'no-repeat', backgroundSize: "contain",backgroundPosition: 'center', height:600, width:800}}></div>
           </div>
           
           <div className="row">
-            <p>{text}</p>
+            <p className="bodyTextLight">{text}</p>
           </div>
         </div>
         <div className="col-md-2">
@@ -84,9 +84,11 @@ function Gallery(props){
       text8 = {item.text8}  />
   );
   return (
-    <div className="container pt-5 pb-5">
-    <h2 className="gradientText headerText ">Fine Art</h2>
+    <div className="backgroundDark">
+    <div className="container">
+    <h2 className="blueGradientText headerText fiveCardClusterTitle">Fine Art</h2>
       {listItems}
+      </div>
     </div>
   );
 }

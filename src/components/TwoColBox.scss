@@ -1,3 +1,5 @@
+@import '../styles/variables.scss';
+
 $lightBackground: #E9ECEF;
 $textLight: #6c757d;
 $textMain: #495057;
@@ -19,7 +21,9 @@ body{
     font-size: 1rem;
 }
 
-
+.cardBackground{
+    background-color:$midDark;
+}
 
 @keyframes rocking {
   from {

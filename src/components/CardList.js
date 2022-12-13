@@ -6,15 +6,15 @@ import '../index.scss';
 function CardContent(props) {
   // Correct! There is no need to specify the key here:
   return (
-  	<div className='row backgroundDark mt-5'>
+  	<div className='row cardBackground mt-5'>
   		<div className="col-md-6">
         <img className="img-fluid" src={props.image} alt={props.altText} />
 	    </div>
 	    <div className="col-md-6">
 	    	<div className="p-3">
-				<p className="smallTitleLight">{props.eyebrow}</p>
-        <h3 className="smallTitleLight">{props.h3}</h3>
-        <p className="bodyTextLight">{props.text}</p>
+				<p className="videoEyebrow">{props.eyebrow}</p>
+        <h3 className="videoTitle">{props.h3}</h3>
+        <p className="bodyTextLight pb-3">{props.text}</p>
 			</div>
 		</div>
 	</div>	
@@ -34,10 +34,10 @@ function CardList(props) {
       text = {item.text} />
   );
   return (
-    <div className="w-100 gradientBackground p-5">
+    <div className="w-100 backgroundDark p-5">
 
     <div className="container">
-    <h1 className="headerTextDark">Digital Media</h1>
+    <h1 className="blueGradientText headerText fiveCardClusterTitle">Digital Media</h1>
       {listItems}
     </div>
     </div>

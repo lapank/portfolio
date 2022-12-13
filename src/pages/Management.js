@@ -13,7 +13,7 @@ import {projPage} from '../components/SecondaryPageHeaderData.js';
 
 function Management(){
 	return(
-		<div className='management'>
+		<div className='management backgroundDark'>
 		<SecondaryPageHeader item={projPage}/>
 				<VideoTitle item={managmentVideoTitle}/>
 				<VideoGalleryTest item={managmentVideoDataTest}/>
