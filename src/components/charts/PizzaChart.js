@@ -22,15 +22,15 @@ function PizzaChart ({google}) {
       var options = {'title':'What do people want from the intranet?',
                     'width':400,
                     'height':300,
-                    'backgroundColor':'#fcfaf5',
+                    'backgroundColor':'#29251e',
                     'backgroundColor.stroke':'#fcfaf5',
-                    'pieSliceTextStyle':{color: '#29251e', fontName: '"Exo 2", sans-serif;', fontSize: '2rem'},
+                    'pieSliceTextStyle':{color: '#fcfaf5', fontName: '"Exo 2", sans-serif;', fontSize: '2rem'},
                     slices: {
-                    0: { color: '#82e6da' },
-                    1: { color: '#45e7d8' },
-                    2: { color: '#0b79ad' },
-                    3: { color: '#0b9a94' },
-                    4: { color: '#0a9964' }
+                    0: { color: '#889fff' },
+                    1: { color: '#5576FF' },
+                    2: { color: '#224DFF' },
+                    3: { color: '#2F4ED3' },
+                    4: { color: '#243EAB' }
                   }
                 };
 

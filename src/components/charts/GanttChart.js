@@ -55,21 +55,22 @@ function GanttChart ({google}) {
 
       // Set chart options
       let options = {
-
+          backgroundColor:{fill: '#615d57'},
           height: 500,
         gantt: {
           palette:[
             {
               "color": "#889fff",
-              "dark": "#224DFF"
+              "dark": "#5576FF"
             },
               
           ],
           trackHeight: 30,
           innerGridTrack: {fill: '#383531'},
-          innerGridDarkTrack: {fill: '#29251e'},
+          innerGridDarkTrack: {fill: '#615d57'},
           innerGridHorizLine:{stroke: '#383531'},
           percentStyle:{fill:'#82e6da'},
+          
         }
       };
 
