@@ -35,7 +35,7 @@ function Charts() {
       <p className="bodyTextLight">During the Discovery Phase, the UX and IA team will create Customer Journey maps and dive into the website’s existing analytics.  The following charts are a sample of what they will find to help inform their stakeholder conversations and wireframe development.</p>
     	<div className='row'>
     		<div className="col-6">
-        <div className="lightCard">
+        <div className="darkCard">
         <div className="centerAbsolute">
           <PizzaChart google={google}/>
         </div>
@@ -46,7 +46,7 @@ function Charts() {
   	    </div>
         </div>
   	    <div className="col-6">
-        <div className="lightCard">
+        <div className="darkCard">
         <div className="centerAbsolute">
           <LineChart google={google} />
         </div>
@@ -59,7 +59,7 @@ function Charts() {
       </div>
         <div className='row mt-5 mb-5'>
           <div className="col-4">
-          <div className="lightCard">
+          <div className="darkCard">
           <h3 className="videoEyebrow">2017</h3>
           <div className="centerAbsolute">
             <SankeyChartThree google={google} />
@@ -67,7 +67,7 @@ function Charts() {
           </div>
           </div>
           <div className="col-4">
-          <div className="lightCard">
+          <div className="darkCard">
           <h3 className="videoEyebrow">2018</h3>
           <div className="centerAbsolute">
             <SankeyChartTwo google={google} />
@@ -75,7 +75,7 @@ function Charts() {
             </div>
           </div>
           <div className="col-4">
-          <div className="lightCard">
+          <div className="darkCard">
           <h3 className="videoEyebrow">2019</h3>
           <div className="centerAbsolute">
             <SankeyChartOne google={google} />

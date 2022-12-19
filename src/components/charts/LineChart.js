@@ -20,8 +20,22 @@ function LineChart ({google}) {
           title: 'Site Views by Year',
           curveType: 'function',
           legend: { position: 'bottom' },
-          colors:['#06465f'],
-          'backgroundColor':'#fcfaf5',
+          colors:['#889fff'],
+          'backgroundColor':'#29251e',
+          annotations: {
+            textStyle: {
+              fontName: 'Times-Roman',
+              fontSize: 18,
+              bold: true,
+              italic: true,
+              // The color of the text.
+              color: '#fff',
+              // The color of the text outline.
+              auraColor: '#fff',
+              // The transparency of the text.
+              opacity: 0.8
+            }
+          }
         };
 
       // Instantiate and draw our chart, passing in some options.

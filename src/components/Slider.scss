@@ -1,3 +1,5 @@
+@import '../styles/variables.scss';
+
 /*$thumbnailHeight: 5rem;
 
 .thumbnailBox{
@@ -47,14 +49,14 @@ $screen-xl-min: 1200px;
 .sliderTitle{
     font-family: "Exo 2", sans-serif;
     font-weight: 600 !important;
-    color: #29251e;
+    color: $light;
     font-size: 1.7rem;
     line-height: 2.2rem;
 }
 
 .sliderBodyText{
   font: 1rem "Exo 2", sans-serif;
-  color: #29251e;
+  color: $light;
   line-height: 1.3rem;
 }
 

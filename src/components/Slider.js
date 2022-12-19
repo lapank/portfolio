@@ -22,7 +22,7 @@ function Slider(props){
         <div className="col-5">
         <VideoTitle item={developmentSliderTitle}/>
         </div>
-        <div className="col-7 sliderText gradientBackground">
+        <div className="col-7 sliderText blueGradientBackground">
         <h2 id="sampleTitle" className="sliderTitle">{item[0].title}</h2>
         <p id="sampleText" className="sliderBodyText">{item[0].text}</p>
         </div>

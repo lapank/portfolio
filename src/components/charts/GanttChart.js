@@ -58,6 +58,10 @@ function GanttChart ({google}) {
           backgroundColor:{fill: '#615d57'},
           height: 500,
         gantt: {
+          labelStyle: {
+            fontSize: 14,
+            color: '#fff'
+          },
           palette:[
             {
               "color": "#889fff",
@@ -73,8 +77,6 @@ function GanttChart ({google}) {
           
         }
       };
-
-      console.log(options);
 
       // Instantiate and draw our chart, passing in some options.
       const newChart = new google.visualization.Gantt(document.getElementById('ganttChart'));

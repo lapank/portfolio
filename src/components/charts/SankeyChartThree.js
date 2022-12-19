@@ -20,8 +20,8 @@ function SankeyChartThree ({google}) {
        [ 'Home Page', 'Drop-off', 1800 ],
         ]);
 
-    let colors = ['#82e6da', '#06465f', '#0b79ad', '#45e7d8',
-                  '#0b9a94', '#0a9964', '#82e6da'];
+    let colors = ['#889fff', '#5576FF', '#224DFF', '#2F4ED3',
+                  '#243EAB', '#889fff', '#5576FF'];
 
     let options = {
       height: 300,
@@ -33,7 +33,7 @@ function SankeyChartThree ({google}) {
           label: { 
                 fontName: "'Exo 2', sans-serif",
                 fontSize: 14,
-                color: '#29251e',
+                color: '#fff',
                 },
         },
         link: {

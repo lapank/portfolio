@@ -175,6 +175,12 @@ a:hover, .videoThumbnail:hover{
   border-radius: 24px;
 }
 
+.darkCard{
+  background-color:$dark;
+  height: 23rem;
+  position: relative;
+}
+
 .lightCard{
   background-color:$light;
   height: 23rem;
