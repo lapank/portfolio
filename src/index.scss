@@ -124,6 +124,17 @@ a:hover, .videoThumbnail:hover{
   background-color:$cream;
 }
 
+.linkDark{
+  color: $darkBlue;
+  text-decoration: underline;
+  font-family:$bodyFont;
+  font-weight:600;
+}
+
+.linkDark:hover{
+  color: $midBlue;
+}
+
 .link{
   color: $lightBlue;
   text-decoration: underline;

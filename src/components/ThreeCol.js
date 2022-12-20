@@ -20,7 +20,7 @@ function ThreeColBoxContent(props) {
             <h4 className="threeColAccent darkBlueGradientText">{props.eyebrow}</h4>
           </div>
           <div className="col-md-9">
-            <a href='https://github.com/lapank' className="link">View my Github</a>
+            <a href='https://github.com/lapank' className="linkDark">View my Github</a>
             <p className="threeColText">{props.text}</p>
           </div>
         </div>

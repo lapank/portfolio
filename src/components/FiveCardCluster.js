@@ -14,6 +14,7 @@ function Card(props){
 	        <a href={props.link}><div className="fiveCardCluster">
       <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 1100, height:150, backgroundPosition: 'center'}} className="card-img-top roundedEdgesTop"></div>
         <div className="card-body">
+        <p className="videoEyebrow">{props.eyebrow}</p>
           <h5 className="card-title ">{props.title}</h5>
           <p className="card-text bodyTextLight">{props.text}</p>
           <Link to={props.link} className="cardButton btn btn-primary ">{props.button}</Link>
@@ -30,6 +31,7 @@ function DoubleCard(props){
 	       <a href={props.link}><div className="fiveCardCluster">
       <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 600, height:150, backgroundPosition: 'center'}} className="card-img-top roundedEdgesTop"></div>
         <div className="card-body">
+        <p className="videoEyebrow">{props.eyebrow}</p>
           <h5 className="card-title">{props.title}</h5>
           <p className="card-text bodyTextLight">{props.text}</p>
           <Link to={props.link} className="cardButton btn btn-primary ">{props.button}</Link>

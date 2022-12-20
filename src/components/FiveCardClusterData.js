@@ -8,7 +8,7 @@ export const leftDoubleCardContent = [
 	{
 		eyebrow:'Event',
 		title: 'SAAM Arcade',
-		text: 'Founded a two day arcade featuring games, musical performances and programming workshops that was attended by over 20,000 guests.',
+		text: 'Created a two day arcade featuring games, musical performances and programming workshops that was attended by over 20,000 guests.',
 		link: '/product-owner-project-management',
 		button:'Learn about the Arcade',
 		image: arcade,
@@ -17,7 +17,7 @@ export const leftDoubleCardContent = [
 	{
 		eyebrow:'Website',
 		title: 'How Things Fly',
-		text: 'Managed the conversion of 12 Flash interactives and 2 Unity interactives to ReactJS in addition to a Drupal 5 to Drupal 8 site migration.',
+		text: 'Managed the migration of a Drupal 5 to a Drupal 8 site and the conversion of 12 Flash interactives and 2 Unity interactives to ReactJS.',
 		link: '/product-owner-project-management',
 		button:'Learn about the website',
 		image: htf,
@@ -29,7 +29,7 @@ export const leftFullWidthCardContent = [
 	{
 		eyebrow:'Website',
 		title: 'Air and Space Website',
-		text: 'Currently managing the Smithsonian National Air and Space Museum’s websites, coordinating development work, performing quality assurance testing, designing new features and functionality, and shepherding the sites through their life cycles and upgrades.',
+		text: 'Managing the Smithsonian National Air and Space Museum’s websites, coordinating development work, performing quality assurance testing, designing new features and functionality, and shepherding the sites through their life cycle, upgrades, and maintenance.',
 		link: '/product-owner-project-management',
 		button:'Learn about the website',
 		image: nasmSite,
@@ -50,7 +50,7 @@ export const rightCardClusterContent = [
 	{
 		eyebrow:'Event',
 		title: 'Photo DC Lectures',
-		text: 'Partnered with Photo DC to create an annual lecture series at the Smithsonian American Art Museum featuring well known photographers discussing their work.',
+		text: 'Partnered with Photo DC to create an annual lecture series at the Smithsonian American Art Museum featuring well-known photographers discussing their work.',
 		link: '/product-owner-project-management',
 		button:'Learn about the lecture',
 		image: seliger,
