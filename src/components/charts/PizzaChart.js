@@ -20,11 +20,15 @@ function PizzaChart ({google}) {
 
       // Set chart options
       var options = {'title':'What do people want from the intranet?',
+                    'titleTextStyle':{ color: '#fcfaf5',fontName: '"Exo 2", sans-serif;',fontSize: '2rem'},
+                    'fontColor':'#29251e',
                     'width':400,
                     'height':300,
                     'backgroundColor':'#29251e',
                     'backgroundColor.stroke':'#fcfaf5',
                     'pieSliceTextStyle':{color: '#fcfaf5', fontName: '"Exo 2", sans-serif;', fontSize: '2rem'},
+                    'legendTextStyle': { color: '#fcfaf5',fontName: '"Exo 2", sans-serif;',fontSize: '2rem'},
+                    
                     slices: {
                     0: { color: '#889fff' },
                     1: { color: '#5576FF' },

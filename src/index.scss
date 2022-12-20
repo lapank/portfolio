@@ -134,6 +134,15 @@ a:hover, .videoThumbnail:hover{
   color:$midLightBlue;
 }
 
+#ganttChart text {
+    fill: $light !important;
+    font-family:$exo!important;
+}
+
+#ganttChart rect{
+  fill: $dark;
+}
+
 .linkLight{
   color: $lightBlue;
   font-family:$bodyFont;

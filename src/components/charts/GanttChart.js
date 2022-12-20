@@ -42,25 +42,31 @@ function GanttChart ({google}) {
          ['10', 'Review', 'QA and Stakeholders',
          new Date(2023, 5, 10), new Date(2023, 5, 24), null, 100, null],
          ['11', 'Sprint Three', 'Developers',
-         new Date(2023, 5, 24), new Date(2023, 6, 24), null, 10, null],
+         new Date(2023, 5, 24), new Date(2023, 6, 24), null, 100, null],
         ['12', 'Accessibility Testing and Remediation', 'QA and Developers',
-         new Date(2023, 5, 24), new Date(2023, 6, 24), null, 50, null],
+         new Date(2023, 5, 24), new Date(2023, 6, 24), null, 100, null],
         ['13', 'Security Testing and Remediation', 'QA and Developers',
-         new Date(2023, 5, 24), new Date(2023, 6, 24), null, 28, null],
+         new Date(2023, 5, 24), new Date(2023, 6, 24), null, 100, null],
         ['14', 'Acceptance Testing', 'Stakeholders',
-         new Date(2023, 6, 24), new Date(2023, 7, 7), null, 0, null],
+         new Date(2023, 6, 24), new Date(2023, 7, 7), null, 100, null],
          ['15', 'Final Remediation and Hand-off', 'Developers',
-         new Date(2023, 6, 24), new Date(2023, 7, 24), null, 0, null],
+         new Date(2023, 6, 24), new Date(2023, 7, 24), null, 100, null],
       ]);
 
       // Set chart options
       let options = {
           backgroundColor:{fill: '#615d57'},
           height: 500,
+          hAxis: {
+            textStyle: { color: '#fcfaf5',fontName: '"Exo 2", sans-serif;', fontSize: '2rem'},
+          },
+          vAxis: {
+            textStyle: { color: '#fcfaf5',fontName: '"Exo 2", sans-serif;', fontSize: '2rem'},
+          },
         gantt: {
           labelStyle: {
             fontSize: 14,
-            color: '#fff'
+            fontColor: '#fff'
           },
           palette:[
             {

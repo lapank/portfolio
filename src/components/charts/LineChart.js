@@ -17,23 +17,38 @@ function LineChart ({google}) {
 
       // Set chart options
       var options = {
-          title: 'Site Views by Year',
-          curveType: 'function',
-          legend: { position: 'bottom' },
-          colors:['#889fff'],
+          'title': 'Site Views by Year',
+          'titleTextStyle':{ color: '#fcfaf5',fontName: '"Exo 2", sans-serif;',fontSize: '2rem'},
+          'curveType': 'function',
+          'legend': { 'position': 'bottom' },
+          'legendTextStyle': { color: '#fcfaf5',fontName: '"Exo 2", sans-serif;',fontSize: '2rem'},
+          'hAxis.gridlines': {color: '#fcfaf5', minSpacing: 20},
+          'vAxis.gridlines.color': '#fcfaf5',
+          'vAxis':{
+            'textStyle': { color: '#fcfaf5',fontName: '"Exo 2", sans-serif;', fontSize: '2rem'},
+            'baselineColor': '#fcfaf5',
+            'gridlineColor': '#fcfaf5',
+          },
+          'hAxis':{
+            'textStyle': { color: '#fcfaf5',fontName: '"Exo 2", sans-serif;', fontSize: '2rem'},
+            'baselineColor': '#fcfaf5',
+            'gridlineColor': '#fcfaf5',
+          },
+          'hAxis.baselineColor':'#fcfaf5',
+          'colors':['#889fff', '#fcfaf5', '#fcfaf5'],
           'backgroundColor':'#29251e',
-          annotations: {
-            textStyle: {
-              fontName: 'Times-Roman',
-              fontSize: 18,
-              bold: true,
-              italic: true,
+          'annotations': {
+            'textStyle': {
+              'fontName': 'Times-Roman',
+              'fontSize': 18,
+              'bold': true,
+              'italic': true,
               // The color of the text.
-              color: '#fff',
+              'color': '#fff',
               // The color of the text outline.
-              auraColor: '#fff',
+              'auraColor': '#fff',
               // The transparency of the text.
-              opacity: 0.8
+              'opacity': 0.8
             }
           }
         };
