@@ -1,6 +1,6 @@
 export const devPage = [
 	{
-		eyebrow: 'Skills: React, Drupal, Flutter, Css Animations, HTML5 Canvas, JavaScript6, WCAG, Python, Git, UX, UI, Web Design',
+		eyebrow: 'Skills: ReactJS, Flutter, Google Charts, Wordpress, Drupal, Sass, Css Animations, HTML5 Canvas, JavaScript6, WCAG 2.0 AA, Python, C, C++, Git, UX, UI, Web Design',
 		h3: 'Web Development',
 		text: 'I graduated from Oregon State University in 2022 with a degree in Computer Science.  Here is a selection of projects I worked on during my time at Oregon State.',
 	},
