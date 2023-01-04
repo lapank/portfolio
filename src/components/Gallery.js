@@ -17,7 +17,7 @@ function GalleryContent(props){
           </div>
           
           <div className="row">
-            <p className="bodyTextLight">{text}</p>
+            <p className="bodyTextLight galleryText">{text}</p>
           </div>
         </div>
         <div className="col-md-4">
