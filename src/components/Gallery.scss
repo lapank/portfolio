@@ -39,14 +39,14 @@ $screen-xl-min: 1200px;
 }
 
 .thumbnailBoxGallery{
-	height:100rem;
+	height:19rem;
 	background-size: 500px; 
   	background-position: center;
-  	@include sm{
-    height: 500px;
+  @include sm{
+    height: 300px;
   }
   @include md{
-    height: 250px;
+    height: 150px;
   }
 // 992px window width and more
     @include lg {
@@ -56,4 +56,19 @@ $screen-xl-min: 1200px;
 
 .galleryThumbnailContainer{
 	padding: 0px !important;
+	height: 300px;
+  @include sm{
+    height: 300px;
+  }
+  @include md{
+    height: 150px;
+  }
+// 992px window width and more
+    @include lg {
+      height: 200px;
+    }
+}
+
+.galleryThumbnailContainer:hover{
+	cursor:pointer;
 }
