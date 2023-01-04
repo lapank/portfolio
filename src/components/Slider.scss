@@ -61,27 +61,38 @@ $screen-xl-min: 1200px;
 }
 
 .sliderText{
-  height: 150px;
+  height: 350px;
   margin-bottom: 2rem;
   margin-top:50px !important;
   border-radius: 25px;
   padding: 20px;
+
+  @include sm{
+    height: 300px;
+  }
+  @include md{
+    height: 250px;
+  }
+// 992px window width and more
+    @include lg {
+      height: 200px;
+    }
 }
 
 #slider {
   position: relative;
   width: 100%; /*50%*/
-  height: 200vw;/*30vw*/
+  height: 100vw;/*30vw*/
   margin: 0px auto;
   perspective: 1400px;
   transform-style: preserve-3d;
     @include sm{
     width: 100%; /*50%*/
-	height: 200vw;/*30vw*/
+	height: 100vw;/*30vw*/
 	}
   @include md{
     width: 100%; /*50%*/
-	height: 200vw;/*30vw*/
+	 height: 100vw;/*30vw*/
   }
 // 992px window width and more
     @include lg {
@@ -94,8 +105,8 @@ input[type=radio] {
   position: relative;
   bottom: 8%;
   left: 19%;
-  width: 18px;
-  height: 18px;
+  width: 25px;
+  height: 25px;
   margin: 0 15px 0 0;
   opacity: 0.4;
   transform: translateX(-83px);
@@ -107,11 +118,15 @@ input[type=radio] {
   @include md{
     width: 30px;
   height: 30px;
+  bottom: 5%;
+  left: 25%;
   }
 // 992px window width and more
     @include lg {
-      width: 18px;
-  height: 18px;
+      width: 25px;
+  height: 25px;
+  bottom: 10%;
+  left: 15%;
     }
 }
 
