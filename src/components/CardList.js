@@ -1,31 +1,21 @@
 import './CardData.js';
 import './TwoColBox.scss';
 import '../index.scss';
-
-
-function refreshImage(imgElement, imgURL){    
-    // create a new timestamp 
-
-    var timestamp = new Date().getTime();  
-    var el = document.getElementById(imgElement); 
-    var queryString = "?t=" + timestamp;    
-    el.src = imgURL + queryString;   
-    console.log('fired'); 
-  }  
+import React, { useState } from 'react';
 
 function CardContent(props) {
-  // Correct! There is no need to specify the key here:
+  const [image, setImage] = useState(props.image);
   return (
   	<div className='row cardBackground mt-5'>
   		<div className="col-md-6">
-        <img className="img-fluid" src={props.image} alt={props.altText} />
+        <img className="img-fluid" src={image} alt={props.altText} />
 	    </div>
 	    <div className="col-md-6">
 	    	<div className="p-3">
 				<p className="videoEyebrow">{props.eyebrow}</p>
         <h3 className="videoTitle">{props.h3}</h3>
         <p className="bodyTextLight pb-3">{props.text}</p>
-        <a href={props.replayID} className="link" onClick={() => {refreshImage(props.replayID,props.image)}}>Replay Animation</a>
+        <a href={props.replayID} className="link" onClick={() => {setImage(props.image + "?t=" + Math.floor(Math.random() * 14182940000))}}>Replay Animation</a>
 			</div>
 		</div>
 	</div>	
