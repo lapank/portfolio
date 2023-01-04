@@ -9,7 +9,8 @@ export const cardData = [
 		eyebrow: 'Illustrator | Animate | Photoshop | Instagram',
 		h3: 'Instagram Animation',
 		text: 'Buried on page 56 of the 112-page Glossary of Election Terms, "Motor Voter" is a fun and catchy turn of phrase that when paired with a simple animation, will help members of the public learn they can register to vote at the DMV.',
-		link: '#'
+		link: '#',
+		replayID:'#gif-1'
 	},
 		{
 		image: graph,
@@ -17,7 +18,8 @@ export const cardData = [
 		eyebrow: 'Illustrator | Animate | Photoshop | Facebook',
 		h3: 'Facebook Infographic',
 		text: 'With little more than a glance, an individual browsing Facebook can understand 2020\'s most popular voting methods. Then, once they\'ve been hooked, they can be directed to the Election Administration and Voting Survey 2020 Comprehensive Report.',
-		link: '#'
+		link: '#',
+		replayID:'#gif-2'
 	},
 		{
 		image: ignite,
@@ -25,6 +27,7 @@ export const cardData = [
 		eyebrow: 'Adobe Premeire Pro, Photoshop',
 		h3: 'Campaign Video Clip',
 		text: 'Critical moments can be captured from videos and shared on various web platforms to peak user interest. This clip was taken from a larger campaign video and cut to share on email and social platforms.',
-		link: '#'
+		link: '#',
+		replayID:'#gif-3'
 	},
 ]

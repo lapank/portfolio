@@ -3,6 +3,16 @@ import './TwoColBox.scss';
 import '../index.scss';
 
 
+function refreshImage(imgElement, imgURL){    
+    // create a new timestamp 
+
+    var timestamp = new Date().getTime();  
+    var el = document.getElementById(imgElement); 
+    var queryString = "?t=" + timestamp;    
+    el.src = imgURL + queryString;   
+    console.log('fired'); 
+  }  
+
 function CardContent(props) {
   // Correct! There is no need to specify the key here:
   return (
@@ -15,6 +25,7 @@ function CardContent(props) {
 				<p className="videoEyebrow">{props.eyebrow}</p>
         <h3 className="videoTitle">{props.h3}</h3>
         <p className="bodyTextLight pb-3">{props.text}</p>
+        <a href={props.replayID} className="link" onClick={() => {refreshImage(props.replayID,props.image)}}>Replay Animation</a>
 			</div>
 		</div>
 	</div>	
@@ -31,7 +42,8 @@ function CardList(props) {
       link = {item.link}
       eyebrow = {item.eyebrow}
       h3 = {item.h3}
-      text = {item.text} />
+      text = {item.text}
+      replayID = {item.replayID} />
   );
   return (
     <div className="w-100 backgroundDark p-5">

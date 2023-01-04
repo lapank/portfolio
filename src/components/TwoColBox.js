@@ -14,6 +14,7 @@ function TwoColBoxContent(props) {
 				<p className="smallTitleDark">{props.eyebrow}</p>
         <h3 className="headerTextDark large">{props.h3}</h3>
         <p className="bodyTextDark">{props.text}</p>
+        <p >Replay Animation</p>
 			</div>
 		</div>
 	</div>	
@@ -30,7 +31,8 @@ function TwoColBox(props) {
       link = {item.link}
       eyebrow = {item.eyebrow}
       h3 = {item.h3}
-      text = {item.text} />
+      text = {item.text}
+      replayID = {item.replayID} />
 	);
   return (
     <div className="w-100 gradientBackground p-5">
