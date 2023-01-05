@@ -7,9 +7,14 @@ import altText from './images/alt-text-checker.png';
 import saam from './images/saam.png';
 import amp from './images/amp.png';
 
+import game from './images/game-thumbnail.jpg';
+import layout from './images/wireframe-thumbnail.jpg';
+import logo from './images/flutter-thumbnail.jpg';
+import access from './images/accessibility-thumbnail.jpg';
+
 export const fourCardsIntroData = [
 	{
-		image: tower,
+		image: game,
 		altText: 'Insert alt text.',
 		title: 'Tower Defense Game',
 		text: 'Web browser game built with the HTML5 Canvas API.',
@@ -17,7 +22,7 @@ export const fourCardsIntroData = [
 		button: 'Play game',
 	},
 	{
-		image: altText,
+		image: layout,
 		altText: 'Insert alt text.',
 		title: 'Alt Text Checker',
 		text: 'Web application that checks best practices when writing alt text.',
@@ -25,7 +30,7 @@ export const fourCardsIntroData = [
 		button: 'Use alt text checker',
 	},
 	{
-		image: wireframe,
+		image: logo,
 		altText: 'Insert alt text.',
 		title: 'Code Samples and Web Designs',
 		text: 'Custom API and automated testing, as well as wireframes and mock-ups.',
@@ -33,7 +38,7 @@ export const fourCardsIntroData = [
 		button: 'View wireframes',
 	},
 	{
-		image: flutter,
+		image: access,
 		altText: 'Insert alt text.',
 		title: 'Flutter Applications and Computer Networking',
 		text: 'Videos demoing Flutter SDK applications and teaching computer networking concepts.',
