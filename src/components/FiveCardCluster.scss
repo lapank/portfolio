@@ -41,8 +41,18 @@
 
 .fiveCardImageFull{
 	height: 11rem;
-    background-size: 700px;
-	background-position: center;	
+    background-size: 500px;
+	background-position: center;
+@include sm{
+  	background-size: 500px;
+  }
+  @include md{
+    background-size: 800px;
+  }
+// 992px window width and more
+    @include lg {
+      background-size: 1100px;
+    }	
 }
 
 /*

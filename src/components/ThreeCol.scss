@@ -15,6 +15,12 @@
   }
 }
 
+.gitHubLogo{
+  margin-right:10px;
+}
+
+
+
 .relativeContainer{
 	position:relative;
 }
@@ -92,6 +98,7 @@
     color: $midDark;
     font-size: 1rem;
     line-height: 1rem;
+    margin-top:20px;
   @include sm{
   	font-size: .8rem;
   	line-height: .9rem;
@@ -102,7 +109,7 @@
   }
 // 992px window width and more
     @include lg {
-      font-size: 1.2rem;
+      font-size: .9rem;
       line-height: 1.2rem;
     }
 

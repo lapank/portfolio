@@ -126,7 +126,7 @@ function FiveCardCluster(){
     <div className="w-100 p-5 backgroundDark">
 	    <h2 className="blueGradientText headerText fiveCardClusterTitle">Project Manager & Product Owner</h2>
 	    <div className='row pt-2'>
-	    	<div className="col-md-8">
+	    	<div className="col-lg-8">
 		    	
 		      		<LeftDoubleContent item={leftDoubleCardContent}/>
 
@@ -134,7 +134,7 @@ function FiveCardCluster(){
 		      		<LeftFullWidthContent item={leftFullWidthCardContent}/>
 		      	</div>
 	      	</div>
-	      	<div className="col-md-4 blueGradientBackground">
+	      	<div className="col-lg-4 blueGradientBackground">
 	      		<RightClusterContent item={rightCardClusterContent}/>
 	      	</div>
 	    </div>
