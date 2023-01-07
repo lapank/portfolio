@@ -1,8 +1,14 @@
-import arcade from './images/saam-arcade-stars.jpg';
-import htf from './images/htf-homepage.jpg';
-import nasmSite from './images/air-space-site.png';
-import skynet from './images/skynet-pie-chart.png';
-import seliger from './images/seliger.png';
+//import arcade from './images/saam-arcade-stars.jpg';
+//import htf from './images/htf-homepage.jpg';
+//import nasmSite from './images/air-space-site.png';
+//import skynet from './images/skynet-pie-chart.png';
+//import seliger from './images/seliger.png';
+
+import arcade from './images/arcade-thumbnail.jpg';
+import htf from './images/htf-thumbnail.jpg';
+import nasmSite from './images/nasm-thumbnail.jpg';
+import skynet from './images/pie-thumbnail.jpg';
+import seliger from './images/lecture-thumbnail.jpg';
 
 export const leftDoubleCardContent = [
 	{

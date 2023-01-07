@@ -12,7 +12,26 @@ function Card(props){
 		
 	      <div className="p-3">
 	        <a href={props.link}><div className="fiveCardCluster">
-      <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 1100, height:150, backgroundPosition: 'center'}} className="card-img-top roundedEdgesTop"></div>
+      <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat'}} className="card-img-top roundedEdgesTop fiveCardImage"></div>
+        <div className="card-body">
+        <p className="videoEyebrow">{props.eyebrow}</p>
+          <h5 className="card-title ">{props.title}</h5>
+          <p className="card-text bodyTextLight">{props.text}</p>
+          <Link to={props.link} className="cardButton btn btn-primary ">{props.button}</Link>
+          </div>
+        </div></a>
+	    </div>
+	)
+}
+
+
+function CardFull(props){
+
+	return(
+		
+	      <div className="p-3">
+	        <a href={props.link}><div className="fiveCardCluster">
+      <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat'}} className="card-img-top roundedEdgesTop fiveCardImageFull"></div>
         <div className="card-body">
         <p className="videoEyebrow">{props.eyebrow}</p>
           <h5 className="card-title ">{props.title}</h5>
@@ -29,7 +48,7 @@ function DoubleCard(props){
 	return(
 	      <div className="col-6">
 	       <a href={props.link}><div className="fiveCardCluster">
-      <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundSize: 600, height:150, backgroundPosition: 'center'}} className="card-img-top roundedEdgesTop"></div>
+      <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat'}} className="card-img-top roundedEdgesTop fiveCardImage"></div>
         <div className="card-body">
         <p className="videoEyebrow">{props.eyebrow}</p>
           <h5 className="card-title">{props.title}</h5>
@@ -66,7 +85,7 @@ function LeftFullWidthContent(props){
 	  const item = props.item;
 	  const listItems = item.map((item) =>
 	    // Correct! Key should be specified inside the array.
-	    <Card key={item.title}
+	    <CardFull key={item.title}
 	    	eyebrow = {item.eyebrow}
 	      image = {item.image}
 	      altText = {item.altText}

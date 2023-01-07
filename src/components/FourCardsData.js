@@ -1,3 +1,4 @@
+/*
 import tower from './images/tower-defense.png';
 import wireframe from './images/wireframe.png';
 import flutter from './images/flutter-theme.png';
@@ -6,11 +7,17 @@ import nasmSite from './images/air-space-site.png';
 import altText from './images/alt-text-checker.png';
 import saam from './images/saam.png';
 import amp from './images/amp.png';
+*/
 
 import game from './images/game-thumbnail.jpg';
 import layout from './images/wireframe-thumbnail.jpg';
 import logo from './images/flutter-thumbnail.jpg';
 import access from './images/accessibility-thumbnail.jpg';
+
+import nasmSite from './images/nasm-thumbnail.jpg';
+import htf from './images/htf-thumbnail.jpg';
+import saam from './images/saam-thumbnail.jpg';
+import amp from './images/amp-thumbnail.jpg';
 
 export const fourCardsIntroData = [
 	{
