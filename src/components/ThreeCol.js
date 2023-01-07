@@ -10,16 +10,21 @@ function ThreeColBoxContent(props) {
       <div className="col-5">
       </div>
       <div className="col-7">
-        <div className="row">
+      <div className="row">
           <div className="col-12">
             <h3 className="threeColHeader large darkBlueGradientText">{props.h3}</h3>
           </div>
         </div>
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-12">
+            <h3 className="large darkBlueGradientText">{props.h4}</h3>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-5">
             <h4 className="threeColAccent darkBlueGradientText">{props.eyebrow}</h4>
           </div>
-          <div className="col-md-9">
+          <div className="col-md-7">
             <a href='https://github.com/lapank' className="linkDark">View my Github</a>
             <p className="threeColText">{props.text}</p>
           </div>
@@ -41,6 +46,7 @@ function ThreeColBox(props) {
       link = {item.link}
       eyebrow = {item.eyebrow}
       h3 = {item.h3}
+      h4 = {item.h4}
       text = {item.text} />
   );
   return (
