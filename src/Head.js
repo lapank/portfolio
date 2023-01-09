@@ -4,11 +4,11 @@ function Head(){
 	return(
   <>
     <Helmet>
-      <title>Ideas || MysiteName</title>
+      <title>Portfolio || Kaylin Lapan</title>
       <meta name="keywords" content="HTML,CSS,JavaScript" />
       <meta
         name="description"
-        content="Ideas page using react helmet very easy to implement "
+        content="Samples of Kaylin Lapan's code, art, and projects."
       />
       
       <meta charset="utf-8" />

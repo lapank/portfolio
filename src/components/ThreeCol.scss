@@ -19,7 +19,9 @@
   margin-right:10px;
 }
 
-
+.linkedinButton{
+  margin-left:10px;
+}
 
 .relativeContainer{
 	position:relative;
@@ -89,7 +91,7 @@
 // 992px window width and more
     @include lg {
     	font-size: 1.1rem;
-    	line-height: 1.1rem;
+    	line-height: 1.5rem;
     }
 
 }

@@ -1,5 +1,6 @@
 import './ThreeCol.scss';
-import logo from './images/github-logo-light.png';
+import github from './images/github-logo-light.png';
+import linkedin from './images/linkedin-logo-light.png';
 
 function ThreeColBoxContent(props) {
   // Correct! There is no need to specify the key here:
@@ -23,9 +24,12 @@ function ThreeColBoxContent(props) {
         </div>
         <div className="row">
             <div className="col-md-12">
-            <a href={props.link} class="btn btn-primary">
-            <img className="gitHubLogo"width='50' src={logo} alt="Logo" />
-            <span>Kaylin's Github</span>
+            <a href={props.link1} className="btn btn-primary">
+            <img className="gitHubLogo"width='23' src={github} alt="Logo" />
+            <span>Github</span>
+            </a>
+            <a href={props.link2} className="btn btn-primary linkedinButton">
+            <img className="gitHubLogo"width='80' src={linkedin} alt="Logo" />
             </a>
             <p className="threeColText">{props.text}</p>
               <p className="threeColText"><b>{props.eyebrow}</b></p>
@@ -50,7 +54,8 @@ function ThreeColBox(props) {
       h3 = {item.h3}
       h4 = {item.h4}
       text = {item.text}
-      link = {item.link} />
+      link1 = {item.link1}
+      link2 = {item.link2} />
   );
   return (
     <div className="w-100 threeColContainer">
