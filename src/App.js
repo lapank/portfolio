@@ -2,10 +2,10 @@ import React from 'react';
 //import './App.scss';
 import Nav from './components/Nav.js';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Home from './pages/Home';
-import Development from './pages/Development';
-import Art from './pages/Art';
-import Management from './pages/Management';
+import Home from './pages/home.js';
+import Development from './pages/development.js';
+import Art from './pages/art.js';
+import Management from './pages/management.js';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App(){
