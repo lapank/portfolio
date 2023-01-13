@@ -1,6 +1,5 @@
 import './FourCards.scss';
 import './ImageGrid.scss';
-import {Link} from 'react-router-dom';
 
 function FourCardsContent(props) {
   // Correct! There is no need to specify the key here:

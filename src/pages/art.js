@@ -1,6 +1,4 @@
 import React from 'react';
-import {artData} from '../components/TwoColBoxData.js';
-import TwoColBox from '../components/TwoColBox.js';
 import {galleryData} from '../components/GalleryData.js';
 import Gallery from '../components/Gallery.js';
 import CardList from '../components/CardList.js';

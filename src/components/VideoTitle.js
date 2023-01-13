@@ -1,8 +1,5 @@
 import '../index.scss';
 import '../styles/VideoGallery.scss';
-import React, { useState } from 'react';
-import * as AiIcons from 'react-icons/ai';
-import {developmentVideoTitle} from './VideoGalleryDataTest';
 
 
 function TitleContent(props){

@@ -1,6 +1,4 @@
 import React from 'react';
-//import './App.scss';
-import Nav from './components/Nav.js';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/home';
 import Development from './pages/development';
@@ -11,7 +9,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 function App(){
 	
 	return(
-			<div className='App'  className="" style={{overflow: 'hidden'}}>
+			<div className='App' style={{overflow: 'hidden'}}>
 			<Router>
 				<Routes>
 					<Route path='/' exact element={<Home />}/>

@@ -1,5 +1,4 @@
 import PizzaChart from "./PizzaChart.js";
-import DinosaurChart from "./DinosaurChart.js";
 import LineChart from "./LineChart.js";
 import GanttChart from "./GanttChart.js";
 import SankeyChartOne from "./SankeyChartOne.js";

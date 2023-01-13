@@ -27,7 +27,7 @@ export const galleryData = [
 		title6: 'Wireframe',
 		image6: susanna,
 		text6: 'Oil painting referencing Susanna and the Elders by Artemisia Gentileschi.',
-		title6: 'Wireframe',
+		title7: 'Wireframe',
 		image7: museum,
 		text7: 'Digital portrait of The Smithsonian National Air and Space Museum’s National Mall location done in Illustrator.',
 		title8: 'Wireframe',
