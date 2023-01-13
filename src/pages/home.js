@@ -10,7 +10,7 @@ import {threeColData} from '../components/ThreeColData.js';
 import ThreeCol from '../components/ThreeCol.js';
 import NavOverlay from '../components/NavOverlay.js';
 
-function Home(){
+const Home = () => {
 	return(
 		<div className='home'>
 			<NavOverlay/>

@@ -9,7 +9,7 @@ import SecondaryPageHeader from '../components/SecondaryPageHeader.js';
 import {artPage} from '../components/SecondaryPageHeaderData.js';
 
 
-function Art(){
+const Art = () => {
 	return(
 		<div className='art'>
 			<SecondaryPageHeader item={artPage}/>
