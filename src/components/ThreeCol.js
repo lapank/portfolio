@@ -1,6 +1,7 @@
 import './ThreeCol.scss';
 import github from './images/github-logo-light.png';
 import linkedin from './images/linkedin-logo-light.png';
+import { Link } from "react-router-dom";
 
 function ThreeColBoxContent(props) {
   // Correct! There is no need to specify the key here:
