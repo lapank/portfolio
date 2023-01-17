@@ -2,6 +2,8 @@ import './CardData.js';
 import './TwoColBox.scss';
 import '../index.scss';
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
+
 
 function CardContent(props) {
   const [image, setImage] = useState(props.image);
@@ -15,6 +17,8 @@ function CardContent(props) {
 				<p className="videoEyebrow">{props.eyebrow}</p>
         <h3 className="videoTitle">{props.h3}</h3>
         <p className="bodyTextLight pb-3">{props.text}</p>
+        <Link onClick={() => {setImage(props.image + "?t=" + Math.floor(Math.random() * 14182940000))}} className="link" to={props.replayID}>Replay Animation</Link>
+
         <a href={props.replayID} className="link" onClick={() => {setImage(props.image + "?t=" + Math.floor(Math.random() * 14182940000))}}>Replay Animation</a>
 			</div>
 		</div>
