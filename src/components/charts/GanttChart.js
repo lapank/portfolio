@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Spinner } from "react-bootstrap";
+import { Chart } from "react-google-charts";
 
 function GanttChart ({google}) {
   const [chart, setChart] = useState(null);

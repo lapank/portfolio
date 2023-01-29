@@ -4,6 +4,7 @@ import genavieve from './images/genavieve.png';
 import glass from './images/glass.png';
 import josephine from './images/josephine.png';
 import susanna from './images/susanna.png';
+import fight from './images/fight.png';
 import museum from './images/final_hazy.jpg';
 
 export const imageGridIntroData = [

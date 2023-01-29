@@ -1,4 +1,5 @@
 import portrait from './images/kaylin-portrait.jpg';
+import abattoir from './images/abattoir-side.png';
 import instagram from './images/motor-voter-instagram-comments.gif';
 import graph from './images/mode-of-turnout.gif';
 import ignite from './images/ignite-tomorrow-gif-500px.gif';

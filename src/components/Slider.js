@@ -5,6 +5,7 @@ import '../index.scss';
 import '../styles/VideoGallery.scss';
 import {developmentSliderTitle} from './SliderData.js'
 import VideoTitle from './VideoTitle.js';
+import React, { useState } from 'react';
 
 
 function text (title, text){

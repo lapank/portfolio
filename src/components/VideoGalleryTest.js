@@ -59,7 +59,7 @@ function VideoGalleryTest(props){
       state4={{ video: [video, setVideo] }}
       />);
 
-  if(video === undefined){
+  if(video == undefined){
     video = (listItems[0].props.video);
     title = (listItems[0].props.title);
     text = (listItems[0].props.text);
