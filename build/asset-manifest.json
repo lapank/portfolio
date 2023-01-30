@@ -1,12 +1,7 @@
 {
   "files": {
-<<<<<<< HEAD
-    "main.css": "./static/css/main.b3213156.css",
-    "main.js": "./static/js/main.372abdd8.js",
-=======
-    "main.css": "./static/css/main.4cba3c9a.css",
+    "main.css": "./static/css/main.d90d267c.css",
     "main.js": "./static/js/main.7a47ef7e.js",
->>>>>>> 117f5b12ca51f0b8360a2878a9fd0c594fc0d21b
     "static/media/motor-voter-instagram-comments.gif": "./static/media/motor-voter-instagram-comments.efe2fc4b9ec1844cb743.gif",
     "static/media/arcade.png": "./static/media/arcade.69e00bb7733e3ea04abe.png",
     "static/media/csma-cd-exp-back.png": "./static/media/csma-cd-exp-back.6b68148ce066ecc530fc.png",
@@ -27,13 +22,6 @@
     "static/media/wireframe.png": "./static/media/wireframe.56903e9f96b320ca9b68.png",
     "static/media/color-api.png": "./static/media/color-api.33c39fbfdfbd3e6ef5af.png",
     "static/media/glass.png": "./static/media/glass.375227ad6c06696f5020.png",
-<<<<<<< HEAD
-    "static/media/unit-tests.png": "./static/media/unit-tests.22525b0d0308a6ddceec.png",
-    "static/media/portrait-wide-tall.jpg": "./static/media/portrait-wide-tall.69713d2a438c176739d5.jpg",
-    "static/media/abattoir-side.png": "./static/media/abattoir-side.b23ed79ceba074156e86.png",
-    "static/media/mega-menu-indent-line.jpg": "./static/media/mega-menu-indent-line.e0a6eabac895053cb8c2.jpg",
-    "static/media/final_hazy.jpg": "./static/media/final_hazy.0e4878530b8e2fd076fb.jpg",
-=======
     "static/media/momma.png": "./static/media/momma.4e013180a722f3c977a6.png",
     "static/media/unit-tests.png": "./static/media/unit-tests.22525b0d0308a6ddceec.png",
     "static/media/fight.png": "./static/media/fight.fb336cdd6c0545beffad.png",
@@ -43,7 +31,6 @@
     "static/media/mega-menu-indent-line.jpg": "./static/media/mega-menu-indent-line.e0a6eabac895053cb8c2.jpg",
     "static/media/final_hazy.jpg": "./static/media/final_hazy.0e4878530b8e2fd076fb.jpg",
     "static/media/rug.png": "./static/media/rug.b4eb2d3bd9053193bc08.png",
->>>>>>> 117f5b12ca51f0b8360a2878a9fd0c594fc0d21b
     "static/media/lecture-thumbnail.jpg": "./static/media/lecture-thumbnail.80d80000d51ac6cc5f4e.jpg",
     "static/media/wireframe-thumbnail.jpg": "./static/media/wireframe-thumbnail.3f7bc285fce0cef47efb.jpg",
     "static/media/game-thumbnail.jpg": "./static/media/game-thumbnail.4f0a39421be048333ee0.jpg",
@@ -56,20 +43,11 @@
     "static/media/flutter-thumbnail.jpg": "./static/media/flutter-thumbnail.c0391400d179caeba68e.jpg",
     "static/media/saam-thumbnail.jpg": "./static/media/saam-thumbnail.0e915b22e004331db108.jpg",
     "index.html": "./index.html",
-<<<<<<< HEAD
-    "main.b3213156.css.map": "./static/css/main.b3213156.css.map",
-    "main.372abdd8.js.map": "./static/js/main.372abdd8.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.b3213156.css",
-    "static/js/main.372abdd8.js"
-=======
-    "main.4cba3c9a.css.map": "./static/css/main.4cba3c9a.css.map",
+    "main.d90d267c.css.map": "./static/css/main.d90d267c.css.map",
     "main.7a47ef7e.js.map": "./static/js/main.7a47ef7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cba3c9a.css",
+    "static/css/main.d90d267c.css",
     "static/js/main.7a47ef7e.js"
->>>>>>> 117f5b12ca51f0b8360a2878a9fd0c594fc0d21b
   ]
 }
