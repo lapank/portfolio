@@ -20,7 +20,21 @@
 }
 
 .linkedinButton{
-  margin-left:10px;
+  margin-left:0px;
+  margin-top:5px;
+  height: 40px;
+  @include sm{
+    margin-left:5px;
+  margin-top:0px;
+  }
+  @include md{
+    margin-left:5px;
+  margin-top:0px;
+  }
+  @include lg {
+    margin-left:5px;
+  margin-top:0px;
+    }
 }
 
 .relativeContainer{
@@ -31,9 +45,9 @@
 	z-index:0;
 	position:relative;
 	max-width: 400%;
-  height: 500px;
-  left: -115px;
-  top:-10px;
+  height: 568px;
+    left: -231px;
+    top: 0px;
   @include sm{
     max-width: 100%;
     height: auto;
@@ -44,13 +58,13 @@
     max-width: 100%;
     height: auto;
     left: 0px;
-    top:-10px
+    top:0px
   }
   @include lg {
     max-width: 100%;
     height: auto;
     left: 0px;
-    top:-100px;
+    top:-50px;
     }
 
 }
@@ -75,16 +89,11 @@
 .threeColAccent{
 	font-family: $raleway;
     color: $midDark;
-    font-size: .9rem;
+    font-size: 12px;
     line-height: .9rem;
     text-align: left;
-  @include sm{
-    font-size: .8rem;
-    line-height: .9rem;
-    
-  }
   @include md{
-    font-size: .9rem;
+    font-size: 20px;
     line-height: .9rem;
     
   }
@@ -98,21 +107,21 @@
 .threeColText{
     font-family: $exo;
     color: $midDark;
-    font-size: 1rem;
-    line-height: 1rem;
+    font-size: 13px;
+    line-height: 13px;
     margin-top:20px;
   @include sm{
-  	font-size: .8rem;
-  	line-height: .9rem;
+  	font-size: 13px;
+    line-height: 13px;
   }
   @include md{
-    font-size: 1rem;
-    line-height: 1rem;
+    font-size: 15px;
+    line-height: 15px;
   }
 // 992px window width and more
     @include lg {
-      font-size: .9rem;
-      line-height: 1.2rem;
+      font-size: 18px;
+    line-height: 18px;
     }
 
 }
