@@ -65,11 +65,17 @@ background: rgba(0,0,0,0);
 
 .headerTextNavOverlay{
   text-shadow: 2px 2px $medium;
-  font-size: 2rem !important;
+  font-size: 22px !important;
   font-family:$headerFont;
   color:$lightest !important;
+  @include sm {
+    font-size: 22px !important;
+    }
+  @include md{
+    font-size: 30px !important;
+    }
   @include lg {
-  font-size: 1.5rem !important;
+  font-size: 30px !important;
   }
   @include xl {
      font-size: 2rem !important;
