@@ -94,8 +94,17 @@ $screen-xl-min: 1200px;
     margin: 0 5px 5px 5px;
     margin-top:20px;
     border-radius: 25px;
-    height:420px;
+    height:465px;
     color:$light !important;
+    @include sm{
+        height:465px;
+      }
+      @include md{
+        height:420px;
+      }
+        @include lg {
+            height:420px;
+        }
 
 }
 
@@ -138,7 +147,19 @@ $screen-xl-min: 1200px;
 
 .fourColButton{
 	position:absolute;
-	bottom:2rem;
+	bottom:1.5rem;
+    @include sm{
+        position:absolute;
+        bottom:1.5rem;
+      }
+      @include md{
+        position:absolute;
+        bottom:2rem;
+      }
+        @include lg {
+            position:absolute;
+            bottom:2rem;
+        }
 }
 
 .fourColCard:hover .btn-primary {
@@ -148,7 +169,16 @@ $screen-xl-min: 1200px;
 
 .fourColTitle{
 	text-align:center;
-	font-size:3rem;
+	font-size:2rem !important;;
+    @include sm{
+        font-size:2rem !important;
+      }
+      @include md{
+        font-size:3rem !important;
+      }
+        @include lg {
+            font-size:3rem !important;
+        }
 }
 
 /*
