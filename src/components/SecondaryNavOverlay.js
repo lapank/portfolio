@@ -33,7 +33,7 @@ function Nav(){
 	}else{
 		return(
 			<nav className="navbar navbar-expand-lg navbar-dark" style={{height: 220 + 'px'}}>
-			  <a className="navbar-brand headerTextNavOverlay" href="/">Kaylin Lapan | Portfolio</a>
+			  <Link className="navbar-brand headerTextNavOverlay" to="/">Kaylin Lapan | Portfolio</Link>
 			  <button onClick={() => {setClick(click+1)}} className="navbar-toggler togglerShadowDark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
 			    <span className="navbar-toggler-icon"></span>
 			  </button>

@@ -11,15 +11,15 @@ function Card(props){
 	return(
 		
 	      <div className="p-3">
-	        <a href={props.link}><div className="fiveCardCluster">
+	        <Link to={props.link}><div className="fiveCardCluster">
       <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat'}} className="card-img-top roundedEdgesTop fiveCardImage"></div>
         <div className="card-body">
         <p className="videoEyebrow">{props.eyebrow}</p>
           <h5 className="card-title ">{props.title}</h5>
           <p className="card-text bodyTextLight">{props.text}</p>
-          <Link to={props.link} className="cardButton btn btn-primary ">{props.button}</Link>
+          <div className="cardButton btn btn-primary ">{props.button}</div>
           </div>
-        </div></a>
+        </div></Link>
 	    </div>
 	)
 }
@@ -30,15 +30,15 @@ function CardFull(props){
 	return(
 		
 	      <div className="pt-3">
-	        <a href={props.link}><div className="fiveCardCluster">
+	        <Link to={props.link}><div className="fiveCardCluster">
       <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat'}} className="card-img-top roundedEdgesTop fiveCardImageFull"></div>
         <div className="card-body">
         <p className="videoEyebrow">{props.eyebrow}</p>
           <h5 className="card-title ">{props.title}</h5>
           <p className="card-text bodyTextLight">{props.text}</p>
-          <Link to={props.link} className="cardButton btn btn-primary ">{props.button}</Link>
+          <div className="cardButton btn btn-primary ">{props.button}</div>
           </div>
-        </div></a>
+        </div></Link>
 	    </div>
 	)
 }
@@ -47,15 +47,15 @@ function DoubleCard(props){
 
 	return(
 	      <div className="col-6">
-	       <a href={props.link}><div className="fiveCardCluster">
+	       <Link to={props.link}><div className="fiveCardCluster">
       <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat'}} className="card-img-top roundedEdgesTop fiveCardImage"></div>
         <div className="card-body">
         <p className="videoEyebrow">{props.eyebrow}</p>
           <h5 className="card-title">{props.title}</h5>
           <p className="card-text bodyTextLight">{props.text}</p>
-          <Link to={props.link} className="cardButton btn btn-primary ">{props.button}</Link>
+          <div className="cardButton btn btn-primary ">{props.button}</div>
           </div>
-        </div></a>
+        </div></Link>
 	    </div>
 	)
 }
