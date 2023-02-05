@@ -29,7 +29,7 @@ function CardFull(props){
 
 	return(
 		
-	      <div className="p-3">
+	      <div className="pt-3">
 	        <a href={props.link}><div className="fiveCardCluster">
       <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat'}} className="card-img-top roundedEdgesTop fiveCardImageFull"></div>
         <div className="card-body">
@@ -123,7 +123,7 @@ function RightClusterContent(props){
 
 function FiveCardCluster(){
   return (
-    <div className="w-100 p-5 backgroundDark">
+    <div className="p-5 backgroundDark">
 	    <h2 className="blueGradientText headerText fiveCardClusterTitle">Project Manager & Product Owner</h2>
 	    <div className='row pt-2'>
 	    	<div className="col-lg-8">
