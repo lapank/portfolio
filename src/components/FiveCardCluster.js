@@ -11,7 +11,7 @@ function Card(props){
 	return(
 		
 	      <div className="p-3">
-	        <Link to={props.link}><div className="fiveCardCluster">
+		<Link to={props.link}><div className="fiveCardCluster">
       <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat'}} className="card-img-top roundedEdgesTop fiveCardImage"></div>
         <div className="card-body">
         <p className="videoEyebrow">{props.eyebrow}</p>

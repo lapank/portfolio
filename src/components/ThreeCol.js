@@ -25,13 +25,13 @@ function ThreeColBoxContent(props) {
         </div>
         <div className="row">
             <div className="col-md-12">
-            <Link to={props.link1} className="btn btn-primary">
+            <a href={props.link1} className="btn btn-primary">
             <img className="gitHubLogo"width='23' src={github} alt="Logo" />
             <span>Github</span>
-            </Link>
-            <Link to={props.link2} className="btn btn-primary linkedinButton">
+            </a>
+            <a href={props.link2} className="btn btn-primary linkedinButton">
             <img className="gitHubLogo"width='80' src={linkedin} alt="Logo" />
-            </Link>
+            </a>
             <p className="threeColText">{props.text}</p>
               <p className="threeColText"><b>{props.eyebrow}</b></p>
             </div>

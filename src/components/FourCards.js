@@ -7,7 +7,7 @@ function FourCardsContent(props) {
   return (
     
       <div className="col-md-6 col-xl-3">
-      <a href={props.link}><div className="fourColCard">
+      <Link to={props.link}><div className="fourColCard">
       <div className="thumbnailDark"></div>
       <div style={{backgroundImage: `url("${props.image}")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}} className="fourColThumbnail"></div>
         <div className="card-body">
@@ -15,7 +15,7 @@ function FourCardsContent(props) {
           <p className="card-text">{props.text}</p>
           <div className="btn btn-primary fourColButton">{props.button}</div>
           </div>
-        </div></a>
+        </div></Link>
     </div>
     
   );
