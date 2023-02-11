@@ -4,7 +4,7 @@ function Head(){
 	return(
   <>
     <Helmet>
-      <title>Portfolio || Kaylin Lapan</title>
+      <title>Portfolio | Kaylin Lapan</title>
       <meta name="keywords" content="HTML,CSS,JavaScript" />
       <meta
         name="description"
