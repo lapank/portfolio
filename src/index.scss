@@ -68,12 +68,13 @@ $screen-xl-min: 1200px;
     top: 0;
     z-index: 10;
     width: 100%;
-    height: 550px;
+    height: 410px;
+    padding-bottom: 100px;
     display: flex;
   justify-content: center;
   align-items: center;
   @include sm{
-    height: 410px;
+    height: 324px;
   }
   @include md{
     height: 550px;
@@ -122,6 +123,10 @@ a:hover, .videoThumbnail:hover{
 
 .home{
   background-color:#c2b6a6;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0,.7) !important;
 }
 
 .linkDark{

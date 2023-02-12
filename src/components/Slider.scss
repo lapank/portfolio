@@ -61,21 +61,23 @@ $screen-xl-min: 1200px;
 }
 
 .sliderText{
-  height: 350px;
-  margin-bottom: 2rem;
-  margin-top:50px !important;
+  height: 250px;
+  margin-bottom: 4rem;
+  margin-top:0px !important;
   border-radius: 25px;
   padding: 20px;
 
   @include sm{
-    height: 300px;
+    height: 250px;
   }
   @include md{
-    height: 250px;
+    height: 230px;
   }
 // 992px window width and more
     @include lg {
       height: 200px;
+      margin-top:50px !important;
+      margin-bottom: 2rem;
     }
 }
 
@@ -103,8 +105,8 @@ $screen-xl-min: 1200px;
 
 input[type=radio] {
   position: relative;
-  bottom: 8%;
-  left: 19%;
+  bottom: 10%;
+  left: 47%;
   width: 25px;
   height: 25px;
   margin: 0 15px 0 0;
@@ -114,12 +116,14 @@ input[type=radio] {
     @include sm{
     width: 30px;
   height: 30px;
+  bottom: 10%;
+  left: 47%;
   }
   @include md{
     width: 30px;
   height: 30px;
-  bottom: 5%;
-  left: 25%;
+  bottom: 7%;
+  left: 19%;
   }
 // 992px window width and more
     @include lg {

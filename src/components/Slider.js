@@ -19,10 +19,10 @@ function Slider(props){
     <div className="backgroundDark pb-5">
     <div className="container">
       <div className="row">
-        <div className="col-5">
+        <div className="col-sm-5">
         <VideoTitle item={developmentSliderTitle}/>
         </div>
-        <div className="col-7 sliderText blueGradientBackground">
+        <div className="col-sm-7 sliderText blueGradientBackground">
         <h2 id="sampleTitle" className="sliderTitle">{item[0].title}</h2>
         <p id="sampleText" className="sliderBodyText">{item[0].text}</p>
         </div>
