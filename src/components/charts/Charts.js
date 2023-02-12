@@ -34,7 +34,7 @@ function Charts() {
         </div>
       <p className="bodyTextLight">During the Discovery Phase, the UX and IA team will create Customer Journey maps and dive into the website’s existing analytics.  The following charts are a sample of what they will find to help inform their stakeholder conversations and wireframe development.</p>
     	<div className='row'>
-    		<div className="col-6">
+    		<div className="col-md-6">
         <div className="darkCard">
         <div className="centerAbsolute">
           <PizzaChart google={google}/>
@@ -45,7 +45,7 @@ function Charts() {
         <p>This pie chart shows data gathered from the Feedback Survey and Suggestion box on the intranet site totaling 122 responses from 2017 to present.  From this data the UX and IA team can gather that the intranet is seen as a way to communicate personnel and facility needs at the organization.  Follow-up questions include understanding if this workflow is effective in getting requests to the individuals who need to see them.  It would also be helpful to know what other tools and method’s staff use to communicate their organizational needs and how effective are those methods.</p>
   	    </div>
         </div>
-  	    <div className="col-6">
+  	    <div className="col-md-6">
         <div className="darkCard">
         <div className="centerAbsolute">
           <LineChart google={google} />
@@ -58,7 +58,7 @@ function Charts() {
         </div>
       </div>
         <div className='row mt-5 mb-5'>
-          <div className="col-4">
+          <div className="col-md-4">
           <div className="darkCard">
           <h3 className="videoEyebrow">2017</h3>
           <div className="centerAbsolute">
@@ -66,7 +66,7 @@ function Charts() {
            </div> 
           </div>
           </div>
-          <div className="col-4">
+          <div className="col-md-4">
           <div className="darkCard">
           <h3 className="videoEyebrow">2018</h3>
           <div className="centerAbsolute">
@@ -74,7 +74,7 @@ function Charts() {
             </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-md-4">
           <div className="darkCard">
           <h3 className="videoEyebrow">2019</h3>
           <div className="centerAbsolute">
@@ -89,6 +89,7 @@ function Charts() {
         </div>
         
         <h2 className="smallTitleLight">Customer Journey Map:</h2>
+        <div style={{overflow:'scroll'}}>
         <table className="table">
         <thead>
           <tr>
@@ -130,6 +131,7 @@ function Charts() {
           </tr>
         </tbody>
       </table>
+      </div>
       <div className="bodyTextLight">
           <h3 className="videoEyebrow">Users Deciding to Adopt the Site</h3>
           <p>This customer journey map will be developed during the stakeholder interviews to better understand the Intranet’s users and the Intranet’s drop off in user retention.  In partnership with personas and other UX tools, these models will help design a sight that takes into consideration a user’s specific needs and behaviors.</p>

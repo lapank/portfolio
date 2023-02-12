@@ -94,16 +94,16 @@ $screen-xl-min: 1200px;
     margin: 0 5px 5px 5px;
     margin-top:20px;
     border-radius: 25px;
-    height:465px;
+    height: 540px;
     color:$light !important;
     @include sm{
-        height:465px;
+        height:500px;
       }
       @include md{
-        height:420px;
+        height:470px;
       }
         @include lg {
-            height:420px;
+            height:490px;
         }
 
 }
@@ -122,7 +122,7 @@ $screen-xl-min: 1200px;
 
 .fourColThumbnail{
     height: 15rem;
-    background-size: 400px;
+    background-size: 450px;
     background-position: center;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
@@ -132,7 +132,7 @@ $screen-xl-min: 1200px;
   }
   @include md{
     height: 11rem;
-    background-size: 400px;
+    background-size: 600px;
   }
 // 992px window width and more
     @include lg {
