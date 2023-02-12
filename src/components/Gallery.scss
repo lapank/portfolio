@@ -39,27 +39,30 @@ $screen-xl-min: 1200px;
 }
 
 .thumbnailBoxGallery{
-	height:19rem;
-	background-size: 400px; 
-  	background-position: center;
+  height: 7rem;
+	background-size: 193px;
+  	background-position: top;
   @include sm{
     height: 300px;
-    background-size: 350px; 
+    background-size: 193px;
+    background-position: top;
   }
   @include md{
     height: 150px;
     background-size: 250px; 
+    background-position: center;
   }
 // 992px window width and more
     @include lg {
-      height: 200px;
-      background-size: 250px; 
+      height:19rem;
+      background-size: 250px;
+      background-position: center; 
     }
 }
 
 .galleryThumbnailContainer{
 	padding: 0px !important;
-	height: 300px;
+  height: 100px;
   @include sm{
     height: 300px;
   }
@@ -68,12 +71,14 @@ $screen-xl-min: 1200px;
   }
 // 992px window width and more
     @include lg {
-      height: 200px;
+      height: 300px;
     }
 }
 
 .galleryThumbnailContainer:hover{
 	cursor:pointer;
+  border:red solid 1px;
+  background-color: rgba(1,1,1,.7)!important;
 }
 
 .galleryText{

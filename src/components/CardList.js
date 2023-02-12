@@ -18,8 +18,6 @@ function CardContent(props) {
         <h3 className="videoTitle">{props.h3}</h3>
         <p className="bodyTextLight pb-3">{props.text}</p>
         <Link onClick={() => {setImage(props.image + "?t=" + Math.floor(Math.random() * 14182940000))}} className="link" to={props.replayID}>Replay Animation</Link>
-
-        <Link to={props.replayID} className="link" onClick={() => {setImage(props.image + "?t=" + Math.floor(Math.random() * 14182940000))}}>Replay Animation</Link>
 			</div>
 		</div>
 	</div>	
