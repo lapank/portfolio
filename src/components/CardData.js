@@ -8,7 +8,7 @@ export const cardData = [
 		altText: 'Insert alt text.',
 		eyebrow: 'Illustrator | Animate | Photoshop | Instagram',
 		h3: 'Instagram Animation',
-		text: 'Buried on page 56 of the 112-page Glossary of Election Terms, "Motor Voter" is a fun and catchy turn of phrase that when paired with a simple animation, will help members of the public learn they can register to vote at the DMV.',
+		text: 'Case study 1 for U.S. Election Assisstance Commision. Buried on page 56 of the 112-page Glossary of Election Terms, "Motor Voter" is a fun and catchy turn of phrase that when paired with a simple animation, will help members of the public learn they can register to vote at the DMV.',
 		link: '#',
 		replayID:'#gif-1'
 	},
@@ -17,7 +17,7 @@ export const cardData = [
 		altText: 'Insert alt text.',
 		eyebrow: 'Illustrator | Animate | Photoshop | Facebook',
 		h3: 'Facebook Infographic',
-		text: 'With little more than a glance, an individual browsing Facebook can understand 2020\'s most popular voting methods. Then, once they\'ve been hooked, they can be directed to the Election Administration and Voting Survey 2020 Comprehensive Report.',
+		text: 'Case study 2 for U.S. Election Assisstance Commision. With little more than a glance, an individual browsing Facebook can understand 2020\'s most popular voting methods. Then, once they\'ve been hooked, they can be directed to the Election Administration and Voting Survey 2020 Comprehensive Report.',
 		link: '#',
 		replayID:'#gif-2'
 	},

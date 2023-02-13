@@ -18,7 +18,7 @@ function Art(){
 			<div className="backgroundDark">
 			<div className="container pt-5 pb-5">
 			<h2 className="blueGradientText fourColTitle headerText">Video Editing</h2>
-			<p className="bodyTextLight">Web users are more likely to commit three minutes of their time to a video than 14 minutes. I cut this US Election Assistance Commission video by 79%, so the user gets to enjoy a highlight reel of the interview's best moments. By shortening the video, the chance a viewer will commit time to watch the video is dramatically increased.
+			<p className="bodyTextLight">Case study 3 for U.S. Election Assisstance Commision. Web users are more likely to commit three minutes of their time to a video than 14 minutes. I cut this US Election Assistance Commission video by 79%, so the user gets to enjoy a highlight reel of the interview's best moments. By shortening the video, the chance a viewer will commit time to watch the video is dramatically increased.
 <a href="https://www.youtube.com/watch?v=aSJECGbA0D8" className="linkLight"> See the full video on Youtube</a>.</p>
 			<div className="embed-responsive embed-responsive-16by9">
 

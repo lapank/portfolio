@@ -42,7 +42,7 @@ function Charts() {
         </div>
         <div className="bodyTextLight">
         <h3 className="videoEyebrow">Intranet’s Use for Communication</h3>
-        <p>This pie chart shows data gathered from the Feedback Survey and Suggestion box on the intranet site totaling 122 responses from 2017 to present.  From this data the UX and IA team can gather that the intranet is seen as a way to communicate personnel and facility needs at the organization.  Follow-up questions include understanding if this workflow is effective in getting requests to the individuals who need to see them.  It would also be helpful to know what other tools and method’s staff use to communicate their organizational needs and how effective are those methods.</p>
+        <p>This pie chart shows data gathered from the Feedback Survey and Suggestion box on the intranet site totaling 122 responses from 2017 to present.  From this data the UX and IA team can gather that the intranet is seen as a way to communicate personnel and facility needs to the organization.  Follow-up questions include understanding if this workflow is effective in getting requests to the individuals who need to see them.  It would be helpful to know what other tools and method’s staff use to communicate organizational needs.</p>
   	    </div>
         </div>
   	    <div className="col-md-6">
@@ -53,7 +53,7 @@ function Charts() {
         </div>
         <div className="bodyTextLight">
         <h3 className="videoEyebrow">Intranet’s Visitation</h3>
-        <p>This line chart shows a downward trend with visitors using the organizations intranet.  This data is good for stakeholder interviews where UX and IA experts can uncover why site usage may have dropped.  It’s possible the drop in usage correlates to a lack of upkeep concerning site content and site functionality.  There may also be larger organizational changes and shifts or new workflows that effect how useful the intranet is.  At which point, it is the UX and IA experts job to discover out what would make the intranet useful to stakeholders again.</p>
+        <p>This line chart shows a downward trend with visitors using the organizations intranet.  This data is good for stakeholder interviews where UX and IA experts can uncover why site usage may have dropped.  It’s possible the drop in usage correlates to a lack of upkeep concerning site content and site functionality.  There may also be larger organizational changes and shifts or new workflows that effect how useful the intranet is.  At which point, it is the UX and IA experts job to discover what would make the intranet useful to stakeholders again.</p>
   			</div>
         </div>
       </div>
@@ -103,31 +103,31 @@ function Charts() {
         <tbody>
           <tr>
             <th className="smallTitleLight" scope="row">Actions</th>
-            <td className="bodyTextLight">Stubles upon Intranet through staff member recommendation or onboarding matterials</td>
-            <td className="bodyTextLight">Asks staff member if Intranet is any good, checked out larger intranet competator.</td>
+            <td className="bodyTextLight">Stumbles upon Intranet through staff member recommendation or onboarding matterials</td>
+            <td className="bodyTextLight">Asks staff member if intranet is any good, checked out larger intranet competitor.</td>
             <td className="bodyTextLight">Continues to refer to intranet when in need.</td>
-            <td className="bodyTextLight">Recomends the intranet as a resource to others.</td>
+            <td className="bodyTextLight">Recommends the intranet as a resource to others.</td>
           </tr>
           <tr>
             <th className="smallTitleLight" scope="row">Motivations</th>
             <td className="bodyTextLight">Need to find a resource. Need to find information.</td>
             <td className="bodyTextLight">Want to make sure this tool is worth it before I spend time with it.</td>
             <td className="bodyTextLight">This tool continues to work for me.</td>
-            <td className="bodyTextLight">I want to share this good tool with other collegues who need it.</td>
+            <td className="bodyTextLight">I want to share this good tool with other colleagues who need it.</td>
           </tr>
           <tr>
             <th className="smallTitleLight" scope="row">Questions</th>
             <td className="bodyTextLight">Will this tool be worth my time?</td>
             <td className="bodyTextLight">Is this tool better than the alternatives?</td>
             <td className="bodyTextLight">Will this tool continue to function how I like?</td>
-            <td className="bodyTextLight">Is this good enough to recomend to coworkers?</td>
+            <td className="bodyTextLight">Is this good enough to recommend to coworkers?</td>
           </tr>
             <tr>
             <th className="smallTitleLight" scope="row">Pain Points</th>
-            <td className="bodyTextLight">Can't find intranet site as a resource.</td>
+            <td className="bodyTextLight">Can't find intranet site.</td>
             <td className="bodyTextLight">Find that PRISM is a better tool.</td>
-            <td className="bodyTextLight">Find tool stops being useful or updated.</td>
-            <td className="bodyTextLight">Don't like the tool so they won't recomend it.</td>
+            <td className="bodyTextLight">Intranet stops being useful or updated.</td>
+            <td className="bodyTextLight">Don't like the tool so won't recomend it.</td>
           </tr>
         </tbody>
       </table>

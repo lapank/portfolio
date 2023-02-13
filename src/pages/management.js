@@ -17,7 +17,9 @@ function Management(){
 		<SecondaryPageHeader item={projPage}/>
 				<VideoTitle item={managmentVideoTitle}/>
 				<VideoGalleryTest item={managmentVideoDataTest}/>
+				<div id="sites"></div>
 				<FourCards item={fourCardsManageData} />
+				<div id="skynet"></div>
 				<Charts />
 		</div>
 	);

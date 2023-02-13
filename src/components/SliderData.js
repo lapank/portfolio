@@ -22,7 +22,7 @@ export const sliderData = [
 	},
 	{
 		title: 'Unit Testing',
-		text: 'These are unit tests used to validate a credit card application using Python’s unittesst framework.',
+		text: 'These are unit tests used to validate a credit card application using Python’s unittest framework.',
 		image: test,
 	},
 	{

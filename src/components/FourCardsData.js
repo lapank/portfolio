@@ -25,7 +25,7 @@ export const fourCardsIntroData = [
 		altText: 'Insert alt text.',
 		title: 'Tower Defense Game',
 		text: 'Web browser game built with the HTML5 Canvas API.',
-		link: '/web-development',
+		link: '/web-development#game',
 		button: 'Play game',
 	},
 	{
@@ -33,7 +33,7 @@ export const fourCardsIntroData = [
 		altText: 'Insert alt text.',
 		title: 'Alt Text Checker',
 		text: 'Web application that checks best practices when writing alt text.',
-		link: '/web-development',
+		link: '/web-development#alt',
 		button: 'Use alt text checker',
 	},
 	{
@@ -41,7 +41,7 @@ export const fourCardsIntroData = [
 		altText: 'Insert alt text.',
 		title: 'Code Samples and Web Designs',
 		text: 'Custom API and automated testing, as well as wireframes and mock-ups.',
-		link: '/web-development',
+		link: '/web-development#samples',
 		button: 'View wireframes',
 	},
 	{
@@ -50,7 +50,7 @@ export const fourCardsIntroData = [
 		title: 'Flutter Applications and Computer Networking',
 		text: 'Videos demoing Flutter SDK applications and teaching computer networking concepts.',
 		link: '/web-development',
-		button: 'View css animations',
+		button: 'View videos',
 	},
 
 ]
@@ -76,7 +76,7 @@ export const fourCardsManageData = [
 		image: saam,
 		altText: 'Insert alt text.',
 		title: 'Smithsonian American Art Museum Website',
-		text: 'I managed content and helped facilitate the migration of the American Art Museum’s website from ColdFusion to Drupal 8. ',
+		text: 'I managed content and helped facilitate the migration of the American Art Museum’s website from ColdFusion to Drupal 8.',
 		link: 'https://americanart.si.edu',
 		button: 'Visit the website',
 	},

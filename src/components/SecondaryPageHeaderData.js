@@ -2,7 +2,7 @@ export const devPage = [
 	{
 		eyebrow: 'Skills: ReactJS, Flutter, Google Charts, Wordpress, Drupal, Sass, Css Animations, HTML5 Canvas, JavaScript6, WCAG 2.0 AA, Python, C, C++, Git, UX, UI, Web Design',
 		h3: 'Web Development',
-		text: 'I graduated from Oregon State University in 2022 with a degree in Computer Science.  Here is a selection of projects I worked on during my time at Oregon State.',
+		text: 'Here is a selection of projects I worked on while completing my Computer Science degree at Oregon State.',
 	},
 
 ]
@@ -19,8 +19,8 @@ export const artPage = [
 export const projPage = [
 	{
 		eyebrow: 'Redesign',
-		h3: 'Case Study: Company Intranet',
-		text: 'Sanky Tree, Line Chart, Gantt Chart, Pie Chart. Discovery Period. Take stock of intranet\'s current offerings, goals, and pain points before charting a path forward. How do People Currently use the Intranet?',
+		h3: 'Product Owner & Project Managment',
+		text: 'I\'ve lead many digital projects and large events.  Below is a case study analysing the Air and Space Museum\'s intranet data to inform a future redesign.',
 	},
 
 ]
