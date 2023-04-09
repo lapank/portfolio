@@ -15,6 +15,41 @@
   }
 }
 
+.threeColContainerBackground{
+
+    @include sm{
+      position: absolute;
+        width: 0px;
+        height: 0px;
+        background-color: $cream;
+    }
+    @include md{
+      position: absolute;
+      width: 0px;
+      height: 0px;
+      background-color: $cream;
+    }
+  // 992px window width and more
+      @include lg {
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        background-color: $cream;
+      }
+      @include xl {
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        background-color: $cream;
+      }
+      @include xxl {
+        position: absolute;
+        width: 100%;
+        height: 900px;
+        background-color: $cream;
+      }
+}
+
 .gitHubLogo{
   margin-right:10px;
 }
@@ -140,10 +175,13 @@
     padding: 0 2rem;
   }
 // 992px window width and more
-    @include lg {
-      top:20%;
-      max-width: 1200px;
-      right: 0px;
-    }
+  @include lg {
+    top:20%;
+    max-width: 1200px;
+    right: 0px;
+  }
+  @include xxl {
+    margin-right:500px!important;
+  }
 
 }

@@ -8,6 +8,7 @@ function ThreeColBoxContent(props) {
   return (
     <div>
     <div className="relativeContainer">
+      <div className="threeColContainerBackground"></div>
     <img className="threeColBackgroundImage" src={props.image} />
     <div className="row topText">
       <div className="col-5">
